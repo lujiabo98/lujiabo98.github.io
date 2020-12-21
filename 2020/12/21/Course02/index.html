@@ -1,0 +1,257 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>【课程】02 土壤水动力学 | MyBlog</title><meta name="description" content="《土壤水动力学》1987.3  第一章及第二章1~3节 第一章 土壤水的能态——土水势1.1 概述当土壤孔隙没有被水充满，土壤区域为非饱和带（也叫包气带），其中的水分为非饱和土壤水，即一般所说的土壤水。当水充满了土壤的全部孔隙，土壤区域为饱和带（也叫饱水带），其中的水分为饱和土壤水，即一般所说的地下水。 土壤水和地下水的共同特点是水分均存在于多孔介质的孔隙中、并在其中运动。目前的趋势是用宏观方法在"><meta name="keywords" content="土壤水文学,土水势,读书笔记"><meta name="author" content="naive,1847096852@qq.com"><meta name="copyright" content="naive"><meta name="format-detection" content="telephone=no"><link rel="shortcut icon" href="https://s3.jpg.cm/2020/08/09/bwNNX.jpg"><link rel="canonical" href="http://lujiabo98.github.io/2020/12/21/Course02/"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//fonts.googleapis.com" crossorigin="crossorigin"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta property="og:type" content="article"><meta property="og:title" content="【课程】02 土壤水动力学"><meta property="og:url" content="http://lujiabo98.github.io/2020/12/21/Course02/"><meta property="og:site_name" content="MyBlog"><meta property="og:description" content="《土壤水动力学》1987.3  第一章及第二章1~3节 第一章 土壤水的能态——土水势1.1 概述当土壤孔隙没有被水充满，土壤区域为非饱和带（也叫包气带），其中的水分为非饱和土壤水，即一般所说的土壤水。当水充满了土壤的全部孔隙，土壤区域为饱和带（也叫饱水带），其中的水分为饱和土壤水，即一般所说的地下水。 土壤水和地下水的共同特点是水分均存在于多孔介质的孔隙中、并在其中运动。目前的趋势是用宏观方法在"><meta property="og:image" content="https://cdn.jsdelivr.net/gh/lujiabo98/ImageHosting2@main/course02_01.png"><meta property="article:published_time" content="2020-12-21T14:19:53.000Z"><meta property="article:modified_time" content="2020-12-21T14:24:55.165Z"><meta name="twitter:card" content="summary"><script>var activateDarkMode = function () {
+  document.documentElement.setAttribute('data-theme', 'dark')
+  if (document.querySelector('meta[name="theme-color"]') !== null) {
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', '#000')
+  }
+}
+var activateLightMode = function () {
+  document.documentElement.setAttribute('data-theme', 'light')
+  if (document.querySelector('meta[name="theme-color"]') !== null) {
+    document.querySelector('meta[name="theme-color"]').setAttribute('content', '#fff')
+  }
+}
+
+var getCookies = function (name) {
+  const value = `; ${document.cookie}`
+  const parts = value.split(`; ${name}=`)
+  if (parts.length === 2) return parts.pop().split(';').shift()
+}
+
+var autoChangeMode = 'false'
+var t = getCookies('theme')
+if (autoChangeMode === '1') {
+  var isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+  var isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+  var isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+  var hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+  if (t === undefined) {
+    if (isLightMode) activateLightMode()
+    else if (isDarkMode) activateDarkMode()
+    else if (isNotSpecified || hasNoSupport) {
+      console.log('You specified no preference for a color scheme or your browser does not support it. I Schedule dark mode during night time.')
+      var now = new Date()
+      var hour = now.getHours()
+      var isNight = hour <= 6 || hour >= 18
+      isNight ? activateDarkMode() : activateLightMode()
+    }
+    window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+      if (Cookies.get('theme') === undefined) {
+        e.matches ? activateDarkMode() : activateLightMode()
+      }
+    })
+  } else if (t === 'light') activateLightMode()
+  else activateDarkMode()
+} else if (autoChangeMode === '2') {
+  now = new Date()
+  hour = now.getHours()
+  isNight = hour <= 6 || hour >= 18
+  if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
+  else if (t === 'light') activateLightMode()
+  else activateDarkMode()
+} else {
+  if (t === 'dark') activateDarkMode()
+  else if (t === 'light') activateLightMode()
+}</script><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web&amp;display=swap"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  bookmark: {
+    message_prev: '按',
+    message_next: '键将本页加入书签'
+  },
+  runtime_unit: '天',
+  runtime: true,
+  copyright: {"limitCount":50,"languages":{"author":"作者: naive","link":"链接: ","source":"来源: MyBlog","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
+  ClickShowText: undefined,
+  medium_zoom: true,
+  fancybox: false,
+  Snackbar: {"bookmark":{"message_prev":"按","message_next":"键将本页加入书签"},"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#121212","position":"bottom-left"},
+  justifiedGallery: {
+    js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+    css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+  },
+  baiduPush: false,
+  highlightCopy: true,
+  highlightLang: true,
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isanchor: false    
+}</script><script id="config_change">var GLOBAL_CONFIG_SITE = { 
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isSidebar: true,
+  postUpdate: '2020-12-21 22:24:55'
+}</script><noscript><style>
+#nav {
+  opacity: 1
+}
+.justified-gallery img {
+  opacity: 1
+}
+</style></noscript><link rel="stylesheet" href="//at.alicdn.com/t/font_1991083_l2khi94ltp.css"><link rel="stylesheet" href="//at.alicdn.com/t/font_1991083_seiik64bc5c.css"><style type="text/css">#toggle-sidebar {bottom: 80px}</style><meta name="generator" content="Hexo 5.0.0"><link rel="alternate" href="/atom.xml" title="MyBlog" type="application/atom+xml">
+</head><body><div id="mobile-sidebar"><div id="menu_mask"></div><div id="mobile-sidebar-menus"><div class="mobile_author_icon"><img class="avatar-img" data-lazy-src="https://s3.jpg.cm/2020/08/09/bwNNX.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="mobile_post_data"><div class="mobile_data_item is-center"><div class="mobile_data_link"><a href="/archives/"><div class="headline">文章</div><div class="length_num">30</div></a></div></div><div class="mobile_data_item is-center">      <div class="mobile_data_link"><a href="/tags/"><div class="headline">标签</div><div class="length_num">50</div></a></div></div><div class="mobile_data_item is-center">     <div class="mobile_data_link"><a href="/categories/"><div class="headline">分类</div><div class="length_num">8</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></div><div class="menus_item"><a class="site-page" href="/Gallery/"><i class="fa-fw fas fa-images"></i><span> 相册</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw iconfont icon-yule"></i><span> 娱乐</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li><li><a class="site-page" href="/books/"><i class="fa-fw fas fa-book"></i><span> 书籍</span></a></li><li><a class="site-page" href="/games/"><i class="fa-fw fas fa-gamepad"></i><span> 游戏</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div id="body-wrap"><div id="sidebar"><i class="fas fa-arrow-right on" id="toggle-sidebar"></i><div class="sidebar-toc"><div class="sidebar-toc__title">目录</div><div class="sidebar-toc__progress"><span class="progress-notice">你已经读了</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar">     </div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%AC%AC%E4%B8%80%E7%AB%A0-%E5%9C%9F%E5%A3%A4%E6%B0%B4%E7%9A%84%E8%83%BD%E6%80%81%E2%80%94%E2%80%94%E5%9C%9F%E6%B0%B4%E5%8A%BF"><span class="toc-number">1.</span> <span class="toc-text">第一章 土壤水的能态——土水势</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#1-1-%E6%A6%82%E8%BF%B0"><span class="toc-number">1.1.</span> <span class="toc-text">1.1 概述</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-2-%E5%9C%9F%E5%A3%A4%E6%B0%B4%E7%9A%84%E5%BD%A2%E6%80%81%E5%92%8C%E8%83%BD%E6%80%81"><span class="toc-number">1.2.</span> <span class="toc-text">1.2 土壤水的形态和能态</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-2-1-%E5%9C%9F%E5%A3%A4%E6%B0%B4%E7%9A%84%E6%95%B0%E9%87%8F%E2%80%94%E2%80%94%E5%9C%9F%E5%A3%A4%E5%90%AB%E6%B0%B4%E7%8E%87"><span class="toc-number">1.2.1.</span> <span class="toc-text">1.2.1 土壤水的数量——土壤含水率</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-2-2-%E5%9C%9F%E5%A3%A4%E6%B0%B4%E7%9A%84%E5%BD%A2%E6%80%81"><span class="toc-number">1.2.2.</span> <span class="toc-text">1.2.2 土壤水的形态</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-2-3-%E5%9C%9F%E5%A3%A4%E6%B0%B4%E7%9A%84%E8%83%BD%E6%80%81"><span class="toc-number">1.2.3.</span> <span class="toc-text">1.2.3 土壤水的能态</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-3-%E5%9C%9F%E6%B0%B4%E5%8A%BF"><span class="toc-number">1.3.</span> <span class="toc-text">1.3 土水势</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-3-1-%E5%9C%9F%E6%B0%B4%E5%8A%BF%E6%A6%82%E5%BF%B5%E7%9A%84%E7%83%AD%E5%8A%9B%E5%AD%A6%E5%9F%BA%E7%A1%80"><span class="toc-number">1.3.1.</span> <span class="toc-text">1.3.1 土水势概念的热力学基础</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-3-2-%E5%9C%9F%E6%B0%B4%E5%8A%BF%E7%9A%84%E5%88%86%E5%8A%BF"><span class="toc-number">1.3.2.</span> <span class="toc-text">1.3.2 土水势的分势</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1-4-%E5%9C%9F%E5%A3%A4%E6%B0%B4%E5%90%B8%E5%8A%9B%E4%B8%8E%E5%9C%9F%E5%A3%A4%E6%B0%B4%E5%88%86%E7%89%B9%E5%BE%81%E6%9B%B2%E7%BA%BF"><span class="toc-number">1.4.</span> <span class="toc-text">1.4 土壤水吸力与土壤水分特征曲线</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-4-1-%E5%9C%9F%E5%A3%A4%E6%B0%B4%E5%90%B8%E5%8A%9B"><span class="toc-number">1.4.1.</span> <span class="toc-text">1.4.1 土壤水吸力</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-4-2-%E5%9C%9F%E5%A3%A4%E6%B0%B4%E5%88%86%E7%89%B9%E5%BE%81%E6%9B%B2%E7%BA%BF"><span class="toc-number">1.4.2.</span> <span class="toc-text">1.4.2 土壤水分特征曲线</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-4-3-%E5%9C%9F%E5%A3%A4%E6%B0%B4%E5%88%86%E7%89%B9%E5%BE%81%E6%9B%B2%E7%BA%BF%E7%9A%84%E5%BA%94%E7%94%A8"><span class="toc-number">1.4.3.</span> <span class="toc-text">1.4.3 土壤水分特征曲线的应用</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%AC%AC%E4%BA%8C%E7%AB%A0-%E5%9C%9F%E5%A3%A4%E6%B0%B4%E5%8A%A8%E5%8A%9B%E5%AD%A6%E5%9F%BA%E6%9C%AC%E6%96%B9%E7%A8%8B"><span class="toc-number">2.</span> <span class="toc-text">第二章 土壤水动力学基本方程</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#2-1-%E9%9D%9E%E9%A5%B1%E5%92%8C%E5%9C%9F%E5%A3%A4%E6%B0%B4%E6%B5%81%E5%8A%A8%E7%9A%84%E8%BE%BE%E8%A5%BF%E5%AE%9A%E5%BE%8B"><span class="toc-number">2.1.</span> <span class="toc-text">2.1 非饱和土壤水流动的达西定律</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#2-1-1-%E9%A5%B1%E5%92%8C%E5%9C%9F%E5%A3%A4%E6%B0%B4%E6%B5%81%E5%8A%A8%E7%9A%84%E8%BE%BE%E8%A5%BF%E5%AE%9A%E5%BE%8B"><span class="toc-number">2.1.1.</span> <span class="toc-text">2.1.1 饱和土壤水流动的达西定律</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-1-2-%E9%9D%9E%E9%A5%B1%E5%92%8C%E5%9C%9F%E5%A3%A4%E6%B0%B4%E6%B5%81%E5%8A%A8%E7%9A%84%E8%BE%BE%E8%A5%BF%E5%AE%9A%E5%BE%8B"><span class="toc-number">2.1.2.</span> <span class="toc-text">2.1.2 非饱和土壤水流动的达西定律</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-1-3-%E9%9D%9E%E9%A5%B1%E5%92%8C%E5%9C%9F%E5%A3%A4%E7%9A%84%E5%AF%BC%E6%B0%B4%E7%8E%87"><span class="toc-number">2.1.3.</span> <span class="toc-text">2.1.3 非饱和土壤的导水率</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-2-%E9%9D%9E%E9%A5%B1%E5%92%8C%E5%9C%9F%E5%A3%A4%E6%B0%B4%E8%BF%90%E5%8A%A8%E5%9F%BA%E6%9C%AC%E6%96%B9%E7%A8%8B"><span class="toc-number">2.2.</span> <span class="toc-text">2.2 非饱和土壤水运动基本方程</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#2-2-1-%E8%B4%A8%E9%87%8F%E5%AE%88%E6%81%92%E5%8E%9F%E7%90%86%E4%B8%8E%E5%9F%BA%E6%9C%AC%E6%96%B9%E7%A8%8B%E7%9A%84%E6%8E%A8%E5%AF%BC"><span class="toc-number">2.2.1.</span> <span class="toc-text">2.2.1 质量守恒原理与基本方程的推导</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-2-2-%E5%9F%BA%E6%9C%AC%E6%96%B9%E7%A8%8B%E7%9A%84%E5%90%84%E7%A7%8D%E5%BD%A2%E5%BC%8F"><span class="toc-number">2.2.2.</span> <span class="toc-text">2.2.2 基本方程的各种形式</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-2-3-%E6%9F%B1%E5%9D%90%E6%A0%87%E5%8F%8A%E7%90%83%E5%9D%90%E6%A0%87%E7%B3%BB%E4%B8%AD%E5%9C%9F%E5%A3%A4%E6%B0%B4%E5%88%86%E8%BF%90%E5%8A%A8%E7%9A%84%E5%9F%BA%E6%9C%AC%E6%96%B9%E7%A8%8B"><span class="toc-number">2.2.3.</span> <span class="toc-text">2.2.3 柱坐标及球坐标系中土壤水分运动的基本方程</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-3-%E5%9C%9F%E5%A3%A4%E6%B0%B4%E5%88%86%E8%BF%90%E5%8A%A8%E9%80%9A%E9%87%8F%E6%B3%95"><span class="toc-number">2.3.</span> <span class="toc-text">2.3 土壤水分运动通量法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#2-3-1-%E9%9B%B6%E9%80%9A%E9%87%8F%E9%9D%A2%E4%B8%8E%E9%9B%B6%E9%80%9A%E9%87%8F%E9%9D%A2%E6%B3%95"><span class="toc-number">2.3.1.</span> <span class="toc-text">2.3.1 零通量面与零通量面法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-3-2-%E8%A1%A8%E9%9D%A2%E9%80%9A%E9%87%8F%E6%B3%95%E4%B8%8E%E5%AE%9A%E4%BD%8D%E9%80%9A%E9%87%8F%E6%B3%95"><span class="toc-number">2.3.2.</span> <span class="toc-text">2.3.2 表面通量法与定位通量法</span></a></li></ol></li></ol></li></ol></div></div></div><header class="post-bg" id="page-header" style="background-image: url(https://cdn.jsdelivr.net/gh/lujiabo98/ImageHosting2@main/course02_01.png)"><nav id="nav"><span class="pull-left" id="blog_name"><a class="blog_title" id="site-name" href="/">MyBlog</a></span><span class="pull-right menus"><div id="search_button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></div><div class="menus_item"><a class="site-page" href="/Gallery/"><i class="fa-fw fas fa-images"></i><span> 相册</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw iconfont icon-yule"></i><span> 娱乐</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li><li><a class="site-page" href="/books/"><i class="fa-fw fas fa-book"></i><span> 书籍</span></a></li><li><a class="site-page" href="/games/"><i class="fa-fw fas fa-gamepad"></i><span> 游戏</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><span class="toggle-menu close"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></span></span></nav><div id="post-info"><div id="post-title"><div class="posttitle">【课程】02 土壤水动力学</div></div><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2020-12-21T14:19:53.000Z" title="发表于 2020-12-21 22:19:53">2020-12-21</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2020-12-21T14:24:55.165Z" title="更新于 2020-12-21 22:24:55">2020-12-21</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E8%AF%BE%E7%A8%8B/">课程</a></span></div><div class="meta-secondline"> <span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">3.6k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>12分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span><span class="post-meta-separator">|</span><span class="post-meta-commentcount"><i class="far fa-comments fa-fw post-meta-icon"></i><span class="post-meta-label">评论数:</span><a href="/2020/12/21/Course02/#post-comment" itemprop="discussionUrl"><span class="valine-comment-count comment-count" data-xid="/2020/12/21/Course02/" itemprop="commentCount"></span></a></span></div></div></div></header><main class="layout_post" id="content-inner"><article id="post"><div class="post-content" id="article-container"><p>《土壤水动力学》1987.3  第一章及第二章1~3节</p>
+<h1 id="第一章-土壤水的能态——土水势"><a href="#第一章-土壤水的能态——土水势" class="headerlink" title="第一章 土壤水的能态——土水势"></a>第一章 土壤水的能态——土水势</h1><h2 id="1-1-概述"><a href="#1-1-概述" class="headerlink" title="1.1 概述"></a>1.1 概述</h2><p>当土壤孔隙没有被水充满，土壤区域为非饱和带（也叫包气带），其中的水分为非饱和土壤水，即一般所说的土壤水。当水充满了土壤的全部孔隙，土壤区域为饱和带（也叫饱水带），其中的水分为饱和土壤水，即一般所说的地下水。</p>
+<p>土壤水和地下水的共同特点是水分均存在于多孔介质的孔隙中、并在其中运动。目前的趋势是用宏观方法在较大尺度范围内研究多孔介质的孔隙大小及其中水流的平均状况。多孔介质在数学点P处的物理点，是以P点为质心、体积为$\Delta V_0$的体积元（一般取为球体）来表征的。$\Delta V_0$的大小应适中。</p>
+<p>P点的孔隙率为<br>$$<br>n(P)=\lim\limits_{\Delta V_i \to \Delta V_0}\frac{\Delta V_{vi}(P)}{\Delta V_i}<br>$$<br>干容重$\gamma_c$可定义为<br>$$<br>\gamma_c(P)=\lim\limits_{\Delta V_i \to \Delta V_e}\frac{\Delta M_{vi}(P)}{\Delta V_i}<br>$$<br>在任意点P处下式成立<br>$$<br>n=1-\gamma_c/\rho_s<br>$$<br>充流的各流动要素也定义在物理点P上，如流速$v$<br>$$<br>v=\lim\limits_{\Delta V \to \Delta^2}\frac{1}{\Delta A_i}\int_{\Delta A_{0i} }udA_v<br>$$<br>在宏观尺度上确定的连续分布的多孔介质的几何要素、运动要素和有关参数，本质上正是由其微观特征确定的。</p>
+<h2 id="1-2-土壤水的形态和能态"><a href="#1-2-土壤水的形态和能态" class="headerlink" title="1.2 土壤水的形态和能态"></a>1.2 土壤水的形态和能态</h2><h3 id="1-2-1-土壤水的数量——土壤含水率"><a href="#1-2-1-土壤水的数量——土壤含水率" class="headerlink" title="1.2.1 土壤水的数量——土壤含水率"></a>1.2.1 土壤水的数量——土壤含水率</h3><p>体积含水率$\theta_v$<br>$$<br>\theta_v=\Delta V_w/ \Delta V_0<br>$$<br>重量含水率$\theta_g$<br>$$<br>\theta_g = \Delta G_w / \Delta G_g<br>$$<br>饱和度$w$<br>$$<br>w = \Delta V_w / \Delta V_v<br>$$</p>
+<h3 id="1-2-2-土壤水的形态"><a href="#1-2-2-土壤水的形态" class="headerlink" title="1.2.2 土壤水的形态"></a>1.2.2 土壤水的形态</h3><p>土壤中水分所承受的作用力常概括为吸附力、吸着力、毛管力和重力。常可区分为以下四种形态：吸湿水、薄膜水、毛管水、重力水。</p>
+<p>当土壤中的薄膜水所受土壤介质的吸着力约为15 $atm$时，土壤中的水分便不能为植物根系所吸收，致使植物发生永久性凋萎，因而又称这种土壤含水率为凋萎系数。</p>
+<h3 id="1-2-3-土壤水的能态"><a href="#1-2-3-土壤水的能态" class="headerlink" title="1.2.3 土壤水的能态"></a>1.2.3 土壤水的能态</h3><p>当说到土壤中某一点的土水势时，是指该物理点体积元内单载数量的士壤水分所具有的势能，所以土水势的单位取决于对土壤水分单位数量的规定方式。</p>
+<h2 id="1-3-土水势"><a href="#1-3-土水势" class="headerlink" title="1.3 土水势"></a>1.3 土水势</h2><h3 id="1-3-1-土水势概念的热力学基础"><a href="#1-3-1-土水势概念的热力学基础" class="headerlink" title="1.3.1 土水势概念的热力学基础"></a>1.3.1 土水势概念的热力学基础</h3><p>用热力学理论来解释土水势，涉及到经典热力学的第-一定律和第二定律。土壤水作为一热力学系统，同样遵循能量守恒的热力学第一定律，即<br>$$<br>dQ=dU+PdV+dW’<br>$$<br>土壤水吉氏自由能的微分方程可写为<br>$$<br>dG=VdP-SdT-dW_s +dW_m+dW_g<br>$$<br>总土水势$\psi$是上述五个分势之和：<br>$$<br>\psi = \psi_g +\psi_p + \psi_m + \psi_s + \psi_T<br>$$</p>
+<h3 id="1-3-2-土水势的分势"><a href="#1-3-2-土水势的分势" class="headerlink" title="1.3.2 土水势的分势"></a>1.3.2 土水势的分势</h3><p>重力势$\psi_g$是由于重力场的存在而引起的，它决定于土壤水的高度或垂直位置。</p>
+<p>土壤中坐标为质量为M的土壤水分所具有的重力势$E_g$<br>$$<br>E_g = \pm Mgz<br>$$<br>压力势是由于压力场中压力差的存在而引起的。所定义的标准参考状态下的压力为标准大气压或当地大气压。当土壤水分的体积为V，压力差或附加压强为$\Delta p$的土壤水分的压力势$E_p$为<br>$$<br>E_p =V \Delta p<br>$$<br>基质势$\psi_m$是由于土壤基质对土壤水分的吸持作用引起的，可概括为吸附作用和毛管作用，参考状态以自由水为标准。由于上壤基质对水分吸持作用的复杂性，吕前还不能从理论上导出基质势的定量关系，只能在田间或在实验室内进行测定。基质势为负值。</p>
+<p>溶质势$\psi_s$是土壤溶液中所有形式的溶质对土壤水分综合作用的结果。溶质势为负值。溶质势的存在可以用渗透实验来证明。含有一定溶质的单位体积土壤水的溶质势$\psi_s$为<br>$$<br>\psi_s = -\frac{c}{\mu}RT<br>$$<br>温度势$\psi_T$是由于温度场的温差所引起的。土壤中任一点土壤水分的温度势由该点的温度与标准参考状态的温度之差所决定。由于温差存在而造成的土壤水分运动通量相对而言是很小的，所以，在分析土壤水分运动时，温度势的作用常被忽略。<br>$$<br>\psi_T = -S_e \Delta T<br>$$<br>对于饱和土壤水，总水势或总水头可写为：<br>$$<br>\psi = h \pm z<br>$$<br>对于非饱和土壤水，在不考虑气压势的情况下，压力势$\psi_p = 0$，因此，其总水势$\psi$由基质势$\psi_m$和重力势$\psi_g$组成，即<br>$$<br>\psi = \psi_m \pm z<br>$$</p>
+<h2 id="1-4-土壤水吸力与土壤水分特征曲线"><a href="#1-4-土壤水吸力与土壤水分特征曲线" class="headerlink" title="1.4 土壤水吸力与土壤水分特征曲线"></a>1.4 土壤水吸力与土壤水分特征曲线</h2><h3 id="1-4-1-土壤水吸力"><a href="#1-4-1-土壤水吸力" class="headerlink" title="1.4.1 土壤水吸力"></a>1.4.1 土壤水吸力</h3><p>研究田间土壤水分运动时，溶质势一般不考虑，因此，一般所说的吸力即指土壤基质的吸力，以符号$s$表示,按定义它和基质势$\psi_m$的关系是<br>$$<br>s= -\psi_m<br>$$<br>基质势愈大（负的愈少）则吸力愈低，基质势愈小（负的愈多）则吸力高、土壤水自发的趋势是由吸力低处向吸力高处流动。</p>
+<h3 id="1-4-2-土壤水分特征曲线"><a href="#1-4-2-土壤水分特征曲线" class="headerlink" title="1.4.2 土壤水分特征曲线"></a>1.4.2 土壤水分特征曲线</h3><p>土壤水的基质势或土壤水吸力是随土壤含水率而变化的，其关系曲线称为土壤水分特征曲线或土壤持水曲线。</p>
+<p>饱和土壤开始排水意味着空气随之进入土壤中，称该临界值$S_a$为进气吸力或称为进气值。</p>
+<p>一般地说，粗质地的砂性土壤或结构良好的土壤其进气值是较小的，而细质地的粘性土壤其进气值相对较大。由于粗质地砂性土壤的孔隙大小较为均一，故进气值的出现往往较细质地上壤明显。</p>
+<p>为了分析应用的方便，常用实测结果拟合出经验关系。常用的经验公式形式有<br>$$<br>s = a(\theta / \theta_s)^b<br>$$</p>
+<p>土壤水分特征曲线受多种因素影响。不同质地的土壤，其水分特征曲线各不相同，差别很明显。一般说，土壤的粘粒含量愈高，同一吸力条件下土壤的含水率愈大，或同一含水率下其吸力值愈高。水分特征曲线还受土壤结构的影响，在低吸力范围内尤为明显。土壤愈密实，则大孔隙数量愈减少，而中小孔径的孔隙愈增多。因此，在同一吸力值下，干容重愈大的土壤，相应的含水率一般也要大些。</p>
+<p>土壤水分特征曲线还和土壤中水分变化的过程有关。</p>
+<p>滞后现象：土壤脱湿过程和土壤吸湿过程测得的水分特征曲线是不同的。</p>
+<h3 id="1-4-3-土壤水分特征曲线的应用"><a href="#1-4-3-土壤水分特征曲线的应用" class="headerlink" title="1.4.3 土壤水分特征曲线的应用"></a>1.4.3 土壤水分特征曲线的应用</h3><p>土壤水分特征曲线表示了土壤的一个基本特性，有重要的实用价值。由于滞后作用的存在，进行换算时要谨慎。</p>
+<p>土壤水分特征曲线可以问接地反映出土壤中孔隙大小的分布。若将土壤中的孔隙设想为各种孔径的圆形毛管，那么吸力$s$和毛管直径$d$的关系可简单表示为<br>$$<br>s = 4 \sigma /d<br>$$<br>水分特征曲线可用来分析不同质地土壤的持水性和土壤水分的有效性。同一吸力下，粘土的含水率较砂土的含水率为大的事实，说明了粘土的持水性较砂土的持水性为好。含水率相同时，粘土的土壤水吸力远较砂土为高。</p>
+<h1 id="第二章-土壤水动力学基本方程"><a href="#第二章-土壤水动力学基本方程" class="headerlink" title="第二章 土壤水动力学基本方程"></a>第二章 土壤水动力学基本方程</h1><h2 id="2-1-非饱和土壤水流动的达西定律"><a href="#2-1-非饱和土壤水流动的达西定律" class="headerlink" title="2.1 非饱和土壤水流动的达西定律"></a>2.1 非饱和土壤水流动的达西定律</h2><h3 id="2-1-1-饱和土壤水流动的达西定律"><a href="#2-1-1-饱和土壤水流动的达西定律" class="headerlink" title="2.1.1 饱和土壤水流动的达西定律"></a>2.1.1 饱和土壤水流动的达西定律</h3><p>达西定律<br>$$<br>v=K_s \frac{\Delta H}{L}<br>$$<br>非均质土壤<br>$$<br>q = -K_s \frac{dH}{dL}<br>$$<br>三维空间<br>$$<br>q = -K_s \bigtriangledown H<br>$$<br>达西定律只适用于层流状态，紊流时不再适用。在极低流速和细孔中的流动也可能出现偏离达西定律的情况。</p>
+<h3 id="2-1-2-非饱和土壤水流动的达西定律"><a href="#2-1-2-非饱和土壤水流动的达西定律" class="headerlink" title="2.1.2 非饱和土壤水流动的达西定律"></a>2.1.2 非饱和土壤水流动的达西定律</h3><p>最早将达西定律引入非饱和土壤水流动的是Richards(1931)。非饱和流动的达西定律可表示为<br>$$<br>q = - K(\psi_m) \bigtriangledown \psi 或 q = -K(\theta) \bigtriangledown \psi<br>$$<br>对于非饱和土壤水，不能笼统地说水由位置高处流向位置低处，或水由湿处移向干处，流动遵循的唯一的原则是自土水势高处向土水势低处运移。</p>
+<p>当土壤处于饱和状态时，全部孔隙都充满了水，因而具有较高的导水率值，且为常数。非饱和土壤的导水率K又称为水力传导度，由于土壤中部分孔隙为气体所充填，故其值低于该土壤的饱和导水率。不仅如此，非饱和土壤水的导水率K还是土壤水基质势或含水率的函数。它随基质势(或含水率&gt;的减小而降低，主要原因是：水流在小孔隙中流动，受阻力增大，流程增大，故导水率降低。</p>
+<h3 id="2-1-3-非饱和土壤的导水率"><a href="#2-1-3-非饱和土壤的导水率" class="headerlink" title="2.1.3 非饱和土壤的导水率"></a>2.1.3 非饱和土壤的导水率</h3><p>通过实验测定非饱和土壤的导水率随含水量或基质势的变化关系，需通过实验测定。</p>
+<p>非饱和土壤的导水率K值大小显然与上壤质地有关。一般地说，砂性土壤的导水率比粘性土壤的要大。但是，当吸力值很高时，由于砂性土壤中绝大部分孔隙中的水被排空，成为不导水的孔隙,此时砂性土壤的导水率反而会比粘性土壤的导水率为低。</p>
+<p>非饱和流动的达西定律可写成<br>$$<br>q = - K(\theta)(\bigtriangledown \psi_m \pm \bigtriangledown z)<br>$$</p>
+<h2 id="2-2-非饱和土壤水运动基本方程"><a href="#2-2-非饱和土壤水运动基本方程" class="headerlink" title="2.2 非饱和土壤水运动基本方程"></a>2.2 非饱和土壤水运动基本方程</h2><h3 id="2-2-1-质量守恒原理与基本方程的推导"><a href="#2-2-1-质量守恒原理与基本方程的推导" class="headerlink" title="2.2.1 质量守恒原理与基本方程的推导"></a>2.2.1 质量守恒原理与基本方程的推导</h3><p>达西定律和连续方程相结合便导出了描述土壤水分运动的基本方程<br>$$<br>\frac{\partial\theta}{\partial t} = \frac{\partial}{\partial x}[K(\theta)\frac{\partial \psi_m}{\partial x}] + \frac{\partial}{\partial y}[K(\theta)\frac{\partial \psi_m}{\partial y}] + \frac{\partial}{\partial z}[K(\theta)\frac{\partial \psi_m}{\partial z}]\pm \frac{\partial K(\theta)}{\partial z}<br>$$<br>对于饱和土壤来说，土壤孔隙已为水充满，其含水率即饱和含水率$\theta_s$，在数值上$\theta_s$与土壤孔隙度$n$相等，此时含水率不随时间变化，$\frac{\partial\theta}{\partial t} =0$，由上式可得出<br>$$<br>\bigtriangledown^2 \psi = 0<br>$$</p>
+<h3 id="2-2-2-基本方程的各种形式"><a href="#2-2-2-基本方程的各种形式" class="headerlink" title="2.2.2 基本方程的各种形式"></a>2.2.2 基本方程的各种形式</h3><p>1.以基质势$\psi_m$为因变量的基本方程<br>$$<br>C(\psi_m)\frac{\partial \psi_m}{\partial t} = \frac{\partial}{\partial x}[K(\psi_m)\frac{\partial \psi_m}{\partial x}] + \frac{\partial}{\partial y}[K(\psi_m)\frac{\partial \psi_m}{\partial y}] + \frac{\partial}{\partial z}[K(\psi_m)\frac{\partial \psi_m}{\partial z}] + \frac{\partial K(\psi_m)}{\partial z}<br>$$<br>2.以含水率$\theta$为因变量的基本方程<br>$$<br>\frac{\partial\theta}{\partial t} = \frac{\partial}{\partial x}[D(\theta)\frac{\partial \psi_m}{\partial x}] + \frac{\partial}{\partial y}[D(\theta)\frac{\partial \psi_m}{\partial y}] + \frac{\partial}{\partial z}[D(\theta)\frac{\partial \psi_m}{\partial z}] + \frac{\partial K(\theta)}{\partial z}<br>$$<br>3.以位置坐标$x$或$z$为因变量的基本方程<br>$$<br>-\frac{\partial x}{\partial t} = \frac{\partial}{\partial \theta}[D(\theta) /\frac{\partial x}{\partial \theta}]<br>$$<br>4.以参数$u$为因变量的基本方程<br>$$<br>\frac{\partial u}{\partial t} = D(\theta) \frac{\partial^2 u}{\partial x^2}<br>$$<br>5.以参数$v$为因变量的基本方程<br>$$<br>\frac{1}{D(v)}\frac{\partial v}{\partial t} =  \frac{\partial^2 v}{\partial z^2} + M(v) \frac{\partial v}{\partial z}<br>$$<br>上述各种形式的土壤水分运动方程，只适用于土壤骨架不变形、土壤水视为不可压缩的流休、不考虑生物或化学作用对水流影响的情祝，不能用于解决多相(如水与气流的问题。</p>
+<h3 id="2-2-3-柱坐标及球坐标系中土壤水分运动的基本方程"><a href="#2-2-3-柱坐标及球坐标系中土壤水分运动的基本方程" class="headerlink" title="2.2.3 柱坐标及球坐标系中土壤水分运动的基本方程"></a>2.2.3 柱坐标及球坐标系中土壤水分运动的基本方程</h3><p>1.以$z$轴为轴的柱坐标系的基本方程<br>$$<br>\frac{\partial\theta}{\partial t} = \frac{1}{\gamma}\frac{\partial}{\partial \gamma}[\gamma K(\theta)\frac{\partial \psi_m}{\partial \gamma}] + \frac{1}{\gamma^2} \frac{\partial}{\partial \varphi}[D(\theta)\frac{\partial \psi_m}{\partial \varphi}] + \frac{\partial}{\partial z}[D(\theta)\frac{\partial \psi_m}{\partial z}] + \frac{\partial K(\theta)}{\partial z}<br>$$<br>2.以$x$（或$y$）轴为轴的柱坐标系的基本方程<br>$$<br>\frac{\partial\theta}{\partial t} = \frac{1}{\gamma}\frac{\partial}{\partial \gamma}[\gamma K(\theta)\frac{\partial \psi_m}{\partial \gamma}] + \frac{1}{\gamma^2} \frac{\partial}{\partial \varphi}[D(\theta)\frac{\partial \psi_m}{\partial \varphi}]+ cos\varphi\frac{\partial K(\theta)}{\partial \gamma} -\frac{sin \varphi}{\gamma}\frac{\partial K(\theta)}{\partial \varphi} + \frac{\partial}{\partial x}[D(\theta)\frac{\partial \psi_m}{\partial x}]<br>$$<br>3.球坐标系中的基本方程<br>$$<br>\frac{\partial\theta}{\partial t} = \frac{1}{\gamma}\frac{\partial}{\partial \gamma}[\gamma K(\theta)\frac{\partial \psi_m}{\partial \gamma}] + \frac{1}{(\gamma sin \alpha)^2} \frac{\partial}{\partial \varphi}[K(\theta)\frac{\partial \psi_m}{\partial \varphi}]+ \frac{1}{\gamma^2}\frac{\partial}{\partial \alpha}[K(\theta)\frac{\partial \psi_m}{\partial \alpha}] + cos\alpha\frac{\partial K(\theta)}{\partial \gamma} -\frac{sin \alpha}{\gamma}\frac{\partial K(\theta)}{\partial \alpha}<br>$$</p>
+<h2 id="2-3-土壤水分运动通量法"><a href="#2-3-土壤水分运动通量法" class="headerlink" title="2.3 土壤水分运动通量法"></a>2.3 土壤水分运动通量法</h2><p>土壤水分通量法可以不使用基本方程而直接应用达西定律和质量守恒原理分析或解决问题。</p>
+<p>无源汇情况下的水量平衡方程为<br>$$<br>Q(z^*)-Q(z) = \int_{z^*}^{z}\theta(z,t_2)dz - \int_{z^*}^{E}\theta(z,t_1)dz<br>$$</p>
+<h3 id="2-3-1-零通量面与零通量面法"><a href="#2-3-1-零通量面与零通量面法" class="headerlink" title="2.3.1 零通量面与零通量面法"></a>2.3.1 零通量面与零通量面法</h3><p>土壤剖面中出现零通量面时，可根据水势$\psi$的分布特点，区分为以下几种类型：</p>
+<p>1.单一聚合型零通量面</p>
+<p>2.单一发散型零通量面</p>
+<p>3.具有多个零通量面</p>
+<h3 id="2-3-2-表面通量法与定位通量法"><a href="#2-3-2-表面通量法与定位通量法" class="headerlink" title="2.3.2 表面通量法与定位通量法"></a>2.3.2 表面通量法与定位通量法</h3><p>零通量面不存在时，若能估算或测量某一断面的土壤水分通量作为已知通量面，则可使用表面通量法和定位通量法计算入渗量或蒸发量。</p>
+</div><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:1847096852@qq.com">naive</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://lujiabo98.github.io/2020/12/21/Course02/">http://lujiabo98.github.io/2020/12/21/Course02/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://lujiabo98.github.io" target="_blank">MyBlog</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E5%9C%9F%E5%A3%A4%E6%B0%B4%E6%96%87%E5%AD%A6/">土壤水文学</a><a class="post-meta__tags" href="/tags/%E5%9C%9F%E6%B0%B4%E5%8A%BF/">土水势</a><a class="post-meta__tags" href="/tags/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/">读书笔记</a></div><div class="post_share"><div class="social-share" data-image="https://cdn.jsdelivr.net/gh/lujiabo98/ImageHosting2@main/course02_01.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><div class="post-reward"><div class="reward-button"><i class="fas fa-qrcode"></i> 打赏<div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="https://cdn.jsdelivr.net/gh/lujiabo98/ImageHosting/img/wechat.png" target="_blank"><img class="post-qr-code-img" data-lazy-src="https://cdn.jsdelivr.net/gh/lujiabo98/ImageHosting/img/wechat.png" alt="微信"/></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a href="https://cdn.jsdelivr.net/gh/lujiabo98/ImageHosting/img/alipay.jpg" target="_blank"><img class="post-qr-code-img" data-lazy-src="https://cdn.jsdelivr.net/gh/lujiabo98/ImageHosting/img/alipay.jpg" alt="支付宝"/></a><div class="post-qr-code-desc">支付宝</div></li></ul></div></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/2020/12/19/2020-12/"><img class="next-cover" data-lazy-src="https://cdn.jsdelivr.net/gh/jerryc127/CDN@latest/cover/default_bg.png" onerror="onerror=null;src='/img/404.jpg'"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">【2020】12 决赛</div></div></a></div></nav><div class="relatedPosts"><div class="relatedPosts_headline"><i class="fas fa-thumbs-up fa-fw"></i><span> 相关推荐</span></div><div class="relatedPosts_list"><div class="relatedPosts_item"><a href="/2020/12/13/Course01/" title="【课程】01 遥感环境物理学"><img class="relatedPosts_cover" data-lazy-src="https://cdn.jsdelivr.net/gh/lujiabo98/ImageHosting2@main/course01_01.png"><div class="relatedPosts_main is-center"><div class="relatedPosts_date"><i class="far fa-calendar-alt fa-fw"></i> 2020-12-13</div><div class="relatedPosts_title">【课程】01 遥感环境物理学</div></div></a></div></div></div><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div><div class="comment-switch"><span class="first-comment">Valine</span><label><input id="switch-comments-btn" type="checkbox"/><span class="slider"></span></label><span class="second-comment">Disqus</span></div></div><div class="comment-wrap"><div><div class="vcomment" id="vcomment"></div></div><div><div id="disqus_thread"></div></div></div></div></article></main><footer id="footer" data-type="color"><div id="footer-wrap"><div class="copyright">&copy;2020 By naive</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text">一万年太久，只争朝夕</div></div></footer></div><section id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="font_plus" type="button" title="放大字体"><i class="fas fa-plus"></i></button><button id="font_minus" type="button" title="缩小字体"><i class="fas fa-minus"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="chat_btn" type="button" title="rightside.chat_btn"><i class="fas fa-sms"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></section><div class="search-dialog" id="local-search"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div></div><hr/><div id="local-search-results"><div id="local-hits"></div><div id="local-stats"><div class="local-search-stats__hr" id="hr"><span>由</span> <a target="_blank" rel="noopener" href="https://github.com/wzpan/hexo-generator-search" style="color:#49B1F5;">hexo-generator-search</a>
+ <span>提供支持</span></div></div></div><span class="search-close-button"><i class="fas fa-times"></i></span></div><div id="search-mask"></div><div><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/medium-zoom/dist/medium-zoom.min.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module" defer></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js" async></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><script src="/js/search/local-search.js"></script><div class="js-pjax"><script>function loadValine () {
+  function initValine () {
+    window.valine = new Valine({
+      el: '#vcomment',
+      appId: '',
+      appKey: '',
+      placeholder: 'Please leave your footprints',
+      avatar: 'monsterid',
+      meta: 'nick,mail,link'.split(','),
+      pageSize: '10',
+      lang: 'zh-CN',
+      recordIP: false,
+      serverURLs: '',
+      emojiCDN: '',
+      emojiMaps: "",
+      enableQQ: false,
+      path: window.location.pathname,
+    });
+    if ('nick,mail') { valine.config.requiredFields= 'nick,mail'.split(',') }
+  }
+
+  if (typeof Valine === 'function') initValine() 
+  else $.getScript('https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js', initValine)
+}
+
+if ('Valine' === 'Valine' || !false) {
+  if (false) loadComment(document.querySelector('#vcomment'),loadValine)
+  else setTimeout(() => loadValine(), 0)
+} else {
+  function loadOtherComment () {
+    loadValine()
+  }
+}</script><script>function loadDisqus () {
+  var disqus_config = function () {
+    this.page.url = 'http://lujiabo98.github.io/2020/12/21/Course02/'
+    this.page.identifier = '2020/12/21/Course02/'
+    this.page.title = '【课程】02 土壤水动力学'
+  };
+
+  window.disqusReset = () => {
+    DISQUS.reset({
+      reload: true,
+      config: disqus_config
+    })
+  }
+
+  if (window.DISQUS) disqusReset()
+  else {
+    (function() { 
+      var d = document, s = d.createElement('script');
+      s.src = 'https://.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  }
+}
+
+if ('Valine' === 'Disqus' || !false) {
+  if (false) loadComment(document.getElementById('disqus_thread'), loadDisqus)
+  else loadDisqus()
+} else {
+  function loadOtherComment () {
+    loadDisqus()
+  }
+}
+</script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div><div class="aplayer no-destroy" data-id="000PeZCQ1i4XVs" data-server="tencent" data-type="artist" data-fixed="true" data-mini="true" data-listFolded="false" data-order="random" data-preload="none" data-autoplay="true" muted></div><script defer="defer" id="ribbon_piao" mobile="true" src="/js/third-party/piao.js"></script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/gh/metowolf/MetingJS@1.2/dist/Meting.min.js"></script><script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script><script>var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: [
+    'title',
+    'meta[name=description]',
+    '#config_change',
+    '#body-wrap',
+    '#rightside-config-hide',
+    '#rightside-config-show',
+    '.js-pjax'
+  ],
+  cacheBust: false,
+})
+
+document.addEventListener('pjax:complete', function () {
+  refreshFn()
+
+  $('script[data-pjax]').each(function () {
+    $(this).parent().append($(this).remove())
+  })
+
+  GLOBAL_CONFIG.islazyload && lazyLoadInstance.update()
+
+  typeof chatBtnFn === 'function' && chatBtnFn()
+  typeof panguInit === 'function' && panguInit()
+
+  if (typeof gtag === 'function') {
+    gtag('config', '', {'page_path': window.location.pathname});
+  }
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+})
+
+document.addEventListener('pjax:send', function () {
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  $(window).off('scroll')
+
+  //reset readmode
+  $('body').hasClass('read-mode') && $('body').removeClass('read-mode')
+
+  //reset font-size
+  $('body').css('font-size') !== originFontSize && $('body').css('font-size', parseFloat(originFontSize))
+})</script></div></body></html>
