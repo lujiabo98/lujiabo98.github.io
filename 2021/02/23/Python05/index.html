@@ -1,0 +1,275 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>【Python】05 当我旁观诈鸡时，我在想些什么 | MyBlog</title><meta name="keywords" content="游戏,扑克牌,概率,诈金花"><meta name="author" content="naive,1847096852@qq.com"><meta name="copyright" content="naive"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="0 前言每逢春节，诈金花^1作为一种休闲益智类扑克游戏，深受亲朋好友的热爱，以小博大，紧张刺激。下面尝试模拟诈金花游戏，比较各牌型胜率，给充满不确定性的游戏做个参考。 1 游戏规则诈金花又称诈鸡、三张牌，偏重于运气和心理对抗^2，游戏使用一副除去大小王的扑克牌，即 $A, 2, 3, 4, 5 ,6, 7, 8, 9, 10, J, Q, K$共计 13 种牌型，每种牌型 4 种花色，总计 52">
+<meta property="og:type" content="article">
+<meta property="og:title" content="【Python】05 当我旁观诈鸡时，我在想些什么">
+<meta property="og:url" content="http://lujiabo98.github.io/2021/02/23/Python05/index.html">
+<meta property="og:site_name" content="MyBlog">
+<meta property="og:description" content="0 前言每逢春节，诈金花^1作为一种休闲益智类扑克游戏，深受亲朋好友的热爱，以小博大，紧张刺激。下面尝试模拟诈金花游戏，比较各牌型胜率，给充满不确定性的游戏做个参考。 1 游戏规则诈金花又称诈鸡、三张牌，偏重于运气和心理对抗^2，游戏使用一副除去大小王的扑克牌，即 $A, 2, 3, 4, 5 ,6, 7, 8, 9, 10, J, Q, K$共计 13 种牌型，每种牌型 4 种花色，总计 52">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://bkimg.cdn.bcebos.com/pic/08f790529822720edf31b55d71cb0a46f31fab9e">
+<meta property="article:published_time" content="2021-02-23T13:57:54.000Z">
+<meta property="article:modified_time" content="2021-02-23T14:04:31.251Z">
+<meta property="article:author" content="naive">
+<meta property="article:tag" content="游戏">
+<meta property="article:tag" content="扑克牌">
+<meta property="article:tag" content="概率">
+<meta property="article:tag" content="诈金花">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://bkimg.cdn.bcebos.com/pic/08f790529822720edf31b55d71cb0a46f31fab9e"><link rel="shortcut icon" href="https://s3.jpg.cm/2020/08/09/bwNNX.jpg"><link rel="canonical" href="http://lujiabo98.github.io/2021/02/23/Python05/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//fonts.googleapis.com" crossorigin=""/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web&amp;display=swap" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"limitCount":50,"languages":{"author":"作者: naive","link":"链接: ","source":"来源: MyBlog","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
+  lightbox: 'mediumZoom',
+  Snackbar: {"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#121212","position":"bottom-left"},
+  source: {
+    jQuery: 'https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js',
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+    },
+    fancybox: {
+      js: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css'
+    }
+  },
+  isPhotoFigcaption: true,
+  islazyload: true,
+  isanchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = { 
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2021-02-23 22:04:31'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    })(window)</script><link rel="stylesheet" href="//at.alicdn.com/t/font_1991083_l2khi94ltp.css"><link rel="stylesheet" href="//at.alicdn.com/t/font_1991083_seiik64bc5c.css"><style type="text/css">#toggle-sidebar {bottom: 80px}</style><meta name="generator" content="Hexo 5.0.0"><link rel="alternate" href="/atom.xml" title="MyBlog" type="application/atom+xml">
+</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="author-avatar"><img class="avatar-img" data-lazy-src="https://s3.jpg.cm/2020/08/09/bwNNX.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">文章</div><div class="length-num">43</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/tags/"><div class="headline">标签</div><div class="length-num">71</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/categories/"><div class="headline">分类</div><div class="length-num">9</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></div><div class="menus_item"><a class="site-page" href="/Gallery/"><i class="fa-fw fas fa-images"></i><span> 相册</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw iconfont icon-yule"></i><span> 娱乐</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li><li><a class="site-page" href="/books/"><i class="fa-fw fas fa-book"></i><span> 书籍</span></a></li><li><a class="site-page" href="/games/"><i class="fa-fw fas fa-gamepad"></i><span> 游戏</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://img.zcool.cn/community/015c2459c0b508a80120753464fe13.jpg@1280w_1l_2o_100sh.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">MyBlog</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></div><div class="menus_item"><a class="site-page" href="/Gallery/"><i class="fa-fw fas fa-images"></i><span> 相册</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw iconfont icon-yule"></i><span> 娱乐</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li><li><a class="site-page" href="/books/"><i class="fa-fw fas fa-book"></i><span> 书籍</span></a></li><li><a class="site-page" href="/games/"><i class="fa-fw fas fa-gamepad"></i><span> 游戏</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">【Python】05 当我旁观诈鸡时，我在想些什么<a class="post-edit-link" href="https://github.com/lujiabo98/lujiabo98.github.io/edit/master/2020_posts/Python05.md" title="编辑" target="_blank"><i class="fas fa-pencil-alt"></i></a></h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2021-02-23T13:57:54.000Z" title="发表于 2021-02-23 21:57:54">2021-02-23</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2021-02-23T14:04:31.251Z" title="更新于 2021-02-23 22:04:31">2021-02-23</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/Python/">Python</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">2.4k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>10分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span><span class="post-meta-separator">|</span><span class="post-meta-commentcount"><i class="far fa-comments fa-fw post-meta-icon"></i><span class="post-meta-label">评论数:</span><a href="/2021/02/23/Python05/#post-comment" itemprop="discussionUrl"><span class="valine-comment-count" data-xid="/2021/02/23/Python05/" itemprop="commentCount"></span></a></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="0-前言"><a href="#0-前言" class="headerlink" title="0 前言"></a>0 前言</h1><p>每逢春节，<a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E8%AF%88%E9%87%91%E8%8A%B1/10105366">诈金花</a><a href="%5B%E8%AF%88%E9%87%91%E8%8A%B1%E7%99%BE%E5%BA%A6%E7%99%BE%E7%A7%91%5D(https://baike.baidu.com/item/%E8%AF%88%E9%87%91%E8%8A%B1/10105366)">^1</a>作为一种休闲益智类扑克游戏，深受亲朋好友的热爱，以小博大，紧张刺激。下面尝试模拟诈金花游戏，比较各牌型胜率，给充满不确定性的游戏做个参考。</p>
+<h1 id="1-游戏规则"><a href="#1-游戏规则" class="headerlink" title="1 游戏规则"></a>1 游戏规则</h1><p>诈金花又称诈鸡、三张牌，偏重于运气和心理对抗<a href="%5B%E7%82%B8%E9%87%91%E8%8A%B1%E6%B8%B8%E6%88%8F(1)--%E7%82%B8%E9%87%91%E8%8A%B1%E6%B8%B8%E6%88%8F%E7%9A%84%E6%A8%A1%E5%9E%8B%E8%AE%BE%E8%AE%A1%E5%92%8C%E7%89%8C%E5%8A%9B%E8%AF%84%E4%BC%B0%5D(https://www.cnblogs.com/mumuxinfei/p/10287600.html)">^2</a>，游戏使用一副除去大小王的扑克牌，即 $A, 2, 3, 4, 5 ,6, 7, 8, 9, 10, J, Q, K$共计 13 种牌型，每种牌型 4 种花色，总计 52 张牌。比牌规则<a href="%5B%E6%B8%B8%E6%88%8F%EF%BC%9A%E7%82%B8%E9%87%91%E8%8A%B1(%E7%90%86%E8%AE%BA%E5%88%86%E6%9E%90+py3%E6%A8%A1%E6%8B%9F)%5D(https://blog.csdn.net/ajaxlt/article/details/89410124)">^3</a>为</p>
+<ol>
+<li>单牌：$A&gt;K&gt;Q&gt;…&gt;2$</li>
+<li>牌型：豹子（三个头）$&gt;$顺金（同花顺）$&gt;$金花$&gt;$顺子（拖拉机）$&gt;$对子$&gt;$散牌（单张）</li>
+<li>不比花色</li>
+<li>对于牌型相同情况，将判平局。<h1 id="2-概率计算"><a href="#2-概率计算" class="headerlink" title="2 概率计算"></a>2 概率计算</h1>从一副牌中任意抽取三张牌，牌型共有$C_{52}^3=22100$种可能，下面利用古典概型计算各牌型概率<a href="%5B%E6%8E%92%E5%88%97%E7%BB%84%E5%90%88%E7%99%BE%E5%BA%A6%E7%99%BE%E7%A7%91%5D(https://baike.baidu.com/item/%E6%8E%92%E5%88%97%E7%BB%84%E5%90%88/706498#2_1)">^4</a>。<ul>
+<li>豹子（三个头）：$P_0=\frac{13*C_4^3}{C_{52}^3}=\frac{52}{22100}=0.2353%$</li>
+<li>顺金（同花顺）：$P_1=\frac{12*C_4^1}{C_{52}^3}=\frac{48}{22100}=0.2172%$</li>
+<li>金花：$P_2=\frac{C_{13}^3C_4^1-12*C_4^1}{C_{52}^3}=\frac{1096}{22100}=4.9593%$</li>
+<li>顺子（拖拉机）：$P_3=\frac{12*(C_4^1<em>C_4^1</em>C_4^1-C_4^1)}{C_{52}^3}=\frac{720}{22100}=3.2579%$</li>
+<li>对子：$P_4=\frac{C_{13}^1<em>C_4^2</em>C_{12}^1*C_4^1}{C_{52}^3}=\frac{3744}{22100}=16.9412%$</li>
+<li>单张：$P_单=\frac{C_{52}^3-[13<em>C_4^3+12</em>C_4^1+(C_{13}^3C_4^1-12<em>C_4^1)+12</em>(C_4^1<em>C_4^1</em>C_4^1-C_4^1)+C_{13}^1<em>C_4^2</em>C_{12}^1*C_4^1]}{C_{52}^3}=\frac{16440}{22100}=74.3891%$</li>
+<li>单A：$P_A=\frac{C_4^1<em>C_{12}^2</em>C_4^1<em>C_4^1-2</em>C_4^1<em>C_4^1</em>C_4^1-(C_4^1<em>C_{12}^2-2</em>C_4^1)}{C_{52}^3}=\frac{3840}{22100}=17.3756%$</li>
+<li>单K：$P_K=\frac{C_4^1<em>C_{11}^2</em>C_4^1<em>C_4^1-C_4^1</em>C_4^1<em>C_4^1-(C_4^1</em>C_{11}^2-C_4^1)}{C_{52}^3}=\frac{3240}{22100}=14.6606%$</li>
+<li>单Q：$P_Q=\frac{C_4^1<em>C_{10}^2</em>C_4^1<em>C_4^1-C_4^1</em>C_4^1<em>C_4^1-(C_4^1</em>C_{10}^2-C_4^1)}{C_{52}^3}=\frac{2640}{22100}=11.9457%$</li>
+<li>单J：$P_J=\frac{C_4^1<em>C_{9}^2</em>C_4^1<em>C_4^1-C_4^1</em>C_4^1<em>C_4^1-(C_4^1</em>C_{9}^2-C_4^1)}{C_{52}^3}=\frac{2100}{22100}=9.5023%$</li>
+<li>单10：$P_{10}=\frac{C_4^1<em>C_{8}^2</em>C_4^1<em>C_4^1-C_4^1</em>C_4^1<em>C_4^1-(C_4^1</em>C_{8}^2-C_4^1)}{C_{52}^3}=\frac{1620}{22100}=7.3303%$</li>
+<li>单9：$P_9=\frac{C_4^1<em>C_{7}^2</em>C_4^1<em>C_4^1-C_4^1</em>C_4^1<em>C_4^1-(C_4^1</em>C_{7}^2-C_4^1)}{C_{52}^3}=\frac{1200}{22100}=5.4299%$</li>
+<li>单8：$P_8=\frac{C_4^1<em>C_{6}^2</em>C_4^1<em>C_4^1-C_4^1</em>C_4^1<em>C_4^1-(C_4^1</em>C_{6}^2-C_4^1)}{C_{52}^3}=\frac{840}{22100}=3.8009%$</li>
+<li>单7：$P_7=\frac{C_4^1<em>C_{5}^2</em>C_4^1<em>C_4^1-C_4^1</em>C_4^1<em>C_4^1-(C_4^1</em>C_{5}^2-C_4^1)}{C_{52}^3}=\frac{540}{22100}=2.4434%$</li>
+<li>单6：$P_6=\frac{C_4^1<em>C_{4}^2</em>C_4^1<em>C_4^1-C_4^1</em>C_4^1<em>C_4^1-(C_4^1</em>C_{4}^2-C_4^1)}{C_{52}^3}=\frac{300}{22100}=1.3575%$</li>
+<li>单5：$P_5=\frac{C_4^1<em>C_{3}^2</em>C_4^1<em>C_4^1-C_4^1</em>C_4^1<em>C_4^1-(C_4^1</em>C_{3}^2-C_4^1)}{C_{52}^3}=\frac{120}{22100}=0.5430%$<br>不存在单4及其以下的单张牌型。<h1 id="3-程序模拟"><a href="#3-程序模拟" class="headerlink" title="3 程序模拟"></a>3 程序模拟</h1>采用随机抽样的方式，当样本容量足够大时，计算各牌型频率，可近似为概率。<br>程序设计的关键在于识别各种牌型，基本算法如下：</li>
+</ul>
+<ol>
+<li>定义两个列表，分别存放牌号和花色；</li>
+<li>从两个列表随机抽取一个数字，组合成一张牌</li>
+<li>按此方法抽取不完全相同的三张牌</li>
+<li>判断牌型</li>
+<li>记录牌型到频数字典中</li>
+<li>重复步骤2-5，直到达到设定的样本容量</li>
+<li>统计频数，计算各牌型频率</li>
+<li>绘制频率分布直方图<br>模拟1000万次，各牌型出现频率如下图<br><img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/20210223210236663.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzAxMjcyNA==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></li>
+</ol>
+</li>
+</ol>
+<h1 id="4-牌型胜率"><a href="#4-牌型胜率" class="headerlink" title="4 牌型胜率"></a>4 牌型胜率</h1><p>每种牌型胜率的理论计算涉及到条件概率，较为复杂，采用程序模拟。<br>基本算法如下：</p>
+<ol>
+<li>设定玩家人数</li>
+<li>随机发牌</li>
+<li>记录场上出现的牌型到出场频数字典中，重复的牌型都要计入</li>
+<li>按照规则比较场上牌型大小，记录下最大的牌型到胜利频数字典中，相同牌型只记录一次</li>
+<li>胜利频数字典对应牌型频数除以出场频数字典对应牌型频数，即为该牌型胜率</li>
+<li>绘制各牌型胜率直方图<br>随机发牌<strong>1000万次</strong>，<strong>6位玩家</strong>各牌型胜率如下：<br><img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/20210223214938392.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzAxMjcyNA==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></li>
+</ol>
+<p><strong>8位玩家</strong>各牌型胜率如下：<br><img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/20210223210130758.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzAxMjcyNA==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"><br><strong>10位玩家</strong>各牌型胜率如下：<br><img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/20210223214953786.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzAxMjcyNA==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+<h1 id="5-结论"><a href="#5-结论" class="headerlink" title="5 结论"></a>5 结论</h1><ul>
+<li>豹子比顺金出现的概率大，金花比顺子出现的概率大，但是豹子&gt;顺金，金花&gt;顺子</li>
+<li>所有牌型中，单A是最容易出现的，其次是对子，再次是单K</li>
+<li>单张牌型中，从单A到单5，出现的概率是递减的</li>
+<li>随着玩家人数增多，各种牌型胜率都在减小，金花的胜率约为80%，存在较大不确定性，这可能是该游戏叫做诈金花的原因<h1 id="6-代码"><a href="#6-代码" class="headerlink" title="6 代码"></a>6 代码</h1><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment">#创建时间：2021/2/20</span></span><br><span class="line"><span class="comment">#修改时间：2021/2/23</span></span><br><span class="line"><span class="comment">#程序目标：计算牌型出现概率及胜率</span></span><br><span class="line"><span class="keyword">import</span> random</span><br><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</span><br><span class="line"><span class="keyword">import</span> numpy</span><br><span class="line"><span class="keyword">import</span> copy</span><br><span class="line"></span><br><span class="line">name = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>, <span class="number">6</span>, <span class="number">7</span>, <span class="number">8</span>, <span class="number">9</span>, <span class="number">10</span>, <span class="number">11</span>, <span class="number">12</span>, <span class="number">13</span>] <span class="comment">#牌名，分别表示A，2，3...J，Q，K</span></span><br><span class="line">suit = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>] <span class="comment">#花色，分别表示红桃、梅花、方块、黑桃</span></span><br><span class="line">poker = []  <span class="comment">#一副牌，共52张，由牌名和花色组成</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> name:</span><br><span class="line">    <span class="keyword">for</span> j <span class="keyword">in</span> suit:</span><br><span class="line">        poker.append([i,j])</span><br><span class="line">poker_type = [<span class="string">&quot;单A&quot;</span>, <span class="string">&quot;单2&quot;</span>, <span class="string">&quot;单3&quot;</span>, <span class="string">&quot;单4&quot;</span>, <span class="string">&quot;单5&quot;</span>, <span class="string">&quot;单6&quot;</span>, <span class="string">&quot;单7&quot;</span>, <span class="string">&quot;单8&quot;</span>, <span class="string">&quot;单9&quot;</span>, <span class="string">&quot;单10&quot;</span>, <span class="string">&#x27;单J&#x27;</span>, <span class="string">&#x27;单Q&#x27;</span>, <span class="string">&#x27;单K&#x27;</span>]</span><br><span class="line">card_1 = []</span><br><span class="line">card_2 = [] </span><br><span class="line">card_3 = [] </span><br><span class="line">cards = [] <span class="comment">#三张牌</span></span><br><span class="line">Frequency = &#123;<span class="string">&quot;单5&quot;</span>:<span class="number">0</span>, <span class="string">&quot;单6&quot;</span>:<span class="number">0</span>, <span class="string">&quot;单7&quot;</span>:<span class="number">0</span>, <span class="string">&quot;单8&quot;</span>:<span class="number">0</span>, <span class="string">&quot;单9&quot;</span>:<span class="number">0</span>, <span class="string">&quot;单10&quot;</span>:<span class="number">0</span>, <span class="string">&quot;单J&quot;</span>:<span class="number">0</span>, <span class="string">&quot;单Q&quot;</span>:<span class="number">0</span>, <span class="string">&quot;单K&quot;</span>:<span class="number">0</span>, <span class="string">&quot;单A&quot;</span>:<span class="number">0</span>, <span class="string">&quot;对子&quot;</span>:<span class="number">0</span>, <span class="string">&quot;顺子&quot;</span>:<span class="number">0</span>, <span class="string">&quot;金花&quot;</span>:<span class="number">0</span>, <span class="string">&quot;顺金&quot;</span>:<span class="number">0</span>, <span class="string">&quot;豹子&quot;</span>:<span class="number">0</span>&#125; <span class="comment">#频数字典</span></span><br><span class="line">FrequencyGroup = copy.deepcopy(Frequency) <span class="comment">#出场频数字典</span></span><br><span class="line">FrequencyVictory = copy.deepcopy(Frequency) <span class="comment">#胜利频数字典</span></span><br><span class="line">cards_type_rate = copy.deepcopy(Frequency)  <span class="comment">#胜率字典</span></span><br><span class="line">rate = &#123;&#125;  <span class="comment">#频率字典</span></span><br><span class="line">times = int(<span class="number">1e7</span>) <span class="comment">#抽牌次数</span></span><br><span class="line">N = <span class="number">8</span> <span class="comment">#玩家数量</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#随机抽取三张牌</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">DrawCards</span>(<span class="params">poker</span>):</span></span><br><span class="line">    cards = random.sample(poker, <span class="number">3</span>)</span><br><span class="line">    <span class="keyword">return</span> cards</span><br><span class="line"></span><br><span class="line"><span class="comment">#多人抽取三张牌</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">DrawCardsGroup</span>(<span class="params">N</span>):</span></span><br><span class="line">    poker_temp = poker[:] <span class="comment">#临时扑克牌组  注意：这里不能直接用poker_temp = poker，否则只是引用</span></span><br><span class="line">    cards_group = [] <span class="comment">#多人的三张牌</span></span><br><span class="line">    <span class="keyword">for</span> j <span class="keyword">in</span> range(N):</span><br><span class="line">        cards_group.append(DrawCards(poker_temp))  <span class="comment">#存放各人的三张牌列表</span></span><br><span class="line">        <span class="keyword">for</span> card <span class="keyword">in</span> cards_group[<span class="number">-1</span>]: <span class="comment">#去掉已抽取的牌</span></span><br><span class="line">            poker_temp.remove(card)</span><br><span class="line">    <span class="keyword">return</span> cards_group</span><br><span class="line"></span><br><span class="line"><span class="comment">#判断牌型</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">ClassifyCards</span>(<span class="params">cards</span>):</span></span><br><span class="line">    cards_name = [cards[<span class="number">0</span>][<span class="number">0</span>], cards[<span class="number">1</span>][<span class="number">0</span>], cards[<span class="number">2</span>][<span class="number">0</span>]]  <span class="comment">#牌名</span></span><br><span class="line">    cards_suit = [cards[<span class="number">0</span>][<span class="number">1</span>], cards[<span class="number">1</span>][<span class="number">1</span>], cards[<span class="number">2</span>][<span class="number">1</span>]]  <span class="comment">#花色</span></span><br><span class="line">    cards_name.sort()</span><br><span class="line">    cards_suit.sort()</span><br><span class="line">    cards_type = <span class="string">&quot;&quot;</span></span><br><span class="line">    <span class="keyword">if</span> cards_suit[<span class="number">0</span>] == cards_suit[<span class="number">2</span>]:  <span class="comment">#三张牌花色相同，为顺金或金花  </span></span><br><span class="line">        <span class="keyword">if</span> (cards_name[<span class="number">2</span>]-cards_name[<span class="number">1</span>]==<span class="number">1</span> <span class="keyword">and</span> cards_name[<span class="number">1</span>]-cards_name[<span class="number">0</span>]==<span class="number">1</span>) <span class="keyword">or</span> (cards_name[<span class="number">0</span>]==<span class="number">1</span> <span class="keyword">and</span> cards_name[<span class="number">1</span>]==<span class="number">12</span> <span class="keyword">and</span> cards_name[<span class="number">2</span>]==<span class="number">13</span>): <span class="comment">#三张牌成等差数列即为顺金，否则为金花</span></span><br><span class="line">            cards_type = <span class="string">&quot;顺金&quot;</span></span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            cards_type = <span class="string">&quot;金花&quot;</span></span><br><span class="line">    <span class="keyword">elif</span> (cards_name[<span class="number">2</span>]-cards_name[<span class="number">1</span>]==<span class="number">1</span> <span class="keyword">and</span> cards_name[<span class="number">1</span>]-cards_name[<span class="number">0</span>]==<span class="number">1</span>) <span class="keyword">or</span> (cards_name[<span class="number">0</span>]==<span class="number">1</span> <span class="keyword">and</span> cards_name[<span class="number">1</span>]==<span class="number">12</span> <span class="keyword">and</span> cards_name[<span class="number">2</span>]==<span class="number">13</span>): <span class="comment">#三张牌成等差数列，但花色不同</span></span><br><span class="line">        cards_type = <span class="string">&quot;顺子&quot;</span></span><br><span class="line">    <span class="keyword">elif</span> (cards_name[<span class="number">0</span>] == cards_name[<span class="number">1</span>]) <span class="keyword">or</span> (cards_name[<span class="number">1</span>] == cards_name[<span class="number">2</span>]): <span class="comment">#牌名存在对子</span></span><br><span class="line">        <span class="keyword">if</span> cards_name[<span class="number">0</span>] == cards_name[<span class="number">2</span>]:   <span class="comment">#三张牌牌名相同，即为豹子</span></span><br><span class="line">            cards_type = <span class="string">&quot;豹子&quot;</span></span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            cards_type = <span class="string">&quot;对子&quot;</span></span><br><span class="line">    <span class="keyword">else</span>:</span><br><span class="line">        <span class="keyword">if</span> cards_name[<span class="number">0</span>] == <span class="number">1</span>:  <span class="comment">#单A</span></span><br><span class="line">            cards_type = <span class="string">&quot;单A&quot;</span></span><br><span class="line">        <span class="keyword">else</span>:</span><br><span class="line">            cards_type = poker_type[cards_name[<span class="number">2</span>]<span class="number">-1</span>]</span><br><span class="line">    <span class="keyword">return</span> cards_type</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">CountCards</span>(<span class="params">cards_type</span>):</span>  <span class="comment">#计算频数</span></span><br><span class="line">    Frequency[cards_type] = Frequency.get(cards_type, <span class="number">0</span>) + <span class="number">1</span> <span class="comment">#记录牌型频数到频数字典中</span></span><br><span class="line">    <span class="keyword">return</span> Frequency</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">CardsPower</span>(<span class="params">cards_type</span>):</span> <span class="comment">#确定牌型牌力</span></span><br><span class="line">    cards_power = list(Frequency.keys()).index(cards_type)  <span class="comment">#以列表索引代表牌力</span></span><br><span class="line">    <span class="keyword">return</span> cards_power</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">CardsType</span>(<span class="params">cards_power</span>):</span> <span class="comment">#根据牌力确定牌型</span></span><br><span class="line">    cards_type = list(Frequency.keys())[cards_power]</span><br><span class="line">    <span class="keyword">return</span> cards_type</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">CountCardsGroup</span>(<span class="params">cards_group</span>):</span></span><br><span class="line">    cards_power_group = []  <span class="comment">#多人牌力列表</span></span><br><span class="line">    <span class="keyword">for</span> cards <span class="keyword">in</span> cards_group:  <span class="comment">#遍历所有人的手牌</span></span><br><span class="line">        cards_type = ClassifyCards(cards)  <span class="comment">#判断牌型</span></span><br><span class="line">        FrequencyGroup[cards_type] = FrequencyGroup.get(cards_type, <span class="number">0</span>) + <span class="number">1</span> <span class="comment">#记录牌型频数到出场频数字典中 </span></span><br><span class="line">        cards_power = CardsPower(cards_type) <span class="comment">#计算牌力</span></span><br><span class="line">        cards_power_group.append(cards_power) <span class="comment">#添加牌力到列表中</span></span><br><span class="line">    cards_power_group.sort()  <span class="comment">#牌力排序，默认从小到大</span></span><br><span class="line">    cards_type = CardsType(cards_power_group[<span class="number">-1</span>])  <span class="comment">#判断胜利牌型</span></span><br><span class="line">    FrequencyVictory[cards_type] = FrequencyVictory.get(cards_type, <span class="number">0</span>) + <span class="number">1</span> <span class="comment">#记录胜利牌型频数到胜利频数字典中</span></span><br><span class="line">    <span class="keyword">return</span> FrequencyGroup, FrequencyVictory</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">CardsTypeRate</span>(<span class="params">FrequencyGroup, FrequencyVictory</span>):</span> <span class="comment">#计算牌型胜率</span></span><br><span class="line">    <span class="keyword">for</span> key <span class="keyword">in</span> FrequencyGroup:</span><br><span class="line">        <span class="keyword">if</span> FrequencyGroup[key] != <span class="number">0</span>:</span><br><span class="line">            cards_type_rate[key] = FrequencyVictory[key] / FrequencyGroup[key] *<span class="number">100</span> <span class="comment">#计算胜率</span></span><br><span class="line">    <span class="keyword">return</span> cards_type_rate</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">#绘制各牌型频率分布直方图</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">DrawRate</span>(<span class="params">Frequency</span>):</span></span><br><span class="line">    <span class="keyword">for</span> key <span class="keyword">in</span> Frequency: </span><br><span class="line">        rate[key] = Frequency[key] / times *<span class="number">100</span>  <span class="comment">#计算频率</span></span><br><span class="line">    card_type = list(rate.keys())  <span class="comment">#牌型</span></span><br><span class="line">    card_rate = list(rate.values())  <span class="comment">#频率</span></span><br><span class="line">    plt.rcParams[<span class="string">&quot;font.sans-serif&quot;</span>] = [<span class="string">&quot;KaiTi&quot;</span>]  <span class="comment">#中文乱码处理</span></span><br><span class="line">    plt.rcParams[<span class="string">&#x27;axes.unicode_minus&#x27;</span>] = <span class="literal">False</span></span><br><span class="line">    plt.bar(range(len(card_rate)),card_rate, align = <span class="string">&quot;center&quot;</span>,color = [numpy.random.random(<span class="number">3</span>) <span class="keyword">for</span> i <span class="keyword">in</span> range(len(card_rate))],alpha = <span class="number">0.6</span>)</span><br><span class="line">    plt.ylabel(<span class="string">&quot;概率(%)&quot;</span>)</span><br><span class="line">    plt.ylim([<span class="number">0</span>,<span class="number">20</span>])</span><br><span class="line">    plt.xticks(range(len(card_type)), card_type)</span><br><span class="line">    plt.xlabel(<span class="string">&quot;牌型&quot;</span>)</span><br><span class="line">    plt.title(<span class="string">&quot;牌型频率分布直方图&quot;</span>)</span><br><span class="line">    <span class="keyword">for</span> x,y <span class="keyword">in</span> enumerate(card_rate):</span><br><span class="line">        plt.text(x,y+<span class="number">0.5</span>,<span class="string">&#x27;%s&#x27;</span> %round(y,<span class="number">4</span>),ha=<span class="string">&#x27;center&#x27;</span>)<span class="comment"># y+0.5 标签的坐标</span></span><br><span class="line">    plt.savefig(<span class="string">r&quot;D:\program\MyPythonSpace\rate.png&quot;</span>)</span><br><span class="line">    plt.show()</span><br><span class="line"></span><br><span class="line"><span class="comment">#绘制牌型胜率直方图</span></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">DrawVictoryRate</span>(<span class="params">rate</span>):</span></span><br><span class="line">    card_type = list(rate.keys())  <span class="comment">#牌型</span></span><br><span class="line">    card_rate = list(rate.values())  <span class="comment">#胜率</span></span><br><span class="line">    plt.rcParams[<span class="string">&quot;font.sans-serif&quot;</span>] = [<span class="string">&quot;KaiTi&quot;</span>]  <span class="comment">#中文乱码处理</span></span><br><span class="line">    plt.rcParams[<span class="string">&#x27;axes.unicode_minus&#x27;</span>] = <span class="literal">False</span></span><br><span class="line">    plt.bar(range(len(card_rate)),card_rate, align = <span class="string">&quot;center&quot;</span>,color = [numpy.random.random(<span class="number">3</span>) <span class="keyword">for</span> i <span class="keyword">in</span> range(len(card_rate))],alpha = <span class="number">0.6</span>)</span><br><span class="line">    plt.ylabel(<span class="string">&quot;胜率(%)&quot;</span>)</span><br><span class="line">    plt.ylim([<span class="number">0</span>,<span class="number">100</span>])</span><br><span class="line">    plt.xticks(range(len(card_type)), card_type)</span><br><span class="line">    plt.xlabel(<span class="string">&quot;牌型&quot;</span>)</span><br><span class="line">    plt.title(<span class="string">&quot;牌型胜率直方图&quot;</span>)</span><br><span class="line">    <span class="keyword">for</span> x,y <span class="keyword">in</span> enumerate(card_rate):</span><br><span class="line">        plt.text(x,y+<span class="number">3</span>,<span class="string">&#x27;%s&#x27;</span> %round(y,<span class="number">4</span>),ha=<span class="string">&#x27;center&#x27;</span>)<span class="comment"># y+300 标签的坐标</span></span><br><span class="line">    plt.savefig(<span class="string">r&quot;D:\program\MyPythonSpace\victory_rate.png&quot;</span>)</span><br><span class="line">    plt.show()</span><br><span class="line"></span><br><span class="line"><span class="comment">#主函数</span></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> range(times):</span><br><span class="line">    cards = DrawCards(poker) <span class="comment">#从一副扑克牌中随机抽取三张牌</span></span><br><span class="line">    cards_type = ClassifyCards(cards) <span class="comment">#确定手牌牌型</span></span><br><span class="line">    Frequency = CountCards(cards_type) <span class="comment">#记录频数</span></span><br><span class="line"></span><br><span class="line">    cards_group = DrawCardsGroup(N) <span class="comment">#从一副扑克牌中随机抽取N个人的三张牌</span></span><br><span class="line">    FrequencyGroup, FrequencyVictory = CountCardsGroup(cards_group) <span class="comment">#记录出场频数字典和胜利频数字典</span></span><br><span class="line"></span><br><span class="line"><span class="comment">#绘制直方图</span></span><br><span class="line">cards_type_rate = CardsTypeRate(FrequencyGroup, FrequencyVictory)  <span class="comment">#计算牌型胜率  </span></span><br><span class="line">DrawRate(Frequency) <span class="comment">#绘制牌型频率分布直方图</span></span><br><span class="line">DrawVictoryRate(cards_type_rate) <span class="comment">#绘制牌型胜率直方图</span></span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+<h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:1847096852@qq.com">naive</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://lujiabo98.github.io/2021/02/23/Python05/">http://lujiabo98.github.io/2021/02/23/Python05/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://lujiabo98.github.io" target="_blank">MyBlog</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E6%B8%B8%E6%88%8F/">游戏</a><a class="post-meta__tags" href="/tags/%E6%89%91%E5%85%8B%E7%89%8C/">扑克牌</a><a class="post-meta__tags" href="/tags/%E6%A6%82%E7%8E%87/">概率</a><a class="post-meta__tags" href="/tags/%E8%AF%88%E9%87%91%E8%8A%B1/">诈金花</a></div><div class="post_share"><div class="social-share" data-image="https://bkimg.cdn.bcebos.com/pic/08f790529822720edf31b55d71cb0a46f31fab9e" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><div class="post-reward"><div class="reward-button button--animated"><i class="fas fa-qrcode"></i> 打赏</div><div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="https://cdn.jsdelivr.net/gh/lujiabo98/ImageHosting/img/wechat.png" target="_blank"><img class="post-qr-code-img" data-lazy-src="https://cdn.jsdelivr.net/gh/lujiabo98/ImageHosting/img/wechat.png" alt="微信"/></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a href="https://cdn.jsdelivr.net/gh/lujiabo98/ImageHosting/img/alipay.jpg" target="_blank"><img class="post-qr-code-img" data-lazy-src="https://cdn.jsdelivr.net/gh/lujiabo98/ImageHosting/img/alipay.jpg" alt="支付宝"/></a><div class="post-qr-code-desc">支付宝</div></li></ul></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-full"><a href="/2021/02/08/Cpp03/"><img class="prev-cover" data-lazy-src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fwww-static.zhan.com%2Fuploadfile%2F2019%2F12%2F13%2F347164_2019121310501416YAa.jpg&amp;refer=http%3A%2F%2Fwww-static.zhan.com&amp;app=2002&amp;size=f9999,10000&amp;q=a80&amp;n=0&amp;g=0n&amp;fmt=jpeg?sec=1615378606&amp;t=f393ade49f9bf7f661d8c8809db76cef" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">【C++】03 错题笔记</div></div></a></div></nav><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div><div id="comment-switch"><span class="first-comment">Valine</span><span class="switch-btn"></span><span class="second-comment">Disqus</span></div></div><div class="comment-wrap"><div><div class="vcomment" id="vcomment"></div></div><div><div id="disqus_thread"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-info-avatar is-center"><img class="avatar-img" data-lazy-src="https://s3.jpg.cm/2020/08/09/bwNNX.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-info__name">naive</div><div class="author-info__description">学习，记录，分享，进步</div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">43</div></a></div><div class="card-info-data-item is-center"><a href="/tags/"><div class="headline">标签</div><div class="length-num">71</div></a></div><div class="card-info-data-item is-center"><a href="/categories/"><div class="headline">分类</div><div class="length-num">9</div></a></div></div><a class="button--animated" id="card-info-btn" href="https://lujiabo98.github.io/"><i class="far fa-bookmark"></i><span>Ctrl + D 加入书签</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://blog.csdn.net/weixin_43012724" target="_blank" title="CSDN"><i class="iconfont icon-csdn"></i></a><a class="social-icon" href="https://github.com/lujiabo98" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:1847096852@qq.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a><a class="social-icon" href="https://www.zhihu.com/people/ao-shi-gu-xing-84" target="_blank" title="Zhihu"><i class="fab fa-zhihu"></i></a><a class="social-icon" href="https://weibo.com/3671014264/profile?rightmod=1&amp;wvr=6&amp;mod=personinfo" target="_blank" title="Weibo"><i class="fab fa-weibo"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>公告</span></div><div class="announcement_content">欢迎访问我的博客！</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#0-%E5%89%8D%E8%A8%80"><span class="toc-text">0 前言</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#1-%E6%B8%B8%E6%88%8F%E8%A7%84%E5%88%99"><span class="toc-text">1 游戏规则</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#2-%E6%A6%82%E7%8E%87%E8%AE%A1%E7%AE%97"><span class="toc-text">2 概率计算</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#3-%E7%A8%8B%E5%BA%8F%E6%A8%A1%E6%8B%9F"><span class="toc-text">3 程序模拟</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#4-%E7%89%8C%E5%9E%8B%E8%83%9C%E7%8E%87"><span class="toc-text">4 牌型胜率</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#5-%E7%BB%93%E8%AE%BA"><span class="toc-text">5 结论</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#6-%E4%BB%A3%E7%A0%81"><span class="toc-text">6 代码</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99"><span class="toc-text">参考资料</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2021/02/23/Python05/" title="【Python】05 当我旁观诈鸡时，我在想些什么"><img data-lazy-src="https://bkimg.cdn.bcebos.com/pic/08f790529822720edf31b55d71cb0a46f31fab9e" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【Python】05 当我旁观诈鸡时，我在想些什么"/></a><div class="content"><a class="title" href="/2021/02/23/Python05/" title="【Python】05 当我旁观诈鸡时，我在想些什么">【Python】05 当我旁观诈鸡时，我在想些什么</a><time datetime="2021-02-23T13:57:54.000Z" title="发表于 2021-02-23 21:57:54">2021-02-23</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/02/08/Cpp03/" title="【C++】03 错题笔记"><img data-lazy-src="https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fwww-static.zhan.com%2Fuploadfile%2F2019%2F12%2F13%2F347164_2019121310501416YAa.jpg&amp;refer=http%3A%2F%2Fwww-static.zhan.com&amp;app=2002&amp;size=f9999,10000&amp;q=a80&amp;n=0&amp;g=0n&amp;fmt=jpeg?sec=1615378606&amp;t=f393ade49f9bf7f661d8c8809db76cef" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【C++】03 错题笔记"/></a><div class="content"><a class="title" href="/2021/02/08/Cpp03/" title="【C++】03 错题笔记">【C++】03 错题笔记</a><time datetime="2021-02-08T12:13:19.000Z" title="发表于 2021-02-08 20:13:19">2021-02-08</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/02/06/Cpp02/" title="【C++】02 基础语法"><img data-lazy-src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1227339568,304852062&amp;fm=26&amp;gp=0.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【C++】02 基础语法"/></a><div class="content"><a class="title" href="/2021/02/06/Cpp02/" title="【C++】02 基础语法">【C++】02 基础语法</a><time datetime="2021-02-06T03:53:33.000Z" title="发表于 2021-02-06 11:53:33">2021-02-06</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/02/05/Cpp01/" title="【C++】01 C++ Primer Plus 读书笔记"><img data-lazy-src="https://cdn.ptpress.cn/pubcloud/bookImg/A20190961/20200701F892C57D.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【C++】01 C++ Primer Plus 读书笔记"/></a><div class="content"><a class="title" href="/2021/02/05/Cpp01/" title="【C++】01 C++ Primer Plus 读书笔记">【C++】01 C++ Primer Plus 读书笔记</a><time datetime="2021-02-05T05:20:38.000Z" title="发表于 2021-02-05 13:20:38">2021-02-05</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/02/01/2021-1/" title="【2021】01 最大流"><img data-lazy-src="https://cdn.jsdelivr.net/gh/lujiabo98/ImageHosting2@main/2021_1_1.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【2021】01 最大流"/></a><div class="content"><a class="title" href="/2021/02/01/2021-1/" title="【2021】01 最大流">【2021】01 最大流</a><time datetime="2021-02-01T08:27:01.000Z" title="发表于 2021-02-01 16:27:01">2021-02-01</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2021 By naive</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text">一万年太久，只争朝夕</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="chat_btn" type="button" title="rightside.chat_btn"><i class="fas fa-sms"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div></div><hr/><div id="local-search-results"></div><span class="search-close-button"><i class="fas fa-times"></i></span></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/medium-zoom/dist/medium-zoom.min.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><script src="/js/search/local-search.js"></script><div class="js-pjax"><script>function loadValine () {
+  function initValine () {
+    let initData = {
+      el: '#vcomment',
+      appId: '',
+      appKey: '',
+      placeholder: 'Please leave your footprints',
+      avatar: 'monsterid',
+      meta: 'nick,mail,link'.split(','),
+      pageSize: '10',
+      lang: 'zh-CN',
+      recordIP: false,
+      serverURLs: '',
+      emojiCDN: '',
+      emojiMaps: "",
+      enableQQ: false,
+      path: window.location.pathname,
+    }
+
+    if (true) { 
+      initData.requiredFields= ('nick,mail'.split(','))
+    }
+    
+    if (false) {
+      const otherData = false
+      initData = Object.assign(initData, otherData)
+    }
+    
+    const valine = new Valine(initData)
+  }
+
+  if (typeof Valine === 'function') initValine() 
+  else getScript('https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js').then(initValine)
+}
+
+if ('Valine' === 'Valine' || !false) {
+  if (false) btf.loadComment(document.getElementById('vcomment'),loadValine)
+  else setTimeout(loadValine, 0)
+} else {
+  function loadOtherComment () {
+    loadValine()
+  }
+}</script><script>function loadDisqus () {
+  var disqus_config = function () {
+    this.page.url = 'http://lujiabo98.github.io/2021/02/23/Python05/'
+    this.page.identifier = '2021/02/23/Python05/'
+    this.page.title = '【Python】05 当我旁观诈鸡时，我在想些什么'
+  };
+
+  window.disqusReset = () => {
+    DISQUS.reset({
+      reload: true,
+      config: disqus_config
+    })
+  }
+
+  if (window.DISQUS) disqusReset()
+  else {
+    (function() { 
+      var d = document, s = d.createElement('script');
+      s.src = 'https://.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  }
+}
+
+if ('Valine' === 'Disqus' || !false) {
+  if (false) btf.loadComment(document.getElementById('disqus_thread'), loadDisqus)
+  else loadDisqus()
+} else {
+  function loadOtherComment () {
+    loadDisqus()
+  }
+}
+</script></div><div class="aplayer no-destroy" data-id="000PeZCQ1i4XVs" data-server="tencent" data-type="artist" data-fixed="true" data-mini="true" data-listFolded="false" data-order="random" data-preload="none" data-autoplay="true" muted></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/gh/metowolf/MetingJS@1.2/dist/Meting.min.js"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
