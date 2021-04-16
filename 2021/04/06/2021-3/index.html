@@ -1,0 +1,264 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>【2021】03 C++ | MyBlog</title><meta name="keywords" content="日志,C++,赏樱"><meta name="author" content="naive,1847096852@qq.com"><meta name="copyright" content="naive"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="小结开学第一个月。 上个月的计划完成得比较好，看完了《C++ Primer Plus》，考了二级，感觉可拿良好以上，下一步是拿新安江模型和一维水动力学模型练手。但是，主要任务仍然是整理成果。这个月没完成河网多边形的成果整理。 下个月的计划：   整理河网多边形成果  C++编写新安江模型  精看2篇有关实时校正（数据同化） 相关的英文论文  锻炼2次  南京春游  1【学习】开学第一天。上午，去办">
+<meta property="og:type" content="article">
+<meta property="og:title" content="【2021】03 C++">
+<meta property="og:url" content="http://lujiabo98.github.io/2021/04/06/2021-3/index.html">
+<meta property="og:site_name" content="MyBlog">
+<meta property="og:description" content="小结开学第一个月。 上个月的计划完成得比较好，看完了《C++ Primer Plus》，考了二级，感觉可拿良好以上，下一步是拿新安江模型和一维水动力学模型练手。但是，主要任务仍然是整理成果。这个月没完成河网多边形的成果整理。 下个月的计划：   整理河网多边形成果  C++编写新安江模型  精看2篇有关实时校正（数据同化） 相关的英文论文  锻炼2次  南京春游  1【学习】开学第一天。上午，去办">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://img-blog.csdnimg.cn/20210322210313635.jpg">
+<meta property="article:published_time" content="2021-04-06T13:40:05.000Z">
+<meta property="article:modified_time" content="2021-04-16T13:18:49.444Z">
+<meta property="article:author" content="naive">
+<meta property="article:tag" content="日志">
+<meta property="article:tag" content="C++">
+<meta property="article:tag" content="赏樱">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://img-blog.csdnimg.cn/20210322210313635.jpg"><link rel="shortcut icon" href="https://s3.jpg.cm/2020/08/09/bwNNX.jpg"><link rel="canonical" href="http://lujiabo98.github.io/2021/04/06/2021-3/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//fonts.googleapis.com" crossorigin=""/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Titillium+Web&amp;display=swap" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"limitCount":50,"languages":{"author":"作者: naive","link":"链接: ","source":"来源: MyBlog","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
+  lightbox: 'mediumZoom',
+  Snackbar: {"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#121212","position":"bottom-left"},
+  source: {
+    jQuery: 'https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js',
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+    },
+    fancybox: {
+      js: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isanchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = { 
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2021-04-16 21:18:49'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    })(window)</script><link rel="stylesheet" href="//at.alicdn.com/t/font_1991083_l2khi94ltp.css"><link rel="stylesheet" href="//at.alicdn.com/t/font_1991083_seiik64bc5c.css"><style type="text/css">#toggle-sidebar {bottom: 80px}</style><meta name="generator" content="Hexo 5.0.0"><link rel="alternate" href="/atom.xml" title="MyBlog" type="application/atom+xml">
+</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="author-avatar"><img class="avatar-img" data-lazy-src="https://s3.jpg.cm/2020/08/09/bwNNX.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">文章</div><div class="length-num">45</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/tags/"><div class="headline">标签</div><div class="length-num">74</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/categories/"><div class="headline">分类</div><div class="length-num">9</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></div><div class="menus_item"><a class="site-page" href="/Gallery/"><i class="fa-fw fas fa-images"></i><span> 相册</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw iconfont icon-yule"></i><span> 娱乐</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li><li><a class="site-page" href="/books/"><i class="fa-fw fas fa-book"></i><span> 书籍</span></a></li><li><a class="site-page" href="/games/"><i class="fa-fw fas fa-gamepad"></i><span> 游戏</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url('https://marj3.azureedge.net/wp-content/uploads/2020/05/Developer-Bootcamp-CC-Programmer-Bootcamp-1-e1590208110878.jpg')"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">MyBlog</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时间轴</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/music/"><i class="fa-fw fas fa-music"></i><span> 音乐</span></a></div><div class="menus_item"><a class="site-page" href="/Gallery/"><i class="fa-fw fas fa-images"></i><span> 相册</span></a></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><i class="fa-fw iconfont icon-yule"></i><span> 娱乐</span><i class="fas fa-chevron-down expand"></i></a><ul class="menus_item_child"><li><a class="site-page" href="/movies/"><i class="fa-fw fas fa-video"></i><span> 电影</span></a></li><li><a class="site-page" href="/books/"><i class="fa-fw fas fa-book"></i><span> 书籍</span></a></li><li><a class="site-page" href="/games/"><i class="fa-fw fas fa-gamepad"></i><span> 游戏</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">【2021】03 C++<a class="post-edit-link" href="https://github.com/lujiabo98/lujiabo98.github.io/edit/master/2020_posts/2021-3.md" title="编辑" target="_blank"><i class="fas fa-pencil-alt"></i></a></h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2021-04-06T13:40:05.000Z" title="发表于 2021-04-06 21:40:05">2021-04-06</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2021-04-16T13:18:49.444Z" title="更新于 2021-04-16 21:18:49">2021-04-16</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E6%97%B6%E9%97%B4%E9%83%BD%E5%8E%BB%E5%93%AA%E5%84%BF%E4%BA%86/">时间都去哪儿了</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">1.6k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>5分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span><span class="post-meta-separator">|</span><span class="post-meta-commentcount"><i class="far fa-comments fa-fw post-meta-icon"></i><span class="post-meta-label">评论数:</span><a href="/2021/04/06/2021-3/#post-comment" itemprop="discussionUrl"><span class="valine-comment-count" data-xid="/2021/04/06/2021-3/" itemprop="commentCount"></span></a></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><h1 id="小结"><a href="#小结" class="headerlink" title="小结"></a>小结</h1><p>开学第一个月。</p>
+<p>上个月的计划完成得比较好，看完了《C++ Primer Plus》，考了二级，感觉可拿良好以上，下一步是拿新安江模型和一维水动力学模型练手。<br>但是，主要任务仍然是整理成果。这个月没完成河网多边形的成果整理。</p>
+<p>下个月的计划：</p>
+<ul>
+<li><input disabled="" type="checkbox"> 整理河网多边形成果</li>
+<li><input disabled="" type="checkbox"> C++编写新安江模型</li>
+<li><input disabled="" type="checkbox"> 精看2篇有关实时校正（数据同化） 相关的英文论文</li>
+<li><input checked="" disabled="" type="checkbox"> 锻炼2次</li>
+<li><input checked="" disabled="" type="checkbox"> 南京春游</li>
+</ul>
+<h1 id="1"><a href="#1" class="headerlink" title="1"></a>1</h1><p>【学习】<br>开学第一天。<br>上午，去办公室和导师讨论研究课题，自动优化程序。<br>下午，听导师讲解新安江模型代码。<br>晚上，看完<a target="_blank" rel="noopener" href="https://www.epubit.com/onlineEbookReader?id=3636d90b-c32a-478f-a9b8-53bd2d00b0c5&pid=fc263558-ba2e-4c87-89da-446ebd23b552&isFalls=true">C++ Primer Plus第6章</a>，做完<a target="_blank" rel="noopener" href="https://labs.epubit.com/outLinkPreview?id=f97b2200-67c1-4bb2-bb6b-03dbadb18604">第5章课后习题</a>。</p>
+<h1 id="2"><a href="#2" class="headerlink" title="2"></a>2</h1><p>【学习】<br>上午，看新安江模型代码。<br>下午及晚上，看完<a target="_blank" rel="noopener" href="https://www.epubit.com/onlineEbookReader?id=bd1f85bb-4c25-487f-8c93-f4c4d7519c0c&pid=fc263558-ba2e-4c87-89da-446ebd23b552&isFalls=true">C++ Primer Plus第7章</a>。</p>
+<h1 id="3"><a href="#3" class="headerlink" title="3"></a>3</h1><p>【学习】<br>上午，看新安江模型代码。<br>下午，看完C++ Primer Plus第8章，听导师讲解类的继承和派生。<br>【生活】<br>晚上，和zgr打羽毛球，累。<br>晚上，在B站看了电影《毕业生》，随性。</p>
+<h1 id="4"><a href="#4" class="headerlink" title="4"></a>4</h1><p>【生活】<br>购买小米负离子电吹风。<br>【学习】<br>上午及下午，撰写河网多边形论文。<br>晚上，看完C++ Primer Plus第9章。</p>
+<h1 id="5"><a href="#5" class="headerlink" title="5"></a>5</h1><p>【工作】<br>上午及下午，随导师杭州出差，商议南排工程项目。<br>【学习】<br>晚上，看C++ Primer Plus第10章。</p>
+<h1 id="6"><a href="#6" class="headerlink" title="6"></a>6</h1><p>【生活】<br>下午，去医院挂消化内科查幽门螺杆菌感染。<br>晚上，lkc在steam上送我戴森球计划，玩了下教程，感觉挺好玩的，就是费时间，有空玩玩。<br>【学习】<br>晚上，看完C++ Primer Plus第10、11章。</p>
+<h1 id="7"><a href="#7" class="headerlink" title="7"></a>7</h1><p>【学习】<br>上午，做C++真题。<br>下午，听导师C++语法答疑。<br>晚上，做完6套C++二级模拟题。<br>【生活】<br>晚上，在steam上玩戴森球，2小时唰一下就没了。</p>
+<h1 id="8"><a href="#8" class="headerlink" title="8"></a>8</h1><p>【学习】<br>上午，做完3套C++模拟题。<br>下午，讨论卡尔曼滤波与新安江模型接口。<br>【生活】<br>晚上，玩戴森球到凌晨1点，好玩。</p>
+<h1 id="9"><a href="#9" class="headerlink" title="9"></a>9</h1><p>【学习】<br>晚上，做完3套C++模拟题。<br>【生活】<br>晚上，玩戴森球到凌晨1点，太肝了。</p>
+<blockquote>
+<p>今天是大年初—，让我们来造个戴森球吧…….<br>戴森球造好了，该下楼吃年夜饭了。</p>
+</blockquote>
+<h1 id="10"><a href="#10" class="headerlink" title="10"></a>10</h1><p>【学习】<br>下午及晚上，看完C++ Primer Plus第12章。</p>
+<h1 id="11"><a href="#11" class="headerlink" title="11"></a>11</h1><p>【生活】<br>上午，空腹去医院。<br>口腔科：火气大，多喝水、菊花茶、多吃蔬菜水果黄瓜西红柿，开药降火<br>耳鼻喉科：没有扁桃体结石，咽炎严重，一般扁桃体结石在表面能看到，吃饭碎屑会掉入<br>消化内科：无幽门螺旋杆菌感染<br>内分泌科：消化快，消瘦，抽血查甲状腺<br>【工作】<br>下午，录制二维水动力学模型视频。<br>晚上，录制一二维耦合模型。</p>
+<h1 id="12"><a href="#12" class="headerlink" title="12"></a>12</h1><p>【生活】<br>下午，去医院拿血清报告，正常范围。<br>下午，去营业厅办校园手机卡。<br>【工作】<br>下午，淮安洪水淹没风险分析项目讨论会。<br>【学习】<br>晚上，看完C++ Primer Plus第13章。</p>
+<h1 id="13"><a href="#13" class="headerlink" title="13"></a>13</h1><p>【生活】<br>上午，办了张新校园手机卡。<br>下午，买电瓶车。<br>晚上，新街口吃宜宾燃面，味道不错。饭后，新百买两件T恤。玩戴森球。</p>
+<h1 id="14"><a href="#14" class="headerlink" title="14"></a>14</h1><p>【生活】<br>上午，玩戴森球，取外星挖钛矿。<br>下午，和同门去莫愁湖公园。<br><img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/20210314212718301.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzAxMjcyNA==,size_16,color_FFFFFF,t_0#pic_center" alt="在这里插入图片描述"><br>【学习】<br>晚上，看完C++ Primer Plus第14章。</p>
+<h1 id="15"><a href="#15" class="headerlink" title="15"></a>15</h1><p>【工作】<br>下午及晚上，完成胶东水量调度项目报告。</p>
+<h1 id="16"><a href="#16" class="headerlink" title="16"></a>16</h1><p>【生活】<br>下午，去祥龙上牌。<br>【学习】<br>晚上，看完C++ Primer Plus第16章。<br>投稿<a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s?__biz=MzA5MDEzODg4MQ==&mid=2662143531&idx=1&sn=2f9c6513159850ab1b17f062dda192c6&chksm=8b498645bc3e0f535fb8df8c4441d1bae96fd7bf3a3c28c1895a015c7aebf15343b8b8fb2e75&mpshare=1&scene=23&srcid=03056MbjTv0LjmO40xNRvRph&sharer_sharetime=1615364597700&sharer_shareid=22c8a1d91800be7c0fbd6c372229bed3#rd">清华大学水利系“治者论水”博士生学术论坛</a>。</p>
+<h1 id="17"><a href="#17" class="headerlink" title="17"></a>17</h1><p>【生活】<br>上午，去校医院尿检。<br>晚上，确定周末去武大赏樱。<br>【学习】<br>下午，听师兄讲深度学习，做完3套C++二级选择题。<br>晚上，完成“治者论水”论坛投稿。</p>
+<h1 id="18"><a href="#18" class="headerlink" title="18"></a>18</h1><p>【学习】<br>下午及晚上，做完3套C++二级选择题。<br>【工作】<br>上午，分配英语小组配音作业任务。</p>
+<h1 id="19"><a href="#19" class="headerlink" title="19"></a>19</h1><p>【学习】<br>下午，做完3套C++二级选择题。<br>【工作】<br>下午，参加杭州南排项目组会。<br>晚上，参加组织生活会。</p>
+<h1 id="20"><a href="#20" class="headerlink" title="20"></a>20</h1><p>【生活】<br>武汉赏樱。早上7点起床，与wl乘9点坐高铁，11点45到武汉站，乘地铁12点半到如派旅店，与wl,sj在舌尖大师吃午餐，约2点进入正门，走樱花大道赏樱至珞珈山，由clb带领到老图书馆、九一二操场拍照，后至万林艺术博物馆，参观后经宋卿体育馆至工学部。先后参观世纪广场、雅各楼、城市设计学院、水利水电学院、水利水电工程国家级实验教学示范中心水力学流体力实验室，最后在在网球场乘大循环到信息学部二号门出武大。晚上在银泰吃过楚韵尘香后，步行回宾馆休息。<br>《大时代》<br>数学建模终身受益，课程设计初露头角。<br>优化模拟各有所爱，追求梦想各奔东西。<br>机器学习殊途同归，历史进程光明未来。<br><img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/20210322210313635.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_0,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzAxMjcyNA==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"></p>
+<h1 id="21"><a href="#21" class="headerlink" title="21"></a>21</h1><p>【生活】<br>早上8点半起床，点蔡林记热干面外卖，打车去东湖，后先后游览樱园、快乐丛林、索道上山、滑道下山，后去梨园广场吃晚饭，打的由武汉站返回南京。旅程结束，心情愉悦。<img src= "/img/loading.gif" data-lazy-src="https://img-blog.csdnimg.cn/20210322210224110.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_0,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MzAxMjcyNA==,size_16,color_FFFFFF,t_70#pic_center" alt="在这里插入图片描述"><br>【学习】<br>晚上，和导师讨论新安江模型汇流计算问题。</p>
+<h1 id="22"><a href="#22" class="headerlink" title="22"></a>22</h1><p>【学习】<br>上午，水电院机房做C++二级模拟考试。<br>晚上，做C++模拟题。<br>【工作】<br>下午，补充CPC材料。</p>
+<h1 id="23"><a href="#23" class="headerlink" title="23"></a>23</h1><p>【学习】<br>晚上，做C++二级操作题。</p>
+<h1 id="24"><a href="#24" class="headerlink" title="24"></a>24</h1><p>【学习】<br>上午，做C++二级选择题。<br>下午及晚上，做C++二级操作题。</p>
+<h1 id="25"><a href="#25" class="headerlink" title="25"></a>25</h1><p>【生活】<br>下午，和师兄打羽毛球。<br>晚上，和xx去采耳，吃串串。<br>【学习】<br>晚上，英语动画配音。</p>
+<h1 id="26"><a href="#26" class="headerlink" title="26"></a>26</h1><p>【生活】<br>下午，和wl看哥斯拉大战金刚。<br>【工作】<br>晚上，看拓展需求。</p>
+<h1 id="27"><a href="#27" class="headerlink" title="27"></a>27</h1><p>【工作】<br>下午及晚上，做拓展项目。</p>
+<h1 id="28"><a href="#28" class="headerlink" title="28"></a>28</h1><p>【学习】<br>上午，复习C++二级选择题。<br>下午，参加C++二级考试，选择题较难，大题简单。<br>【工作】<br>下午，做拓展项目。<br>【生活】<br>晚上，和wl散步。</p>
+<h1 id="29"><a href="#29" class="headerlink" title="29"></a>29</h1><p>【学习】<br>上午及下午，撰写骨干河网专利。<br>【工作】<br>晚上，做拓展项目。</p>
+<h1 id="30"><a href="#30" class="headerlink" title="30"></a>30</h1><p>【生活】<br>晚上，湖北路吃热干面。<br>【工作】<br>晚上，做拓展项目。</p>
+<h1 id="31"><a href="#31" class="headerlink" title="31"></a>31</h1><p>【工作】<br>下午，做拓展项目。<br>【生活】<br>晚上，看王家卫《花样年华》，节奏挺好的。</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:1847096852@qq.com">naive</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://lujiabo98.github.io/2021/04/06/2021-3/">http://lujiabo98.github.io/2021/04/06/2021-3/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://lujiabo98.github.io" target="_blank">MyBlog</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E6%97%A5%E5%BF%97/">日志</a><a class="post-meta__tags" href="/tags/C/">C++</a><a class="post-meta__tags" href="/tags/%E8%B5%8F%E6%A8%B1/">赏樱</a></div><div class="post_share"><div class="social-share" data-image="https://img-blog.csdnimg.cn/20210322210313635.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><div class="post-reward"><div class="reward-button button--animated"><i class="fas fa-qrcode"></i> 打赏</div><div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="https://cdn.jsdelivr.net/gh/lujiabo98/ImageHosting/img/wechat.png" target="_blank"><img class="post-qr-code-img" data-lazy-src="https://cdn.jsdelivr.net/gh/lujiabo98/ImageHosting/img/wechat.png" alt="微信"/></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a href="https://cdn.jsdelivr.net/gh/lujiabo98/ImageHosting/img/alipay.jpg" target="_blank"><img class="post-qr-code-img" data-lazy-src="https://cdn.jsdelivr.net/gh/lujiabo98/ImageHosting/img/alipay.jpg" alt="支付宝"/></a><div class="post-qr-code-desc">支付宝</div></li></ul></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-full"><a href="/2021/03/02/2021-2/"><img class="prev-cover" data-lazy-src="https://cdn.jsdelivr.net/gh/lujiabo98/ImageHosting2@main/2021_2_1.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">【2021】02 过年</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span> 相关推荐</span></div><div class="relatedPosts-list"><div><a href="/2021/03/02/2021-2/" title="【2021】02 过年"><img class="cover" data-lazy-src="https://cdn.jsdelivr.net/gh/lujiabo98/ImageHosting2@main/2021_2_1.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2021-03-02</div><div class="title">【2021】02 过年</div></div></a></div><div><a href="/2020/11/01/2020-10/" title="【2020】10 水文年鉴"><img class="cover" data-lazy-src="https://cdn.jsdelivr.net/gh/lujiabo98/ImageHosting1@main/2020_10_2.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2020-11-01</div><div class="title">【2020】10 水文年鉴</div></div></a></div><div><a href="/2020/12/01/2020-11/" title="【2020】11 数值模拟"><img class="cover" data-lazy-src="https://cdn.jsdelivr.net/gh/lujiabo98/ImageHosting1@main/2020_11_1.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2020-12-01</div><div class="title">【2020】11 数值模拟</div></div></a></div><div><a href="/2020/12/30/2020-12/" title="【2020】12 决赛"><img class="cover" data-lazy-src="https://cdn.jsdelivr.net/gh/lujiabo98/ImageHosting2@main/2020_12_1.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2020-12-30</div><div class="title">【2020】12 决赛</div></div></a></div><div><a href="/2020/10/08/2020-9/" title="【2020】09 研究生"><img class="cover" data-lazy-src="https://cdn.jsdelivr.net/gh/lujiabo98/ImageHosting@master/img/NewMasterMeeting.jpeg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2020-10-08</div><div class="title">【2020】09 研究生</div></div></a></div><div><a href="/2021/02/01/2021-1/" title="【2021】01 最大流"><img class="cover" data-lazy-src="https://cdn.jsdelivr.net/gh/lujiabo98/ImageHosting2@main/2021_1_1.png" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2021-02-01</div><div class="title">【2021】01 最大流</div></div></a></div></div></div><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div><div id="comment-switch"><span class="first-comment">Valine</span><span class="switch-btn"></span><span class="second-comment">Disqus</span></div></div><div class="comment-wrap"><div><div class="vcomment" id="vcomment"></div></div><div><div id="disqus_thread"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-info-avatar is-center"><img class="avatar-img" data-lazy-src="https://s3.jpg.cm/2020/08/09/bwNNX.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-info__name">naive</div><div class="author-info__description">学习，记录，分享，进步</div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">45</div></a></div><div class="card-info-data-item is-center"><a href="/tags/"><div class="headline">标签</div><div class="length-num">74</div></a></div><div class="card-info-data-item is-center"><a href="/categories/"><div class="headline">分类</div><div class="length-num">9</div></a></div></div><a class="button--animated" id="card-info-btn" href="https://lujiabo98.github.io/"><i class="far fa-bookmark"></i><span>Ctrl + D 加入书签</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://blog.csdn.net/weixin_43012724" target="_blank" title="CSDN"><i class="iconfont icon-csdn"></i></a><a class="social-icon" href="https://github.com/lujiabo98" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:1847096852@qq.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a><a class="social-icon" href="https://www.zhihu.com/people/ao-shi-gu-xing-84" target="_blank" title="Zhihu"><i class="fab fa-zhihu"></i></a><a class="social-icon" href="https://weibo.com/3671014264/profile?rightmod=1&amp;wvr=6&amp;mod=personinfo" target="_blank" title="Weibo"><i class="fab fa-weibo"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>公告</span></div><div class="announcement_content">欢迎访问我的博客！</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%B0%8F%E7%BB%93"><span class="toc-text">小结</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#1"><span class="toc-text">1</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#2"><span class="toc-text">2</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#3"><span class="toc-text">3</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#4"><span class="toc-text">4</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#5"><span class="toc-text">5</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#6"><span class="toc-text">6</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#7"><span class="toc-text">7</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#8"><span class="toc-text">8</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#9"><span class="toc-text">9</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#10"><span class="toc-text">10</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#11"><span class="toc-text">11</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#12"><span class="toc-text">12</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#13"><span class="toc-text">13</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#14"><span class="toc-text">14</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#15"><span class="toc-text">15</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#16"><span class="toc-text">16</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#17"><span class="toc-text">17</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#18"><span class="toc-text">18</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#19"><span class="toc-text">19</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#20"><span class="toc-text">20</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#21"><span class="toc-text">21</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#22"><span class="toc-text">22</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#23"><span class="toc-text">23</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#24"><span class="toc-text">24</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#25"><span class="toc-text">25</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#26"><span class="toc-text">26</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#27"><span class="toc-text">27</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#28"><span class="toc-text">28</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#29"><span class="toc-text">29</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#30"><span class="toc-text">30</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#31"><span class="toc-text">31</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2021/04/06/2021-3/" title="【2021】03 C++"><img data-lazy-src="https://img-blog.csdnimg.cn/20210322210313635.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【2021】03 C++"/></a><div class="content"><a class="title" href="/2021/04/06/2021-3/" title="【2021】03 C++">【2021】03 C++</a><time datetime="2021-04-06T13:40:05.000Z" title="发表于 2021-04-06 21:40:05">2021-04-06</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/03/02/2021-2/" title="【2021】02 过年"><img data-lazy-src="https://cdn.jsdelivr.net/gh/lujiabo98/ImageHosting2@main/2021_2_1.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【2021】02 过年"/></a><div class="content"><a class="title" href="/2021/03/02/2021-2/" title="【2021】02 过年">【2021】02 过年</a><time datetime="2021-03-02T13:00:42.000Z" title="发表于 2021-03-02 21:00:42">2021-03-02</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/02/23/Python05/" title="【Python】05 当我旁观诈鸡时，我在想些什么"><img data-lazy-src="https://cdn.jsdelivr.net/gh/lujiabo98/ImageHosting2@main/Python05_01.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【Python】05 当我旁观诈鸡时，我在想些什么"/></a><div class="content"><a class="title" href="/2021/02/23/Python05/" title="【Python】05 当我旁观诈鸡时，我在想些什么">【Python】05 当我旁观诈鸡时，我在想些什么</a><time datetime="2021-02-23T13:57:54.000Z" title="发表于 2021-02-23 21:57:54">2021-02-23</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/02/08/Cpp03/" title="【C++】03 错题笔记"><img data-lazy-src="https://cdn.jsdelivr.net/gh/lujiabo98/ImageHosting2@main/Cpp03_01.jfif" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【C++】03 错题笔记"/></a><div class="content"><a class="title" href="/2021/02/08/Cpp03/" title="【C++】03 错题笔记">【C++】03 错题笔记</a><time datetime="2021-02-08T12:13:19.000Z" title="发表于 2021-02-08 20:13:19">2021-02-08</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2021/02/06/Cpp02/" title="【C++】02 基础语法"><img data-lazy-src="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1227339568,304852062&amp;fm=26&amp;gp=0.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【C++】02 基础语法"/></a><div class="content"><a class="title" href="/2021/02/06/Cpp02/" title="【C++】02 基础语法">【C++】02 基础语法</a><time datetime="2021-02-06T03:53:33.000Z" title="发表于 2021-02-06 11:53:33">2021-02-06</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2021 By naive</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text">一万年太久，只争朝夕</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="chat_btn" type="button" title="rightside.chat_btn"><i class="fas fa-sms"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div></div><hr/><div id="local-search-results"></div><span class="search-close-button"><i class="fas fa-times"></i></span></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/medium-zoom/dist/medium-zoom.min.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><script src="/js/search/local-search.js"></script><div class="js-pjax"><script>function loadValine () {
+  function initValine () {
+    let initData = {
+      el: '#vcomment',
+      appId: '',
+      appKey: '',
+      placeholder: 'Please leave your footprints',
+      avatar: 'monsterid',
+      meta: 'nick,mail,link'.split(','),
+      pageSize: '10',
+      lang: 'zh-CN',
+      recordIP: false,
+      serverURLs: '',
+      emojiCDN: '',
+      emojiMaps: "",
+      enableQQ: false,
+      path: window.location.pathname,
+    }
+
+    if (true) { 
+      initData.requiredFields= ('nick,mail'.split(','))
+    }
+    
+    if (false) {
+      const otherData = false
+      initData = Object.assign(initData, otherData)
+    }
+    
+    const valine = new Valine(initData)
+  }
+
+  if (typeof Valine === 'function') initValine() 
+  else getScript('https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js').then(initValine)
+}
+
+if ('Valine' === 'Valine' || !false) {
+  if (false) btf.loadComment(document.getElementById('vcomment'),loadValine)
+  else setTimeout(loadValine, 0)
+} else {
+  function loadOtherComment () {
+    loadValine()
+  }
+}</script><script>function loadDisqus () {
+  var disqus_config = function () {
+    this.page.url = 'http://lujiabo98.github.io/2021/04/06/2021-3/'
+    this.page.identifier = '2021/04/06/2021-3/'
+    this.page.title = '【2021】03 C++'
+  };
+
+  window.disqusReset = () => {
+    DISQUS.reset({
+      reload: true,
+      config: disqus_config
+    })
+  }
+
+  if (window.DISQUS) disqusReset()
+  else {
+    (function() { 
+      var d = document, s = d.createElement('script');
+      s.src = 'https://.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  }
+}
+
+if ('Valine' === 'Disqus' || !false) {
+  if (false) btf.loadComment(document.getElementById('disqus_thread'), loadDisqus)
+  else loadDisqus()
+} else {
+  function loadOtherComment () {
+    loadDisqus()
+  }
+}
+</script></div><div class="aplayer no-destroy" data-id="000PeZCQ1i4XVs" data-server="tencent" data-type="artist" data-fixed="true" data-mini="true" data-listFolded="false" data-order="random" data-preload="none" data-autoplay="true" muted></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script><script src="https://cdn.jsdelivr.net/gh/metowolf/MetingJS@1.2/dist/Meting.min.js"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
