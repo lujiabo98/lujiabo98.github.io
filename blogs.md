@@ -19,7 +19,7 @@ title: Blogs
 
 - [SCE-UA算法C++实现](https://blog.csdn.net/weixin_43012724/article/details/121862991)
 
-- [GLUE算法C++实现](https://blog.csdn.net/weixin_43012724/article/details/124132552)<br>
-- [AM-MCMC算法C++实现](https://blog.csdn.net/weixin_43012724/article/details/124697872)<br>
+- [GLUE算法C++实现](https://blog.csdn.net/weixin_43012724/article/details/124132552)
+- [AM-MCMC算法C++实现](https://blog.csdn.net/weixin_43012724/article/details/124697872)
 
 <br>
