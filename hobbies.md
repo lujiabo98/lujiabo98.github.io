@@ -13,17 +13,21 @@ title: Hobbies
 <img src="/images/swimming.JPG">
 <img src="/images/surfing1.JPG">
 </div>
-<br>Swimming removes my worries, refreshes my body, and brings me courage to address any challenges. I extremely enjoy the feeling of being immersed in the water. Besides, I am a member of the Swimming Team at Fuzhou University, where I meet many sincere friends. I have reached **China National Second-level athlete Standard** in 50m breaststroke and won **Five Gold Medals** during my 10-year swimming career. Recently, I am also keen on surfing.
+<br>I enjoy reading about sociology, literature, and philosophy. I have read over 100 books. For books that I feel deeply about, I will write about them. I have a plan to read one introductory book for each discipline with a view to developing my critical thinking and interdisciplinary skills.
 
 ## Watching
 
-I like watching movies and TV shows with my girlfriend, Lei(Laywoo) Wu. She is my love. 
+I like to watch comedies, action movies, westerns and old American movies. Drama entertains me, action and westerns excite me, and old movies slow me down and make me think. I like watching movies and TV shows with my girlfriend, Lei(Laywoo) Wu. She is my love. We spent a lot of happy time together.
 
 <div>
 <img src="/images/Laywoo.jpg">
 </div>
 
 <br>
+
+## Programing
+
+I like to realize my ideas in code. I think it's cool. I am proficient in C++, Python and MATLAB languages and have used them to implement several models, algorithms and automation projects. I love the open source culture and contribute to it.
 
 ## Writing
 
@@ -37,9 +41,6 @@ I like watching movies and TV shows with my girlfriend, Lei(Laywoo) Wu. She is m
 [best universities in my hometown]:https://www.fzu.edu.cn/
 
 
-## Programing
-
-I previously enjoyed long-distance running, [vlog making](https://space.bilibili.com/594030035), and computer game developing/playing. However, I have no time to do any of these things recently.
 
 ## Badminton
 

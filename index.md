@@ -4,7 +4,7 @@ layout: page
 
 # About Me
 
-
+<img src="https://lujiabo98.github.io/images/Jiabo.jpg" class="floatpic" width="403" height="302">
 
 Here is **Jiabo Lu (卢家波)**.
 
@@ -38,3 +38,8 @@ My current research focuses on flood inundation prediction that can rapidly prov
 
 - **Oct 2023：**Started research visiting at [Melbourne University Water Group](https://infrastructure.eng.unimelb.edu.au/hydrology), supervised by [Prof. QJ Wang](https://findanexpert.unimelb.edu.au/profile/241-q-j-wang).
 
+---
+
+## WeChat Official Account
+
+![wechat official account](https://lujiabo98.github.io/images/wechat_official_account.jpg)

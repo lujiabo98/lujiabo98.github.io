@@ -4,11 +4,13 @@ permalink: /experiences/index.html
 title: Experiences
 ---
 
-> Lastest Update: 13 April 2024 &nbsp; [中文版本 (Chinese Version)](https://caihanlin.com/file/awards-zh/)
+> Lastest Update: 13 April 2024 &nbsp; [中文版本 (Chinese Version)](https://lujiabo98.github.io/file/awards-zh/)
 
 ## Research
 
 - 2023.10 - Now, Comparing Gaussian Process kernels used in LSG models for flood inundation predictions.<br>
+
+
 
 ## Project
 
@@ -27,15 +29,13 @@ title: Experiences
 
 
 
-## Work
+## Services
 
 - 2016.09 - 2020.06, Class life committee member.
 
 - 2017.06 - 2018.06, Director of the Media Department of the Association for Traceability and Protection of the Mother River, Excellent Minister.
 
-- 2017.06 - 2018.06, President of OPPO Club.
-
-  <br>
+- 2017.06 - 2018.06, President of OPPO Club.<br>
 
 ## Practice
 
