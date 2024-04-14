@@ -9,10 +9,11 @@ title: Hobbies
 ## Reading
 
 <div class="third">
-<img src="https://lujiabo98.github.io/images/hobbies/book1.JPG">
-<img src="https://lujiabo98.github.io/images/hobbies/book2.JPG">
-<img src="https://lujiabo98.github.io/images/hobbies/book3.JPG">
+<img src="https://lujiabo98.github.io/images/hobbies/book1.jpg">
+<img src="https://lujiabo98.github.io/images/hobbies/book2.jpg">
+<img src="https://lujiabo98.github.io/images/hobbies/book3.jpg">
 </div>
+
 
 <br>I enjoy reading about sociology, literature, and philosophy. I have read over 100 books. For books that I feel deeply about, I will write about them. I have a plan to read one introductory book for each discipline with a view to developing my critical thinking and interdisciplinary skills.
 

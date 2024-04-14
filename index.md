@@ -4,7 +4,7 @@ layout: page
 
 # About Me
 
-<img src="https://lujiabo98.github.io/images/Jiabo.jpg" class="floatpic" width="4032" height="3024">
+<img src="https://lujiabo98.github.io/images/Jiabo.jpg" class="floatpic" width="806" height="604">
 
 Here is **Jiabo Lu (卢家波)**.
 
