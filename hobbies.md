@@ -9,19 +9,21 @@ title: Hobbies
 ## Reading
 
 <div class="third">
-<img src="/images/swimming2.JPG">
-<img src="/images/swimming.JPG">
-<img src="/images/surfing1.JPG">
+<img src="https://lujiabo98.github.io/images/hobbies/book1.JPG">
+<img src="https://lujiabo98.github.io/images/hobbies/book2.JPG">
+<img src="https://lujiabo98.github.io/images/hobbies/book3.JPG">
 </div>
+
 <br>I enjoy reading about sociology, literature, and philosophy. I have read over 100 books. For books that I feel deeply about, I will write about them. I have a plan to read one introductory book for each discipline with a view to developing my critical thinking and interdisciplinary skills.
 
 ## Watching
 
-I like to watch comedies, action movies, westerns and old American movies. Drama entertains me, action and westerns excite me, and old movies slow me down and make me think. I like watching movies and TV shows with my girlfriend, Lei(Laywoo) Wu. She is my love. We spent a lot of happy time together.
+I like to watch comedies, action movies, westerns and social news. Drama entertains me, action and westerns excite me, and social news slow me down and make me think. I like watching movies and TV shows with my girlfriend, Lei(Laywoo) Wu. She is my love. We spent a lot of happy time together.
 
 <div>
-<img src="/images/Laywoo.jpg">
+<img src="https://lujiabo98.github.io/images/Laywoo.jpg">
 </div>
+
 
 <br>
 
@@ -31,20 +33,17 @@ I like to realize my ideas in code. I think it's cool. I am proficient in C++, P
 
 ## Writing
 
-<div class="third">
-<img src="/images/prelection1.JPG">
-<img src="/images/speech1.JPG">
-<img src="/images/speech3.JPG">
-</div>
-<br>There must be **something truly magical** about standing on stage to give a fantastic speech, which considerably lifts my spirits and energizes my entire body. If you desire to master a specific knowledge in depth, just give a prelection. If you can explain to others for complete understanding, you are already an expert. I really enjoy the accomplishment of imparting my knowledge to others, so what I strive for is to be **a student's favorite professor** at the [best universities in my hometown].
-
-[best universities in my hometown]:https://www.fzu.edu.cn/
-
-
+I like to record my thoughts through writing. I sometimes write some reading thoughts, movie watching thoughts and programming development blogs. I'm happy to share what I've learned with others and make a small contribution to the Chinese Internet community.  Welcome to follow my [**CSDN**](https://blog.csdn.net/weixin_43012724?type=blog) blog and WeChat Official Account 卢家波!
 
 ## Badminton
 
+<div class="third">
+<img src="https://lujiabo98.github.io/images/hobbies/badminton1.jpg">
+<img src="https://lujiabo98.github.io/images/hobbies/badminton2.jpg">
+<img src="https://lujiabo98.github.io/images/hobbies/badminton3.jpg">
+</div>
 
+I am a badminton beginner and I participate in badminton activities in my subject group every weekend. Playing badminton can make me relax from my stressful study life, though I am not good at it.
 
 
 
