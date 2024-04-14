@@ -4,11 +4,11 @@ layout: page
 
 # About Me
 
-<img src="https://lujiabo98.github.io/images/Jiabo.jpg" class="floatpic" width="403" height="302">
+<img src="https://lujiabo98.github.io/images/Jiabo.jpg" class="floatpic" width="4032" height="3024">
 
 Here is **Jiabo Lu (卢家波)**.
 
-I am a PhD student majoring in **hydrology and water resources** at [Hohai University](https://www.hhu.edu.cn/), supervised by [Prof. Xiaohua Xiang](https://jszy.hhu.edu.cn/xxh/) and [Prof. Chuanhai Wang](https://jszy.hhu.edu.cn/wch/). Currently, I serve as a Honorary Visitor at the [Environmental Hydrology and Water Resources](https://infrastructure.eng.unimelb.edu.au/research/water) Group of [The University of Melbourne](https://www.unimelb.edu.au/), supervised by [Prof. QJ Wang](https://findanexpert.unimelb.edu.au/profile/241-q-j-wang). 
+I am a PhD student majoring in **hydrology and water resources** at [Hohai University](https://www.hhu.edu.cn/), supervised by [Prof. Xiaohua Xiang](https://jszy.hhu.edu.cn/xxh/) and [Prof. Chuanhai Wang](https://jszy.hhu.edu.cn/wch/). Currently, I serve as an Honorary Visitor at the [Environmental Hydrology and Water Resources](https://infrastructure.eng.unimelb.edu.au/research/water) Group of [The University of Melbourne](https://www.unimelb.edu.au/), supervised by [Prof. QJ Wang](https://findanexpert.unimelb.edu.au/profile/241-q-j-wang). 
 
 If you are interested in any aspect of me, I would love to chat and collaborate, please email me at - *lujiabo2017@gmail.com*
 
