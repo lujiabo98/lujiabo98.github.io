@@ -36,7 +36,8 @@ My current research focuses on flood inundation prediction that can rapidly prov
 
 ## News and Updates
 
-- **Oct 2023：**Started research visiting at [Melbourne University Water Group](https://infrastructure.eng.unimelb.edu.au/hydrology), supervised by [Prof. QJ Wang](https://findanexpert.unimelb.edu.au/profile/241-q-j-wang).
+- **Jan 2024: ** Invited to be a reviewer of [Journal of Applied Water Engineering and Research](https://www.tandfonline.com/journals/tjaw20).
+- **Oct 2023:** Started research visiting at [Melbourne University Water Group](https://infrastructure.eng.unimelb.edu.au/hydrology), supervised by [Prof. QJ Wang](https://findanexpert.unimelb.edu.au/profile/241-q-j-wang).
 
 ---
 
