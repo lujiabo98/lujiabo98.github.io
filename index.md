@@ -41,6 +41,6 @@ My current research focuses on flood inundation prediction that can rapidly prov
 
 ---
 
-## WeChat Official Account
+## WeChat Personal Account
 
-![wechat official account](https://lujiabo98.github.io/images/wechat_official_account.jpg)
+![wechat official account](https://lujiabo98.github.io/images/wechat_personal_account.png)
