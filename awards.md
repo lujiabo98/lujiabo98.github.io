@@ -1,33 +1,33 @@
 ---
 layout: page
-permalink: /awards/index.html
-title: Awards
+permalink: /file/awards-zh/index.html
+title: Awards-zh
 ---
 
-> Lastest Update: 14 April 2024 &nbsp; [中文版本 (Chinese Version)](https://lujiabo98.github.io/file/awards-zh/)
+> 更新时间：2024/04/14 &nbsp; [English Version (英文)](https://lujiabo98.github.io/awards/)
 
-## Scholarships
+## 奖学金
 
-- Oct 2023: First Class Scholarship for Doctoral Students at Hohai University (¥18,000)
-- Nov 2018: national scholarship (¥8000)
-- Oct 2017: national inspirational scholarship (¥5000)
-- Nov 2018: Hohai University Outstanding Student Scholarship (¥1500)
+- 2023年10月：河海大学博士研究生一等奖学金（¥18000）
+- 2018年11月：国家奖学金（¥8000）
+- 2017年10月：国家励志奖学金（¥5000）
+- 2018年11月：河海大学优秀学生奖学金（¥1500）
 
-## Competitions
+## 竞赛
 
-- Sep 2021: First Prize of the First National Water Science Numerical Simulation Innovation Competition
-- Jun 2022: Second Prize of the Second National Water Science Numerical Simulation Innovation Competition
-- Nov 2018: second prize of International Student Mathematical Modeling Competition
+- 2021年09月：第一届全国水科学数值模拟创新大赛一等奖<br>
+- 2022年06月：第二届全国水科学数值模拟创新大赛二等奖<br>
+- 2018年11月：国际大学生数学建模竞赛二等奖
 
-## Honors
+## 荣誉
 
-- Sep 2022: Outstanding Graduate Student at HHU
-- Oct 2017: excellent student of Hohai University
-- Apr 2018: Outstanding Youth League Member of Hohai University
+- 2022年09月：河海大学优秀研究生
+- 2017年10月：河海大学优秀学生
+- 2018年04月：河海大学优秀共青团员
 
-## Services
+## 服务
 
-- Sep 2016 - June 2020: Member of the living committee of the fourth class of hydrology, Hohai University, class of 2016
-- June 2017 - June 2018: Head of media department of Trace and Protect Mother River Association of Hohai University
-- June 2017 - June 2018: President of OPPO Club, Hohai University
+- 2016年09月-2020年06月：河海大学2016级水文四班生活委员
+- 2017年06月-2018年06月：河海大学溯源保护母亲河协会传媒部部长
+- 2017年06月-2018年06月：河海大学OPPO俱乐部社长
 

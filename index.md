@@ -2,46 +2,48 @@
 layout: page
 ---
 
-# About Me
+> 更新时间：2024/04/25 &nbsp; [English Version (英文)](https://lujiabo98.github.io/file/index_en/)
+
+# 自我介绍
 
 <img src="https://lujiabo98.github.io/images/Jiabo.jpg" class="floatpic" width="806" height="604">
 
-Here is **Jiabo Lu (卢家波)**.
+很高兴认识您:smile:，我叫**卢家波**。
 
-I am a PhD student majoring in **hydrology and water resources** at [Hohai University](https://www.hhu.edu.cn/), supervised by [Prof. Xiaohua Xiang](https://jszy.hhu.edu.cn/xxh/) and [Prof. Chuanhai Wang](https://jszy.hhu.edu.cn/wch/). Currently, I serve as an Honorary Visitor at the [Environmental Hydrology and Water Resources](https://infrastructure.eng.unimelb.edu.au/research/water) Group of [The University of Melbourne](https://www.unimelb.edu.au/), supervised by [Prof. QJ Wang](https://findanexpert.unimelb.edu.au/profile/241-q-j-wang). 
+我是[河海大学](https://www.hhu.edu.cn/)**水文学及水资源**专业的博士生，导师为[向小华副教授](https://jszy.hhu.edu.cn/xxh/)和[王船海教授](https://jszy.hhu.edu.cn/wch/)。目前，我在[墨尔本大学](https://www.unimelb.edu.au/)的[环境水文及水资源](https://infrastructure.eng.unimelb.edu.au/research/water)研究所担任荣誉客座博士生，导师为[王全君教授](https://findanexpert.unimelb.edu.au/profile/241-q-j-wang)。
 
-I would love to chat and collaborate. If you are interested in any aspect of me, please email me at *lujiabo2017@gmail.com* or add my WeChat Jiabo_Lu.
+欢迎访问我的[**简历**](https://lujiabo98.github.io/file/CV_JiaboLu_zh.pdf)和[**博客**](https://blog.csdn.net/weixin_43012724?type=blog)了解更多，欢迎添加微信:speech_balloon: **Jiabo_Lu** 交流合作:handshake:。
 
-## Academic Background
+## 教育背景
 
-- **Sep 2022 - Future：** Hohai University (PhD, Hydrology and water resources, supervised by [Prof. Xiaohua Xiang](https://jszy.hhu.edu.cn/xxh/) and [Prof. Chuanhai Wang](https://jszy.hhu.edu.cn/wch/))
-- **Sep 2020 - June 2022:** Hohai University (MEng, Hydrology and water resources, supervised by [Prof. Xiaohua Xiang](https://jszy.hhu.edu.cn/xxh/), Successive postgraduate and doctoral programs of study)
-- **Sep 2016 - June 2020:** Hohai University (BEng, Hydrology and water resources engineering)
-- **Oct 2023 - Oct 2024:** The University of Melbourne (Honorary visiting PhD student, supervised by [Prof. QJ Wang](https://findanexpert.unimelb.edu.au/profile/241-q-j-wang).)
-
----
-
-## Research Interests
-
-- Flood inundation prediction
-- Physics-informed surrogate model
-- Machine Learning
-- Reduced order model
-- Flood disaster warning
-- [My latest research proposal (Dec 2022)](https://lujiabo98.github.io/file/proposal-2022.pdf)🔗
-
-My current research focuses on flood inundation prediction that can rapidly provide flood extent and water depth hydrographs on floodplains. My interests are on the physics-informed **Machine Learning** and its applications in **flood forecasting**. In a word, flood disasters influence the life of everybody.  I wish to devote my talent to this meaningful cause and bring well-being to society.
+- 2022年9月-至今：**河海大学**，工学博士，水文学及水资源，导师为[向小华副教授](https://jszy.hhu.edu.cn/xxh/)和[王船海教授](https://jszy.hhu.edu.cn/wch/)
+- 2023年10月-2024年10月：**墨尔本大学**，荣誉客座博士生，环境水文及水资源，导师[王全君教授](https://findanexpert.unimelb.edu.au/profile/241-q-j-wang)
+- 2020年9月-2022年6月：**河海大学**，工学硕士，水文学及水资源，导师为[向小华副教授](https://jszy.hhu.edu.cn/xxh/)，硕博连读
+- 2016年9月-2020年6月：**河海大学**，工学学士，水文与水资源工程
 
 ---
 
-## News and Updates
+## 研究兴趣
 
-- **Jan 2024: ** Invited to be a reviewer of [Journal of Applied Water Engineering and Research](https://www.tandfonline.com/journals/tjaw20).
-- **Oct 2023:** Attend [Infrastructure Engineering Graduate Research Conference (IEGRC)](https://blogs.unimelb.edu.au/gies/) 2023
-- **Oct 2023:** Started research visiting at [Melbourne University Water Group](https://infrastructure.eng.unimelb.edu.au/hydrology), supervised by [Prof. QJ Wang](https://findanexpert.unimelb.edu.au/profile/241-q-j-wang).
+- 洪水淹没预报
+- 物理信息替代模型
+- 机器学习
+- 降阶模型
+- 洪水灾害预警
+- [最近的研究计划 (2022年12月)](https://lujiabo98.github.io/file/proposal_2022.pdf)🔗
+
+我目前的研究重点是**洪水淹没预报**，致力于快速提供洪泛区精确的洪水范围和水深变化过程。我的兴趣在于**洪水预报**及其与**机器学习**的结合。变化环境下，极端洪水事件多发，我希望能通过研究为水灾害防御做出贡献，为人民服务。
 
 ---
 
-## WeChat Personal Account
+## 新闻
+
+- **2024 年 1 月：** 受邀担任[Journal of Applied Water Engineering and Research](https://www.tandfonline.com/journals/tjaw20)期刊审稿人。
+- **2023年10月：** 参加2023年墨尔本大学[基础设施工程系研究生峰会（IEGRC）](https://blogs.unimelb.edu.au/gies/) 
+- **2023年10月：** 开始在墨尔本大学[环境水文及水资源研究所](https://infrastructure.eng.unimelb.edu.au/hydrology)进行访问研究，导师为[王全君教授](https://findanexpert.unimelb.edu.au/profile/241-q-j-wang)。
+
+---
+
+## 微信
 
 ![wechat official account](https://lujiabo98.github.io/images/wechat_personal_account.png)
