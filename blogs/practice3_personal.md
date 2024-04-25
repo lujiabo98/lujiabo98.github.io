@@ -4,6 +4,8 @@ permalink: /blogs/practice3_personal/index.html
 title: practice3_personal
 ---
 
+
+
  ## 访烈士陵园，追英雄鸿志
 
 ### ——参观大别山烈士纪念园及六霍起义纪念塔感想

@@ -36,7 +36,7 @@ I like to realize my ideas in code. I think it's cool. I am proficient in C++, P
 
 ## Writing
 
-I like to record my thoughts through writing. I sometimes write some reading thoughts, movie watching thoughts and programming development blogs. I'm happy to share what I've learned with others and make a small contribution to the Chinese Internet community.  Welcome to follow my [**CSDN**](https://blog.csdn.net/weixin_43012724?type=blog) blog and WeChat Official Account 卢家波!
+I like to record my thoughts through writing. I sometimes write some reading thoughts, movie watching thoughts and programming development blogs. I'm happy to share what I've learned with others and make a small contribution to the Chinese Internet community.  Welcome to follow my [**CSDN**](https://blog.csdn.net/weixin_43012724?type=blog) blog!
 
 ## Badminton
 

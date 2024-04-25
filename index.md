@@ -4,15 +4,15 @@ layout: page
 
 > 更新时间：2024/04/25 &nbsp; [English Version (英文)](https://lujiabo98.github.io/file/index_en/)
 
-# 自我介绍
+## 自我介绍
 
 <img src="https://lujiabo98.github.io/images/Jiabo.jpg" class="floatpic" width="806" height="604">
 
-很高兴认识您:smile:，我叫**卢家波**。
+很高兴认识您😄，我叫**卢家波**。
 
 我是[河海大学](https://www.hhu.edu.cn/)**水文学及水资源**专业的博士生，导师为[向小华副教授](https://jszy.hhu.edu.cn/xxh/)和[王船海教授](https://jszy.hhu.edu.cn/wch/)。目前，我在[墨尔本大学](https://www.unimelb.edu.au/)的[环境水文及水资源](https://infrastructure.eng.unimelb.edu.au/research/water)研究所担任荣誉客座博士生，导师为[王全君教授](https://findanexpert.unimelb.edu.au/profile/241-q-j-wang)。
 
-欢迎访问我的[**简历**](https://lujiabo98.github.io/file/CV_JiaboLu_zh.pdf)和[**博客**](https://blog.csdn.net/weixin_43012724?type=blog)了解更多，欢迎添加微信:speech_balloon: **Jiabo_Lu** 交流合作:handshake:。
+欢迎访问我的[**简历**](https://lujiabo98.github.io/file/CV_JiaboLu_zh.pdf)和[**博客**](https://blog.csdn.net/weixin_43012724?type=blog)了解更多，欢迎添加微信💬 **Jiabo_Lu** 交流合作🤝。
 
 ## 教育背景
 
