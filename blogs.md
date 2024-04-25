@@ -4,8 +4,6 @@ permalink: /blogs/index.html
 title: Blogs
 ---
 
-
-
 欢迎访问我的[**博客**](https://blog.csdn.net/weixin_43012724?type=blog)了解更多，欢迎添加微信 **Jiabo_Lu** 交流合作​​。
 
 ## 水文模型
@@ -31,6 +29,7 @@ title: Blogs
 
 ## 读后感
 
-
+- [不信鬼神信马列](https://lujiabo98.github.io/blogs/marx)
+- [重新认识孔子](https://lujiabo98.github.io/blogs/confucius)
 
 <br>
