@@ -6,7 +6,6 @@ title: Hobbies
 
 > 更新时间：2024/04/25 &nbsp; [English Version (英文)](https://lujiabo98.github.io/file/hobbies_en/)
 
-# 爱好
 
 ## 阅读
 

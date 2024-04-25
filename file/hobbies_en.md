@@ -6,7 +6,6 @@ title: Hobbies_en
 
 > 更新时间：2024/04/25&nbsp;  [中文版本 (Chinese Version)](https://lujiabo98.github.io/hobbies/)
 
-# Hobbies
 
 ## Reading
 

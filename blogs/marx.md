@@ -1,12 +1,12 @@
 ---
 layout: page
 permalink: /blogs/marx/index.html
-title: marx
+title: Marx
 ---
 
 
 
- ## 不信鬼神信马列
+## 不信鬼神信马列
 
 4月23日是世界读书日，分享一本最近读的书《反杜林论》。
 

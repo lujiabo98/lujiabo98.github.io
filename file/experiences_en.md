@@ -46,6 +46,6 @@ title: Experiences_en
 ## Practice
 
 - 2023.07 - 2023.08, "Water Rhythm Jiangsu" Jiangsu Water Network Research Practice Doctoral Group, Excellent team. 
-- 2017.07 - 2017.08, Hangzhou Water Rhythm Environmental Protection Team, Excellent practice base. [Visiting Changqiaoxi Ecological Restoration Park](https://shxy.hhu.edu.cn/2017/0711/c3463a53685/page.htm), [Visiting Hangzhou Environmental Technology Testing Co., Ltd.](https://shxy.hhu.edu.cn/2017/0708/c3463a53654/page.htm), and [Team video](https://www.bilibili.com/video/BV1Ex411B72r/).
-- 2017.01 - 2017.02, Express gratitude to teachers from No. 1 Middle School and carry forward the spirit of Hohai University. Team communication, and Personal summary.
-- 2018.01 - 2018.02, Visit the Martyrs Cemetery and pursue heroic ambitions. Personal summary.
+- 2017.07 - 2017.08, Hangzhou Water Rhythm Environmental Protection Team, Excellent practice base. [Visiting Changqiaoxi Ecological Restoration Park](https://shxy.hhu.edu.cn/2017/0711/c3463a53685/page.htm), [Visiting Hangzhou Environmental Technology Testing Co., Ltd.](https://shxy.hhu.edu.cn/2017/0708/c3463a53654/page.htm), [Team video](https://www.bilibili.com/video/BV1Ex411B72r/), and [Personal summary](https://lujiabo98.github.io/blogs/practice2_personal).
+- 2017.01 - 2017.02, Express gratitude to teachers from No. 1 Middle School and carry forward the spirit of Hohai University. [Team communication](https://lujiabo98.github.io/blogs/practice1_team), and [Personal summary](https://lujiabo98.github.io/blogs/practice1_personal).
+- 2018.01 - 2018.02, Visit the Martyrs Cemetery and pursue heroic ambitions. [Personal summary](https://lujiabo98.github.io/blogs/practice3_personal).

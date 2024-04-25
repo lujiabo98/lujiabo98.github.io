@@ -4,7 +4,7 @@ permalink: /awards/index.html
 title: Awards
 ---
 
-> 更新时间：2024/04/25 &nbsp; [English Version (英文)](https://lujiabo98.github.io/awards_en/)
+> 更新时间：2024/04/25 &nbsp; [English Version (英文)](https://lujiabo98.github.io/file/awards_en/)
 
 ## 奖学金
 

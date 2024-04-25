@@ -10,11 +10,11 @@ title: Index_en
 
 <img src="https://lujiabo98.github.io/images/Jiabo.jpg" class="floatpic" width="806" height="604">
 
-Here is **Jiabo Lu (卢家波)**:smile:.
+Here is **Jiabo Lu (卢家波)**😄.
 
 I am a PhD student majoring in **hydrology and water resources** at [Hohai University](https://www.hhu.edu.cn/), supervised by [Prof. Xiaohua Xiang](https://jszy.hhu.edu.cn/xxh/) and [Prof. Chuanhai Wang](https://jszy.hhu.edu.cn/wch/). Currently, I serve as an Honorary Visitor at the [Environmental Hydrology and Water Resources](https://infrastructure.eng.unimelb.edu.au/research/water) Group of [The University of Melbourne](https://www.unimelb.edu.au/), supervised by [Prof. QJ Wang](https://findanexpert.unimelb.edu.au/profile/241-q-j-wang). 
 
-Feel free to visit my [**Resume**](https://lujiabo98.github.io/file/CV_JiaboLu_en.pdf) and [**Blog**](https://blog.csdn.net/weixin_43012724?type=blog) to learn more, I would love to chat and collaborate:handshake:. If you are interested in any aspect of me, please email me at:email: *lujiabo2017@gmail.com* or add my WeChat:speech_balloon: Jiabo_Lu.
+Feel free to visit my [**Resume**](https://lujiabo98.github.io/file/CV_JiaboLu_en.pdf) and [**Blog**](https://blog.csdn.net/weixin_43012724?type=blog) to learn more, I would love to chat and collaborate🤝. If you are interested in any aspect of me, please email me at 📧 *lujiabo2017@gmail.com* or add my WeChat💬 Jiabo_Lu.
 
 ## Academic Background
 
