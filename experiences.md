@@ -4,49 +4,53 @@ permalink: /experiences/index.html
 title: Experiences
 ---
 
-> Lastest Update: 13 April 2024 &nbsp; [中文版本 (Chinese Version)](https://lujiabo98.github.io/file/awards-zh/)
+> 更新时间：2024/04/25 &nbsp; [English Version (英文)](https://lujiabo98.github.io/file/experiences_en/)
 
-## Research
+## 研究
 
-- 2023.10 - Now, Comparing Gaussian Process kernels used in LSG models for flood inundation predictions.<br>
-
-
-
-## Project
-
-- 2021.12 - 2023.11, Development of river network hydrodynamic forecasting subsystem.
-- 2022.08 - 2023.10, Intelligent flood control forecast and operation system of Wangying Reservoir.
-- 2021.03 - 2023.09, Hangzhou informatization dispatching model.
-- 2022.09 - 2024.05, Development of river basin flow and urban flood evolution models.
-- 2022.06 - 2023.09, Yixing City Flood Risk Map System.
-
-## Competition
-
-- 2021.03 - 2021.09, First Prize in Water Science Numerical Simulation Innovation Competition, Flood progression and gate control model.
-- 2022.03 - 2022.06, Second Prize in Water Science Numerical Simulation Innovation Competition, Reservoir dynamic storage capacity calculation and river section interpolation.
-- 2018.01 - 2018.02, Second Prize in the American College Student Mathematical Modeling Contest.
-- 2017.09 - 2017.10, Chinese College Students Mathematical Modeling Competition.<br>
+- 2023年10月 - 至今，洪水淹没预报LSG模型的高斯过程内核比较<br>
 
 
 
-## Services
+## 项目
 
-### Journal Reviewer
+- 2021年12月 - 2023年11月，河网水动力学预报子系统开发
+- 2022年8月 - 2023年10月，王英水库防洪智能预警预报
+- 2021年3月 - 2023年9月，扩大杭嘉湖信息化调度模型技术服务
+- 2022年9月 - 2024年5月，流域干流及城区洪水演进模型开发
+- 2022年6月 - 2023年9月，宜兴市洪水风险图系统
 
-- **Jan 2024 - Now**: [Journal of Applied Water Engineering and Research](https://www.tandfonline.com/journals/tjaw20)
+
+
+## 竞赛
+
+- 2021年3月 - 2021年9月，第一届全国水科学数值模拟创新大赛一等奖
+- 2022年3月 - 2022年6月，第二届全国水科学数值模拟创新大赛二等奖
+- 2018年1月 - 2018年2月，美国大学生数学建模竞赛二等奖.
+- 2017年9月 - 2017年10月，中国大学生数学建模竞赛<br>
 
 
 
-### Campus Services
+## 服务
 
-- 2016.09 - 2020.06, Class life committee member.
-- 2017.06 - 2018.06, Director of the Media Department of the Association for Traceability and Protection of the Mother River, Excellent Minister.
-- 2017.06 - 2018.06, President of OPPO Club.<br>
+### 期刊审稿
 
-## Practice
+- 2024年1月 - 至今：[Journal of Applied Water Engineering and Research](https://www.tandfonline.com/journals/tjaw20)
 
-- 2023.07 - 2023.08, "Water Rhythm Jiangsu" Jiangsu Water Network Research Practice Doctoral Group, Excellent team. 
-- 2017.07 - 2017.08, Hangzhou Water Rhythm Environmental Protection Team, Excellent practice base. [Visiting Changqiaoxi Ecological Restoration Park](https://shxy.hhu.edu.cn/2017/0711/c3463a53685/page.htm), [Visiting Hangzhou Environmental Technology Testing Co., Ltd.](https://shxy.hhu.edu.cn/2017/0708/c3463a53654/page.htm), and [Team video](https://www.bilibili.com/video/BV1Ex411B72r/).
-- 2017.01 - 2017.02, Express gratitude to teachers from No. 1 Middle School and carry forward the spirit of Hohai University. Team communication, and Personal summary.
-- 2018.01 - 2018.02, Visit the Martyrs Cemetery and pursue heroic ambitions. Personal summary.
+
+
+### 校园工作
+
+- 2016年9月 - 2020年6月，河海大学16级水文四班班级生活委员
+- 2017年6月 - 2018年6月，河海大学溯源保护母亲河协会传媒部部长，优秀部长.
+- 2017年6月 - 2018年6月，河海大学OPPO俱乐部社长.<br>
+
+
+
+## 实践
+
+- 2023年7月 - 2023年8月，“水韵江苏”江苏水网调研实践博士团，优秀团队
+- 2017年7月 - 2017年8月，杭州水韵环境保护队，优秀实践基地。[参观长桥溪生态修复公园](https://shxy.hhu.edu.cn/2017/0711/c3463a53685/page.htm)，[走访杭州环境科技检测有限公司](https://shxy.hhu.edu.cn/2017/0708/c3463a53654/page.htm)， [团队视频](https://www.bilibili.com/video/BV1Ex411B72r/)，[个人总结](https://lujiabo98.github.io/blogs/practice2_personal)。
+- 2017年1月 - 2017年2月，感念一中师恩，弘扬河海精神。[团队通讯](https://lujiabo98.github.io/blogs/practice1_team)，[个人总结](https://lujiabo98.github.io/blogs/practice1_personal)。
+- 2018年1月 - 2018年2月，参观大别山烈士纪念园及六霍起义纪念塔。[个人总结](https://lujiabo98.github.io/blogs/practice3_personal)。
 

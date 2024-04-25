@@ -1,10 +1,10 @@
 ---
 layout: page
-permalink: /awards/index.html
-title: Awards
+permalink: /file/awards_en/index.html
+title: Awards_en
 ---
 
-> Lastest Update: 14 April 2024 &nbsp; [中文版本 (Chinese Version)](https://lujiabo98.github.io/file/awards-zh/)
+> 更新时间：2024/04/25 &nbsp; [中文版本 (Chinese Version)](https://lujiabo98.github.io/awards/)
 
 ## Scholarships
 

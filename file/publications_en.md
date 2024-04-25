@@ -1,10 +1,10 @@
 ---
 layout: page
-permalink: /publications/index.html
-title: Publications
+permalink: /file/publications_en/index.html
+title: Publications_en
 ---
 
-> Lastest Update: 13 April 2024&nbsp;  [中文版本 (Chinese Version)](https://lujiabo98.github.io/file/publications-zh/)
+> 更新时间：2024/04/25 &nbsp; [中文版本 (Chinese Version)](https://lujiabo98.github.io/publications/)
 
 ## Journals
 

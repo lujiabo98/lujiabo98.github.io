@@ -1,10 +1,10 @@
 ---
 layout: page
-permalink: /experiences/index.html
-title: Experiences
+permalink: /file/experiences_en/index.html
+title: Experiences_en
 ---
 
-> Lastest Update: 13 April 2024 &nbsp; [中文版本 (Chinese Version)](https://lujiabo98.github.io/file/awards-zh/)
+> 更新时间：2024/04/25 &nbsp; [中文版本 (Chinese Version)](https://lujiabo98.github.io/experiences/)
 
 ## Research
 
@@ -49,4 +49,3 @@ title: Experiences
 - 2017.07 - 2017.08, Hangzhou Water Rhythm Environmental Protection Team, Excellent practice base. [Visiting Changqiaoxi Ecological Restoration Park](https://shxy.hhu.edu.cn/2017/0711/c3463a53685/page.htm), [Visiting Hangzhou Environmental Technology Testing Co., Ltd.](https://shxy.hhu.edu.cn/2017/0708/c3463a53654/page.htm), and [Team video](https://www.bilibili.com/video/BV1Ex411B72r/).
 - 2017.01 - 2017.02, Express gratitude to teachers from No. 1 Middle School and carry forward the spirit of Hohai University. Team communication, and Personal summary.
 - 2018.01 - 2018.02, Visit the Martyrs Cemetery and pursue heroic ambitions. Personal summary.
-

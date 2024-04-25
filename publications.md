@@ -1,10 +1,10 @@
 ---
 layout: page
-permalink: /file/publications-zh/index.html
-title: Publications-zh
+permalink: /publications/index.html
+title: Publications
 ---
 
-> 更新时间：2024/04/14 &nbsp;  [English Version (英文)](https://lujiabo98.github.io/publications/)
+> 更新时间：2024/04/25 &nbsp;  [English Version (英文)](https://lujiabo98.github.io/publications_en/)
 
 ## 期刊
 

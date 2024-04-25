@@ -4,8 +4,6 @@ permalink: /blogs/index.html
 title: Blogs
 ---
 
-## Chinese Blogs
-
 ### 水文模型
 
 - [新安江模型C++实现](https://blog.csdn.net/weixin_43012724/article/details/127096422)

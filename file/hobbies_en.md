@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /file/hobbies-en/index.html
-title: Hobbies-en
+permalink: /file/hobbies_en/index.html
+title: Hobbies_en
 ---
 
 > 更新时间：2024/04/25&nbsp;  [中文版本 (Chinese Version)](https://lujiabo98.github.io/hobbies/)
