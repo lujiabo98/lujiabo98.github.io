@@ -9,6 +9,8 @@ title: Experiences_en
 ## Research
 
 - 2023.10 - Now, Comparing Gaussian Process kernels used in LSG models for flood inundation predictions.<br>
+- April 2024 - May 2024, wrote the application form for the 2024 National Natural Science Foundation of China (NSFC) Joint Research Fund for Yellow River Water Science **Intelligent Flood Prevention and Control in the Middle Reach of the Yellow River Based on Multi-dimensional Perception** Topic III **Intelligent Flood Prevention and Control in the Middle Reach of the Yellow River Based on Multi-dimensional Perception**.
+
 
 
 
