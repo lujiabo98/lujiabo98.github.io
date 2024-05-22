@@ -4,7 +4,7 @@ permalink: /file/index_en/index.html
 title: Index_en
 ---
 
-> Update：2024/04/25 &nbsp; [中文版本 (Chinese Version)](https://lujiabo98.github.io)
+> Update：2024/05/22 &nbsp; [中文版本 (Chinese Version)](https://lujiabo98.github.io)
 
 # About Me
 
@@ -28,13 +28,14 @@ Feel free to visit my [**Resume**](https://lujiabo98.github.io/file/CV_JiaboLu_e
 ## Research Interests
 
 - Flood inundation prediction
+- Flood hazard mapping
 - Physics-informed surrogate model
 - Machine Learning
 - Reduced order model
 - Flood disaster warning
 - [My latest research proposal (Dec 2022)](https://lujiabo98.github.io/file/proposal_2022.pdf)🔗
 
-My current research focuses on flood inundation prediction that can rapidly provide flood extent and water depth hydrographs on floodplains. My interests are on the physics-informed **Machine Learning** and its applications in **flood forecasting**. In a word, flood disasters influence the life of everybody.  I wish to devote my talent to this meaningful cause and bring well-being to society.
+My current research focuses on **flood inundation prediction** and **flood hazard mapping** that can rapidly provide flood extent and water depth hydrographs on floodplains. My interests are on the physics-informed **Machine Learning** and its applications in **flood forecasting**. In a word, flood disasters influence the life of everybody.  I wish to devote my talent to this meaningful cause and bring well-being to society.
 
 ---
 
