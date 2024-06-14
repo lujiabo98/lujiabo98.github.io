@@ -38,7 +38,8 @@ layout: page
 
 ## 新闻
 
-- **2024 年1月：** 受邀担任[Journal of Applied Water Engineering and Research](https://www.tandfonline.com/journals/tjaw20)期刊审稿人
+- **2024年6月：** 受邀成为[长江技术经济学会](http://www.cjxh.org.cn/)会员
+- **2024年1月：** 受邀担任[Journal of Applied Water Engineering and Research](https://www.tandfonline.com/journals/tjaw20)期刊审稿人
 - **2023年10月：** 参加2023年墨尔本大学[基础设施工程系研究生峰会（IEGRC）](https://blogs.unimelb.edu.au/gies/) 
 - **2023年10月：** 开始在墨尔本大学[环境水文及水资源研究所](https://infrastructure.eng.unimelb.edu.au/hydrology)进行访问研究
 
