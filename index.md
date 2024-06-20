@@ -2,7 +2,7 @@
 layout: page
 ---
 
-> 更新时间：2024/05/27 &nbsp; [English Version (英文)](https://lujiabo98.github.io/file/index_en/)
+> 更新时间：2024/06/20 &nbsp; [English Version (英文)](https://lujiabo98.github.io/file/index_en/)
 
 ## 自我介绍
 
@@ -27,18 +27,19 @@ layout: page
 
 ## 研究兴趣
 
-- 洪水演进模拟与预报
+- 洪水演进模拟
 - 深度学习
 - 降阶模型
 - [最近的研究计划 (2022年12月)](https://lujiabo98.github.io/file/proposal_2022.pdf)🔗
 
-目前我的研究重点是**实时洪水演进预报**，致力于快速提供洪泛区精确的洪水范围和水深变化过程。我的兴趣在于**洪水演进模拟**与**深度学习**的结合。变化环境下，极端洪水事件多发，我希望能通过研究为水灾害防御做出贡献，为人民服务。
+目前我的研究重点是**实时洪水演进模拟**，致力于快速提供洪泛区精确的洪水范围和水深变化过程。我的兴趣在于**洪水演进模拟**与**深度学习**的结合。变化环境下，极端洪水事件多发，我希望能通过研究为水灾害防御做出贡献，为人民服务。
 
 ---
 
 ## 新闻
 
-- **2024年6月：** 受邀成为[长江技术经济学会](http://www.cjxh.org.cn/)会员
+- **2024年6月： **完成博士学位论文开题答辩，题目为“大数据与机理融合的复杂场景洪水实时精细化演进研究”
+- **2024年6月：** 受邀担任[长江技术经济学会](http://www.cjxh.org.cn/)会员
 - **2024年1月：** 受邀担任[Journal of Applied Water Engineering and Research](https://www.tandfonline.com/journals/tjaw20)期刊审稿人
 - **2023年10月：** 参加2023年墨尔本大学[基础设施工程系研究生峰会（IEGRC）](https://blogs.unimelb.edu.au/gies/) 
 - **2023年10月：** 开始在墨尔本大学[环境水文及水资源研究所](https://infrastructure.eng.unimelb.edu.au/hydrology)进行访问研究

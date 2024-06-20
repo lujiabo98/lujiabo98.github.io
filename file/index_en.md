@@ -4,7 +4,7 @@ permalink: /file/index_en/index.html
 title: Index_en
 ---
 
-> Update：2024/05/27 &nbsp; [中文版本 (Chinese Version)](https://lujiabo98.github.io)
+> Update：2024/06/20 &nbsp; [中文版本 (Chinese Version)](https://lujiabo98.github.io)
 
 # About Me
 
@@ -39,6 +39,7 @@ My current research focuses on **real-time flood inundation prediction** that ca
 
 ## News
 
+- **June 2024:** Completed PhD Confirmation Seminar entitled "Big Data and Physics Fusion for Real-Time Flooding Inundation Predictions in Complex Scenarios".
 - **June 2024:** Invited to be a member of [Changjiang Technology and Economy Society](http://www.cjxh.org.cn/)
 - **Jan 2024: ** Invited to be a reviewer of [Journal of Applied Water Engineering and Research](https://www.tandfonline.com/journals/tjaw20).
 - **Oct 2023:** Attend [Infrastructure Engineering Graduate Research Conference (IEGRC)](https://blogs.unimelb.edu.au/gies/) 2023
