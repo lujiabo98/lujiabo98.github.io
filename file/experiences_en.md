@@ -4,12 +4,14 @@ permalink: /file/experiences_en/index.html
 title: Experiences_en
 ---
 
-> Update：2024/04/25 &nbsp; [中文版本 (Chinese Version)](https://lujiabo98.github.io/experiences/)
+> Update：2024/07/02 &nbsp; [中文版本 (Chinese Version)](https://lujiabo98.github.io/experiences/)
 
 ## Research
 
-- 2023.10 - Now, Comparing Gaussian Process kernels used in LSG models for flood inundation predictions.<br>
+- Oct 2023 - Jun 2024 , Conducted **Comparative Gaussian Process Kernel for Flood Inundation Prediction LSG Models** Study<br>
 - April 2024 - May 2024, wrote the application form for the 2024 National Natural Science Foundation of China (NSFC) Joint Research Fund for Yellow River Water Science **Intelligent Flood Prevention and Control in the Middle Reach of the Yellow River Based on Multi-dimensional Perception** Topic III **Intelligent Flood Prevention and Control in the Middle Reach of the Yellow River Based on Multi-dimensional Perception**.
+- June 2024 - July 2024 , to write the [2024 Open Fund of Key Laboratory of Water and Drought Hazard Defense, Ministry of Water Resources](http://www.nhri.cn/art/2024/6/17/art_33_76659.html) **Coupling Physical Mechanisms and Artificial Intelligence for Flood or Drought Prediction and Forecasting** Research Direction of **Coupling Machine Learning and Physical Mechanisms for Flood Refinement and Efficient Simulation Research **Project Application
+
 
 
 

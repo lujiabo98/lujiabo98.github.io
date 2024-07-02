@@ -38,7 +38,7 @@ layout: page
 
 ## 新闻
 
-- **2024年6月： **完成博士学位论文开题答辩，题目为“大数据与机理融合的复杂场景洪水实时精细化演进研究”
+- **2024年6月： ** 完成博士学位论文开题答辩，题目为“大数据与机理融合的复杂场景洪水实时精细化演进研究”
 - **2024年6月：** 受邀担任[长江技术经济学会](http://www.cjxh.org.cn/)会员
 - **2024年1月：** 受邀担任[Journal of Applied Water Engineering and Research](https://www.tandfonline.com/journals/tjaw20)期刊审稿人
 - **2023年10月：** 参加2023年墨尔本大学[基础设施工程系研究生峰会（IEGRC）](https://blogs.unimelb.edu.au/gies/) 
