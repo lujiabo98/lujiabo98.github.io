@@ -39,7 +39,7 @@ My current research focuses on **real-time flood inundation prediction** that ca
 
 ## News
 
-- **June 2024:** Completed PhD Confirmation Seminar entitled "Big Data and Physics Fusion for Real-Time and Refined Flooding Inundation Predictions in Complex Scenarios".
+- **June 2024:** Completed PhD Confirmation Seminar entitled "Real-time and Refined Flood Dynamic in Complex Scenarios by Fusion of Big Data and Physics".
 - **June 2024:** Invited to be a member of [Changjiang Technology and Economy Society](http://www.cjxh.org.cn/)
 - **Jan 2024: ** Invited to be a reviewer of [Journal of Applied Water Engineering and Research](https://www.tandfonline.com/journals/tjaw20).
 - **Oct 2023:** Attend [Infrastructure Engineering Graduate Research Conference (IEGRC)](https://blogs.unimelb.edu.au/gies/) 2023
