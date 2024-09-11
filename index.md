@@ -28,11 +28,11 @@ layout: page
 ## 研究兴趣
 
 - 洪水演进模拟
-- 深度学习
-- 降阶模型
+- 流场重构
+- 替代模型
 - [最近的研究计划 (2022年12月)](https://lujiabo98.github.io/file/proposal_2022.pdf)🔗
 
-目前我的研究重点是**实时洪水演进模拟**，致力于快速提供洪泛区精确的洪水范围和水深变化过程。我的兴趣在于**洪水演进模拟**与**深度学习**的结合。变化环境下，极端洪水事件多发，我希望能通过研究为水灾害防御做出贡献，为人民服务。
+目前我的研究重点是**实时洪水演进模拟**，致力于快速提供洪泛区精确的洪水范围、水深、流速变化过程。变化环境下，极端洪水事件多发，我希望能通过研究为水灾害防御做出贡献，为人民服务。
 
 ---
 
@@ -42,7 +42,7 @@ layout: page
 - **2024年6月：** 受邀担任[长江技术经济学会](http://www.cjxh.org.cn/)会员
 - **2024年1月：** 受邀担任[Journal of Applied Water Engineering and Research](https://www.tandfonline.com/journals/tjaw20)期刊审稿人
 - **2023年10月：** 参加2023年墨尔本大学[基础设施工程系研究生峰会（IEGRC）](https://blogs.unimelb.edu.au/gies/) 
-- **2023年10月：** 开始在墨尔本大学[环境水文及水资源研究所](https://infrastructure.eng.unimelb.edu.au/hydrology)进行访问研究
+- **2023年10月：** 开始在墨尔本大学[环境水文及水资源研究所](https://infrastructure.eng.unimelb.edu.au/hydrology)开展访问研究
 
 ---
 

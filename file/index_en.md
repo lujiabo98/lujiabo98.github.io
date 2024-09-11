@@ -28,12 +28,11 @@ Feel free to visit my [**Resume**](https://lujiabo98.github.io/file/CV_JiaboLu_e
 ## Research Interests
 
 - Flood inundation prediction
-- Flood hazard mapping
-- Deep Learning
-- Reduced order model
+- Flow field reconstruction
+- Surrogate model
 - [My latest research proposal (Dec 2022)](https://lujiabo98.github.io/file/proposal_2022.pdf)🔗
 
-My current research focuses on **real-time flood inundation prediction** that can rapidly provide flood extent and water depth hydrographs on floodplains. My interests are on the combination of **flood inundation prediction** and **Deep Learning**. In a word, flood disasters influence the life of everybody.  I wish to devote to this meaningful cause and bring well-being to society.
+My current research focuses on **real-time flood inundation prediction** that can rapidly provide flood extent, water depth hydrographs and flow velocity field on floodplains. Flood disasters influence the life of everybody. I wish to devote to this meaningful cause and bring well-being to society.
 
 ---
 
