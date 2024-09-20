@@ -4,10 +4,12 @@ permalink: /experiences/index.html
 title: Experiences
 ---
 
-> 更新时间：2024/07/02 &nbsp; [English Version (英文)](https://lujiabo98.github.io/file/experiences_en/)
+> 更新时间：2024/09/20 &nbsp; [English Version (英文)](https://lujiabo98.github.io/file/experiences_en/)
 
 ## 研究
 
+- 2024年8月-2024年9月，开展**洪泛区流速场重构**研究
+- 2024年7月-2024年8月，开展**洪水演进替代模型经验正交分解方法**研究
 - 2023年10月 - 2024年6月 ，开展**洪水淹没预报LSG模型的高斯过程内核比较**研究<br>
 - 2024年4月 - 2024年5月，撰写[2024年度国家自然科学基金黄河水科学研究联合基金](https://www.nsfc.gov.cn/publish/portal0/tab434/info92406.htm)**基于多维感知的黄河中游智能防洪“四预”方法**的课题三**黄河中游洪水动态实时精细化智能预演方法**项目申请书<br>
 - 2024年6月  - 2024年7月 ，撰写[2024年度水利部水旱灾害防御重点实验室开放基金](http://www.nhri.cn/art/2024/6/17/art_33_76659.html)**耦合物理机制和人工智能的洪涝或干旱预测预报**研究方向的**耦合机器学习和物理机制的洪涝精细化高效模拟研究**项目申请书
