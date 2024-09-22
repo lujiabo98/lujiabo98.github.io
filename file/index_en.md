@@ -20,7 +20,7 @@ Feel free to visit my [**Resume**](https://lujiabo98.github.io/file/CV_JiaboLu_e
 
 - Sep 2022 - Future: **Hohai University**, PhD, Hydrology and water resources, supervised by [Prof. Xiaohua Xiang](https://jszy.hhu.edu.cn/xxh/) and [Prof. Chuanhai Wang](https://jszy.hhu.edu.cn/wch/)
 - Oct 2023 - Oct 2024: **The University of Melbourne**, Honorary visiting PhD student, supervised by [Prof. QJ Wang](https://findanexpert.unimelb.edu.au/profile/241-q-j-wang)
-- Sep 2020 - June 2022: **Hohai University**, MEng, Hydrology and water resources, supervised by [Prof. Xiaohua Xiang](https://jszy.hhu.edu.cn/xxh/), Successive postgraduate and doctoral programs of study
+- Sep 2020 - June 2022: **Hohai University**, MEng, Hydrology and water resources, supervised by [Prof. Xiaohua Xiang](https://jszy.hhu.edu.cn/xxh/), [Successive postgraduate and doctoral programs of study](https://gs.hhu.edu.cn/2022/0621/c3517a238491/page.htm)
 - Sep 2016 - June 2020: **Hohai University**, BEng, Hydrology and water resources engineering
 
 ---

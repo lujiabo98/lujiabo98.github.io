@@ -8,7 +8,7 @@ title: Publications
 
 ## 期刊
 
-1. **卢家波**, 向小华*, 李超, 王志伟. GIS中的通用水文模型数据结构研究[J].水资源保护,2021,37(05):89-93. （EI）<br>
+1. **卢家波**, 向小华*, 李超, 王志伟. [GIS中的通用水文模型数据结构研究](https://jour.hhu.edu.cn/szybh/article/abstract/bh202105014?st=article_issue)[J].水资源保护,2021,37(05):89-93. （EI）<br>
 
 
 

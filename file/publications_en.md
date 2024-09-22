@@ -8,7 +8,7 @@ title: Publications_en
 
 ## Journals
 
-1. **卢家波**, 向小华*, 李超, 王志伟. GIS中的通用水文模型数据结构研究[J].水资源保护,2021,37(05):89-93. （EI）<br>
+1. **LU Jiabo**, XIANG Xiaohua*, LI Chao, et al. [Research on data structure of general hydrological model in GIS](https://jour.hhu.edu.cn/szybh/article/abstract/bh202105014?st=article_issue)[J]. Water Resources Protection, 2021,37(5):89-93. (in Chinese) （EI）<br>
 
 ## Conferences
 
