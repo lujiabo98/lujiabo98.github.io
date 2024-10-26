@@ -4,7 +4,7 @@ permalink: /file/index_en/index.html
 title: Index_en
 ---
 
-> Update：2024/06/20 &nbsp; [中文版本 (Chinese Version)](https://lujiabo98.github.io)
+> Update：2024/10/26 &nbsp; [中文版本 (Chinese Version)](https://lujiabo98.github.io)
 
 # About Me
 
@@ -12,7 +12,7 @@ title: Index_en
 
 Here is **Jiabo Lu (卢家波)**😄.
 
-I am a PhD student majoring in **hydrology and water resources** at [Hohai University](https://www.hhu.edu.cn/), supervised by [Prof. Xiaohua Xiang](https://jszy.hhu.edu.cn/xxh/) and [Prof. Chuanhai Wang](https://jszy.hhu.edu.cn/wch/). Currently, I serve as an Honorary Visitor at the [Environmental Hydrology and Water Resources](https://infrastructure.eng.unimelb.edu.au/research/water) Group of [The University of Melbourne](https://www.unimelb.edu.au/), supervised by [Prof. QJ Wang](https://findanexpert.unimelb.edu.au/profile/241-q-j-wang). 
+I am a PhD student majoring in **hydrology and water resources** at [Hohai University](https://www.hhu.edu.cn/), supervised by [Prof. Xiaohua Xiang](https://jszy.hhu.edu.cn/xxh/) and [Prof. Chuanhai Wang](https://jszy.hhu.edu.cn/wch/). Oct 2023 - Oct 2024, I served as an Honorary Visitor at the [Environmental Hydrology and Water Resources](https://infrastructure.eng.unimelb.edu.au/research/water) Group of [The University of Melbourne](https://www.unimelb.edu.au/), supervised by [Prof. QJ Wang](https://findanexpert.unimelb.edu.au/profile/241-q-j-wang). 
 
 Feel free to visit my [**Resume**](https://lujiabo98.github.io/file/CV_JiaboLu_en.pdf) and [**Blog**](https://blog.csdn.net/weixin_43012724?type=blog) to learn more, I would love to chat and collaborate🤝. If you are interested in any aspect of me, please email me at 📧 *lujiabo2017@gmail.com* or add my WeChat💬 Jiabo_Lu.
 
@@ -38,6 +38,8 @@ My current research focuses on **real-time flood inundation prediction** that ca
 
 ## News
 
+- **Oct 2024: ** Ended the visit to the University of Melbourne and returned to Hohai University
+- **Oct 2024: ** Published the paper "Research on 1D Hydrodynamic Reduced Order Model" in the *Journal of Basic Science and Engineering* (http://www.jbse.net/index.htm) (EI Compendex)
 - **June 2024:** Completed PhD Confirmation Seminar entitled "Real-time and Refined Flood Dynamic in Complex Scenarios by Fusion of Big Data and Physics".
 - **June 2024:** Invited to be a member of [Changjiang Technology and Economy Society](http://www.cjxh.org.cn/)
 - **Jan 2024: ** Invited to be a reviewer of [Journal of Applied Water Engineering and Research](https://www.tandfonline.com/journals/tjaw20).
