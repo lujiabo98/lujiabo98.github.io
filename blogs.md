@@ -4,7 +4,7 @@ permalink: /blogs/index.html
 title: Blogs
 ---
 
-欢迎访问我的[**博客**](https://blog.csdn.net/weixin_43012724?type=blog)了解更多，欢迎添加微信💬 **Jiabo_Lu** 交流合作。
+欢迎访问我的[**博客**](https://blog.csdn.net/weixin_43012724?type=blog)了解更多，欢迎添加微信💬 **Jiabo_Lu** 交流。
 
 ## 水文模型
 

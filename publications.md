@@ -28,14 +28,14 @@ title: Publications
 
 ## 报告
 
-- Comparing Gaussian Process kernels used in LSG models for flood inundation predictions<br>
+- Improving flood inundation predictions through kernel-based enhancement of surrogate models<br>
 
 <br>
 
 ## 论文
 
-- 博士毕业论文，大数据与机理融合的复杂场景洪水实时精细化演进研究，导师：向小华副教授、王船海教授
+- 博士毕业论文，大数据与机理融合的复杂场景洪水实时精细化演进研究，2026，导师：向小华副教授、QJ Wang教授、王船海教授
 
-- 本科毕业设计，南水北调中线总干渠含引配水工程水动力耦合模拟研究，2020，导师：向小华副教授、吴晓玲副教授
+- 本科毕业设计，南水北调中线总干渠含引配水工程水动力耦合模拟研究，2020，导师：向小华副教授、吴晓玲副教授，学院优秀毕业设计
 
   <br>
