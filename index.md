@@ -2,7 +2,7 @@
 layout: page
 ---
 
-> 更新时间：2024/11/20 &nbsp; [English Version (英文)](https://lujiabo98.github.io/file/index_en/)
+> 更新时间：2024/12/25 &nbsp; [English Version (英文)](https://lujiabo98.github.io/file/index_en/)
 
 ## 自我介绍
 
@@ -27,7 +27,7 @@ layout: page
 - 流场重构
 - 替代模型
 
-目前我的研究重点是**实时洪水演进模拟**，致力于快速准确提供洪泛区洪水淹没范围、水深、流速变化过程。变化环境下，极端洪水事件多发，我希望能通过研究为水灾害防御做出贡献，为人民服务。
+目前我的研究重点是**洪水演进高效模拟**，致力于快速准确提供洪泛区洪水淹没范围、水深、流速变化过程。变化环境下，极端洪水事件多发，我希望能通过研究为水灾害防御做出贡献，为人民服务。
 
 ---
 
@@ -36,7 +36,7 @@ layout: page
 - **2024年11月：** 在河海大学国家公派研究生项目宣讲会上，分享公派出国留学经验
 - **2024年11月：** 参加河海大学第十三届研究生“[学海争峰](https://mp.weixin.qq.com/s/cDz5eRM37XqrHK-ksNk_mA)”学术年会，汇报题目为“Improving flood inundation predictions through kernel-based enhancement of surrogate models”，获得学院“优秀PPT文稿”荣誉
 - **2024年10月：** 结束在墨尔本大学的访问，回到河海大学继续学习
-- **2024年10月：** 在《[应用基础与工程科学学报](http://www.jbse.net/index.htm)》（EI检索）发表论文“一维水动力学降阶模型研究”
+- **2024年10月：** 在《[应用基础与工程科学学报](http://www.jbse.net/index.htm)》（EI检索）发表论文“[一维水动力学降阶模型研究](http://www.jbse.net/article/doi/10.16058/j.issn.1005-0930.2024.05.004)”
 - **2024年6月：** 完成博士学位论文开题答辩，题目为“大数据与机理融合的复杂场景洪水实时精细化演进研究”
 - **2024年6月：** 成为[长江技术经济学会](http://www.cjxh.org.cn/)会员
 - **2024年1月：** 担任[Journal of Applied Water Engineering and Research](https://www.tandfonline.com/journals/tjaw20)期刊审稿人
