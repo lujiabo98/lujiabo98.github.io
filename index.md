@@ -33,6 +33,7 @@ layout: page
 
 ## 新闻
 
+- **2024年12月：** 受QJ Wang教授邀请，担任其全英文课程《Hydrological modelling in Python (HyMIP)》助教
 - **2024年11月：** 在河海大学国家公派研究生项目宣讲会上，分享公派出国留学经验
 - **2024年11月：** 参加河海大学第十三届研究生“[学海争峰](https://mp.weixin.qq.com/s/cDz5eRM37XqrHK-ksNk_mA)”学术年会，汇报题目为“Improving flood inundation predictions through kernel-based enhancement of surrogate models”，获得学院“优秀PPT文稿”荣誉
 - **2024年10月：** 结束在墨尔本大学的访问，回到河海大学继续学习
