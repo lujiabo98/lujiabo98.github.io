@@ -4,7 +4,7 @@ permalink: /awards/index.html
 title: Awards
 ---
 
-> 更新时间：2024/11/20 &nbsp; [English Version (英文)](https://lujiabo98.github.io/file/awards_en/)
+> 更新时间：2025/1/23 &nbsp; [English Version (英文)](https://lujiabo98.github.io/file/awards_en/)
 
 ## 奖学金
 
@@ -46,6 +46,7 @@ title: Awards
 
 ## 荣誉
 
+- 2025年1月：河海大学博士研究生共青团员评议优秀
 - 2024年12月：河海大学第十三届研究生“学海争锋”学术年会“优秀PPT文稿”
 - 2024年4月：河海大学2023年度”五四红旗团支部“
 - 2023年10月：2023年河海大学大学生志愿者暑期社会实践优秀团队
