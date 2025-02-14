@@ -2,7 +2,7 @@
 layout: page
 ---
 
-> 更新时间：2024/12/25 &nbsp; [English Version (英文)](https://lujiabo98.github.io/file/index_en/)
+> 更新时间：2025/2/14 &nbsp; [English Version (英文)](https://lujiabo98.github.io/file/index_en/)
 
 ## 自我介绍
 
@@ -33,6 +33,8 @@ layout: page
 
 ## 新闻
 
+- **2025年2月：** 在 Journal of Hydrology 发表第一篇SCI论文“Choice of Gaussian Process kernels used in LSG models for flood inundation predictions”
+- **2025年2月：** 获得墨尔本大学环境水文与水资源学科交流活动优秀贡献人荣誉
 - **2024年12月：** 受QJ Wang教授邀请，担任其全英文课程《Hydrological modelling in Python (HyMIP)》助教
 - **2024年11月：** 在河海大学国家公派研究生项目宣讲会上，分享公派出国留学经验
 - **2024年11月：** 参加河海大学第十三届研究生“[学海争峰](https://mp.weixin.qq.com/s/cDz5eRM37XqrHK-ksNk_mA)”学术年会，汇报题目为“Improving flood inundation predictions through kernel-based enhancement of surrogate models”，获得学院“优秀PPT文稿”荣誉
