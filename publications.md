@@ -4,12 +4,13 @@ permalink: /publications/index.html
 title: Publications
 ---
 
-> 更新时间：2024/10/26 &nbsp;  [English Version (英文)](https://lujiabo98.github.io/file/publications_en/)
+> 更新时间：2025/2/27 &nbsp;  [English Version (英文)](https://lujiabo98.github.io/file/publications_en/)
 
 ## 期刊
 
-1. **卢家波**, 尹志杰, 向小华*, 吴晓玲. [一维水动力学降阶模型研究](https://dx.doi.org/10.16058/j.issn.1005-0930.2024.05.004)[J]. 应用基础与工程科学学报, 2024, 32(5): 1253-1264. DOI: 10.16058/j.issn.1005-0930.2024.05.004（EI）
-2. **卢家波**, 向小华*, 李超, 王志伟. [GIS中的通用水文模型数据结构研究](https://jour.hhu.edu.cn/szybh/article/abstract/bh202105014?st=article_issue)[J].水资源保护,2021,37(05):89-93. （EI）
+1. **Lu, J.**, Wang, Q.J., Fraehr, N., Xiang, X.*, Wu, X., 2025. [Choice of Gaussian Process kernels used in LSG models for flood inundation predictions](https://doi.org/10.1016/j.jhydrol.2025.132949). J. Hydrol. 655, 132949. https://doi.org/10.1016/j.jhydrol.2025.132949
+2. **卢家波**, 尹志杰, 向小华*, 吴晓玲. [一维水动力学降阶模型研究](https://dx.doi.org/10.16058/j.issn.1005-0930.2024.05.004)[J]. 应用基础与工程科学学报, 2024, 32(5): 1253-1264. DOI: 10.16058/j.issn.1005-0930.2024.05.004（EI）
+3. **卢家波**, 向小华*, 李超, 王志伟. [GIS中的通用水文模型数据结构研究](https://jour.hhu.edu.cn/szybh/article/abstract/bh202105014?st=article_issue)[J].水资源保护,2021,37(05):89-93. （EI）
 
 
 
@@ -23,12 +24,6 @@ title: Publications
 
 1. **LU J**, XIANG X*. A river network polygon extraction algorithm based on hydrodynamic and Monte Carlo method [Z]. 5th International Symposium of Shallow Flows. Nanjing. 2021: 293-7.
 2. **卢家波**, 向小华*. 南水北调中线节制闸过闸流量计算方法研究 [Z]. 江苏省研究生”水科学前沿与技术”学术创新论坛. 2020: 39. <br>
-
-<br>
-
-## 报告
-
-- Improving flood inundation predictions through kernel-based enhancement of surrogate models<br>
 
 <br>
 
