@@ -4,7 +4,7 @@ permalink: /experiences/index.html
 title: Experiences
 ---
 
-> 更新时间：2024/12/25 &nbsp; [English Version (英文)](https://lujiabo98.github.io/file/experiences_en/)
+> 更新时间：2025/3/16 &nbsp; [English Version (英文)](https://lujiabo98.github.io/file/experiences_en/)
 
 ## 研究
 
@@ -14,7 +14,7 @@ title: Experiences
 - 2023年10月 - 2024年6月 ，开展**洪水淹没预报LSG模型的高斯过程内核比较**研究<br>
 - 2024年4月 - 2024年5月，撰写[2024年度国家自然科学基金黄河水科学研究联合基金](https://www.nsfc.gov.cn/publish/portal0/tab434/info92406.htm)**基于多维感知的黄河中游智能防洪“四预”方法**的课题三**黄河中游洪水动态实时精细化智能预演方法**项目申请书<br>
 - 2024年6月  - 2024年7月 ，撰写[2024年度水利部水旱灾害防御重点实验室开放基金](http://www.nhri.cn/art/2024/6/17/art_33_76659.html)**耦合物理机制和人工智能的洪涝或干旱预测预报**研究方向的**耦合机器学习和物理机制的洪涝精细化高效模拟研究**项目申请书
-- 2022年6月，参加河海大学水文水资源学院第四期水博研学“学术WE沙龙”，以”**南水北调中线节制闸过闸流量计算方法研究**“为题，研究构建一维水动力含引配水工程耦合模型，采用闸孔出流计算方法和堰流地形概化方法，在中线总干渠进行算例研究
+- 2022年6月，参加河海大学水文水资源学院第四期水博研学“[学术WE沙龙](https://mp.weixin.qq.com/s/qWJVCHoHyXPIsJfyJnlI-A)”，以”**南水北调中线节制闸过闸流量计算方法研究**“为题，研究构建一维水动力含引配水工程耦合模型，采用闸孔出流计算方法和堰流地形概化方法，在中线总干渠进行算例研究
 
 
 
@@ -105,9 +105,14 @@ title: Experiences
 
 ### 讲座
 
+- 2025年3月：在河海大学国家公派研究生项目宣讲会上，分享国家公派留学系统填报经验
 - 2024年12月：担任《Hydrological modelling in Python》课程助教
 - 2024年12月：在课题组创训交流会上，分享LSG模型方法及源程序
 - 2024年11月： 在河海大学国家公派研究生项目宣讲会上，分享公派出国留学经验
+- 2024年11月：在河海大学水文水资源学院举办的第十三届研究生“[学海争锋](https://mp.weixin.qq.com/s/cDz5eRM37XqrHK-ksNk_mA)”学术年会上，分享“Improving flood inundation predictions through kernel-based enhancement of surrogate models”
+- 2022年6月：在河海大学水文水资源学院举办的第四期水博研学“[学术WE沙龙](https://mp.weixin.qq.com/s/qWJVCHoHyXPIsJfyJnlI-A)”上，分享“南水北调中线节制闸过闸流量计算方法研究”
+- 2018年12月：在河海大学溯源保护母亲河协会举办的[学习经验分享讲座](https://mp.weixin.qq.com/s/bEMxOLB3lCWb0l0tg29ycA)上，分享时间安排管理经验
+- 2017年10月：在河海大学溯源保护母亲河协会举办的[长江路小学水环教活动](https://mp.weixin.qq.com/s/YsJrLmHKK624FShiQoZufg)中，开展“饮用水安全知识讲座”
 
 
 

@@ -8,9 +8,9 @@ title: Publications
 
 ## 期刊
 
-1. **Lu, J.**, Wang, Q.J., Fraehr, N., Xiang, X.*, Wu, X., 2025. [Choice of Gaussian Process kernels used in LSG models for flood inundation predictions](https://doi.org/10.1016/j.jhydrol.2025.132949). J. Hydrol. 655, 132949. https://doi.org/10.1016/j.jhydrol.2025.132949
-2. **卢家波**, 尹志杰, 向小华*, 吴晓玲. [一维水动力学降阶模型研究](https://dx.doi.org/10.16058/j.issn.1005-0930.2024.05.004)[J]. 应用基础与工程科学学报, 2024, 32(5): 1253-1264. DOI: 10.16058/j.issn.1005-0930.2024.05.004（EI）
-3. **卢家波**, 向小华*, 李超, 王志伟. [GIS中的通用水文模型数据结构研究](https://jour.hhu.edu.cn/szybh/article/abstract/bh202105014?st=article_issue)[J].水资源保护,2021,37(05):89-93. （EI）
+1. **Lu, J.**, Wang, Q.J., Fraehr, N., Xiang, X.*, Wu, X., 2025. [Choice of Gaussian Process kernels used in LSG models for flood inundation predictions](https://doi.org/10.1016/j.jhydrol.2025.132949). J. Hydrol. 655, 132949. https://doi.org/10.1016/j.jhydrol.2025.132949 （SCI 一区TOP）
+2. **卢家波**, 尹志杰, 向小华*, 吴晓玲. [一维水动力学降阶模型研究](https://dx.doi.org/10.16058/j.issn.1005-0930.2024.05.004)[J]. 应用基础与工程科学学报, 2024, 32(5): 1253-1264. DOI: 10.16058/j.issn.1005-0930.2024.05.004（EI检索）
+3. **卢家波**, 向小华*, 李超, 王志伟. [GIS中的通用水文模型数据结构研究](https://jour.hhu.edu.cn/szybh/article/abstract/bh202105014?st=article_issue)[J].水资源保护,2021,37(05):89-93. （EI检索）
 
 
 
