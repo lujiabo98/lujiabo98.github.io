@@ -41,11 +41,11 @@ My current research focuses on **real-time flood inundation prediction** that ca
 - **Dec 2024:** Invited by Professor QJ Wang, served as a teaching assistant for his all-English course "Hydrological modelling in Python (HyMIP)"
 - **Nov 2024:** Shared the experience of studying abroad on government sponsorship at the National Government Sponsorship Graduate Program of Hohai University
 - **Nov 2024:** Participated in the 13th Annual Academic Conference of Graduate Students of Hohai University, with a report titled "Improving flood inundation predictions through kernel-based enhancement of surrogate models", and won the honor of "Excellent PPT Manuscript" of the college
-- **Oct 2024: ** Completed the visit to the University of Melbourne and returned to Hohai University
-- **Oct 2024: ** Published the paper "Research on 1D Hydrodynamic Reduced Order Model" in the *Journal of Basic Science and Engineering* (http://www.jbse.net/index.htm) (EI Compendex)
+- **Oct 2024:** Completed the visit to the University of Melbourne and returned to Hohai University
+- **Oct 2024:** Published the paper "Research on 1D Hydrodynamic Reduced Order Model" in the *Journal of Basic Science and Engineering* (http://www.jbse.net/index.htm) (EI Compendex)
 - **June 2024:** Completed PhD Confirmation Seminar entitled "Real-time and Refined Flood Dynamic in Complex Scenarios by Fusion of Big Data and Physics".
 - **June 2024:** Invited to be a member of [Changjiang Technology and Economy Society](http://www.cjxh.org.cn/)
-- **Jan 2024: ** Invited to be a reviewer of [Journal of Applied Water Engineering and Research](https://www.tandfonline.com/journals/tjaw20).
+- **Jan 2024:** Invited to be a reviewer of [Journal of Applied Water Engineering and Research](https://www.tandfonline.com/journals/tjaw20).
 - **Oct 2023:** Attend [Infrastructure Engineering Graduate Research Conference (IEGRC)](https://blogs.unimelb.edu.au/gies/) 2023
 - **Oct 2023:** Started research visiting at [Melbourne University Water Group](https://infrastructure.eng.unimelb.edu.au/hydrology), supervised by [Prof. QJ Wang](https://findanexpert.unimelb.edu.au/profile/241-q-j-wang)
 
