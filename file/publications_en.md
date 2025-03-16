@@ -9,8 +9,8 @@ title: Publications_en
 ## Journals
 
 1. **Lu, J.**, Wang, Q.J., Fraehr, N., Xiang, X.*, Wu, X., 2025. [Choice of Gaussian Process kernels used in LSG models for flood inundation predictions](https://doi.org/10.1016/j.jhydrol.2025.132949). J. Hydrol. 655, 132949. https://doi.org/10.1016/j.jhydrol.2025.132949
-2. **LU Jiabo**, YIN Zhijie, XIANG Xiaohua*, WU Xiaoling. [Research on 1D Hydrodynamic Reduced Order Model](https://dx.doi.org/10.16058/j.issn.1005-0930.2024.05.004)[J]. Journal of Basic Science and Engineering, 2024, 32(5): 1253-1264. DOI: 10.16058/j.issn.1005-0930.2024.05.004 (in Chinese) （EI）
-3. **LU Jiabo**, XIANG Xiaohua*, LI Chao, et al. [Research on data structure of general hydrological model in GIS](https://jour.hhu.edu.cn/szybh/article/abstract/bh202105014?st=article_issue)[J]. Water Resources Protection, 2021,37(5):89-93. (in Chinese) （EI）<br>
+2. **LU Jiabo**, YIN Zhijie, XIANG Xiaohua*, WU Xiaoling. [Research on 1D Hydrodynamic Reduced Order Model](https://dx.doi.org/10.16058/j.issn.1005-0930.2024.05.004)[J]. Journal of Basic Science and Engineering, 2024, 32(5): 1253-1264. DOI: 10.16058/j.issn.1005-0930.2024.05.004 (in Chinese) （EI） https://dx.doi.org/10.16058/j.issn.1005-0930.2024.05.004
+3. **LU Jiabo**, XIANG Xiaohua*, LI Chao, et al. [Research on data structure of general hydrological model in GIS](https://jour.hhu.edu.cn/szybh/article/abstract/bh202105014?st=article_issue)[J]. Water Resources Protection, 2021,37(5):89-93. (in Chinese) （EI）http://dx.doi.org/10.3880/j.issn.1004-6933.2021.05.014 <br>
 
 ## Conferences
 
