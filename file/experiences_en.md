@@ -4,10 +4,11 @@ permalink: /file/experiences_en/index.html
 title: Experiences_en
 ---
 
-> Update：2024/09/22 &nbsp; [中文版本 (Chinese Version)](https://lujiabo98.github.io/experiences/)
+> Update：2025/3/16 &nbsp; [中文版本 (Chinese Version)](https://lujiabo98.github.io/experiences/)
 
 ## Research
 
+- Nov 2024, participated in the 13th Annual Academic Conference of Graduate Students of Hohai University, and reported the research results of **Gaussian process kernel comparison of LSG model for flood inundation forecasting**, "Improving flood inundation predictions through kernel-based enhancement of surrogate models", and won the honor of "Excellent PPT Manuscript" of the college.
 - Aug 2024 - Sept 2024, conduct **Study of floodplain velocity field reconstruction**
 - July 2024 - Aug 2024 Conduct **Study of empirical orthogonal decomposition methods for flood inundation surrogate models**
 - Oct 2023 - Jun 2024 , Conducted **Comparative Gaussian Process Kernel for Flood Inundation Prediction LSG Models** Study<br>
@@ -46,6 +47,19 @@ title: Experiences_en
 - 2016.09 - 2020.06, Class life committee member.
 - 2017.06 - 2018.06, Director of the Media Department of the Association for Traceability and Protection of the Mother River, Excellent Minister.
 - 2017.06 - 2018.06, President of OPPO Club.<br>
+
+## Talk
+
+- Mar 2025: Share the experience of filling in the national government-sponsored study abroad system at the National Government-Sponsored Graduate Program Promotion Conference of Hohai University
+- Dec 2024: Serve as a teaching assistant for the "Hydrological Modelling in Python" course
+- Dec 2024: Share the LSG model method and source code at the research group's innovation and training exchange meeting
+- Nov 2024: Share the experience of studying abroad at the National Government-Sponsored Graduate Program Promotion Conference of Hohai University
+- Nov 2024: Share "Improving flood inundation predictions through kernel-based enhancement of surrogate models" at the 13th Graduate Student "[Xuehai Zhengfeng](https://mp.weixin.qq.com/s/cDz5eRM37XqrHK-ksNk_mA)" Academic Annual Conference held by the School of Hydrology and Water Resources of Hohai University
+- June 2022: Share the "Study on the Calculation Method of the Flow Through the Regulating Gate of the Middle Route of the South-to-North Water Diversion Project" at the 4th Water Expo "Academic WE Salon" held by the School of Hydrology and Water Resources of Hohai University
+- Dec 2018: Share the experience of time management at the "Learning Experience Sharing Lecture" held by the Association for the Protection of the Mother River of Hohai University
+- Oct 2017: Conduct a "Drinking Water Safety Knowledge Lecture" at the "Changjiang Road Primary School Water Environmental Education Activity" held by the Association for the Protection of the Mother River of Hohai University
+
+
 
 ## Practice
 
