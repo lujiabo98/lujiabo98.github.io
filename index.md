@@ -2,7 +2,7 @@
 layout: page
 ---
 
-> 更新时间：2025/3/16 &nbsp; [English Version (英文)](https://lujiabo98.github.io/file/index_en/)
+> 更新时间：2025/4/27 &nbsp; [English Version (英文)](https://lujiabo98.github.io/file/index_en/)
 
 ## 自我介绍
 
@@ -33,6 +33,8 @@ layout: page
 
 ## 新闻
 
+- **2025年4月：** 获得河海大学2025年“[海韵风华大学生年度人物](http://newoa.hhu.edu.cn/seeyon/bulData.do?method=bulView&bulId=9094216207397175821&from=list&spaceType=&spaceId=&_isModalDialog=true&openFrom=)”称号（全校同类别仅1人）
+- **2025年4月：** 获得河海大学2025年“[海韵风华十杰百佳](http://newoa.hhu.edu.cn/seeyon/bulData.do?method=bulView&bulId=9094216207397175821&from=list&spaceType=&spaceId=&_isModalDialog=true&openFrom=)”优秀学生称号（全校同类别仅10人）
 - **2025年2月：** 在《 [Journal of Hydrology](https://www.sciencedirect.com/journal/journal-of-hydrology) 》发表第一篇SCI论文“[Choice of Gaussian Process kernels used in LSG models for flood inundation predictions](https://doi.org/10.1016/j.jhydrol.2025.132949)”
 - **2025年2月：** 获得墨尔本大学环境水文与水资源学科交流活动优秀贡献人荣誉
 - **2024年12月：** 受QJ Wang教授邀请，担任其全英文课程《Hydrological modelling in Python (HyMIP)》助教
