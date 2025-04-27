@@ -31,5 +31,6 @@ title: Blogs
 
 - [不信鬼神信马列](https://lujiabo98.github.io/blogs/marx)
 - [重新认识孔子](https://lujiabo98.github.io/blogs/confucius)
+- [造父亲的反](https://lujiabo98.github.io/blogs/rebel)
 
 <br>
