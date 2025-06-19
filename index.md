@@ -33,7 +33,7 @@ layout: page
 
 ## 新闻
 
-- **2025年4月：** 获得河海大学2025年“[海韵风华大学生年度人物](http://newoa.hhu.edu.cn/seeyon/bulData.do?method=bulView&bulId=9094216207397175821&from=list&spaceType=&spaceId=&_isModalDialog=true&openFrom=)”称号（全校同类别仅1人）
+- **2025年4月：** 获得河海大学2025年“[海韵风华大学生年度人物](http://newoa.hhu.edu.cn/seeyon/bulData.do?method=bulView&bulId=9094216207397175821&from=list&spaceType=&spaceId=&_isModalDialog=true&openFrom=)”称号（全校同类别仅1人），[学院报道](https://mp.weixin.qq.com/s/6qAYJrGZGw5AhgbjBEbAeQ)
 - **2025年4月：** 获得河海大学2025年“[海韵风华十杰百佳](http://newoa.hhu.edu.cn/seeyon/bulData.do?method=bulView&bulId=9094216207397175821&from=list&spaceType=&spaceId=&_isModalDialog=true&openFrom=)”优秀学生称号（全校同类别仅10人）
 - **2025年2月：** 在《 [Journal of Hydrology](https://www.sciencedirect.com/journal/journal-of-hydrology) 》发表第一篇SCI论文“[Choice of Gaussian Process kernels used in LSG models for flood inundation predictions](https://doi.org/10.1016/j.jhydrol.2025.132949)”
 - **2025年2月：** 获得墨尔本大学环境水文与水资源学科交流活动优秀贡献人荣誉
