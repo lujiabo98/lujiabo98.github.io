@@ -4,7 +4,7 @@ permalink: /publications/index.html
 title: Publications
 ---
 
-> 更新时间：2025/2/27 &nbsp;  [English Version (英文)](https://lujiabo98.github.io/file/publications_en/)
+> 更新时间：2026/4/3 &nbsp;  [English Version (英文)](https://lujiabo98.github.io/file/publications_en/)
 
 ## 期刊
 
@@ -29,7 +29,7 @@ title: Publications
 
 ## 论文
 
-- 博士毕业论文，大数据与机理融合的复杂场景洪水实时精细化演进研究，2026，导师：向小华副教授、QJ Wang教授、王船海教授
+- 博士毕业论文，大数据与机理融合的复杂场景洪水高效精细化演进研究，2026，导师：向小华副教授、QJ Wang教授、王船海教授
 
 - 本科毕业设计，南水北调中线总干渠含引配水工程水动力耦合模拟研究，2020，导师：向小华副教授、吴晓玲副教授，学院优秀毕业设计
 
