@@ -46,6 +46,7 @@ title: Awards
 
 ## 荣誉
 
+- 2026年6月： 河海大学2026届优秀毕业研究生荣誉称号
 - 2025年4月： 河海大学2025年“[海韵风华大学生年度人物](http://newoa.hhu.edu.cn/seeyon/bulData.do?method=bulView&bulId=9094216207397175821&from=list&spaceType=&spaceId=&_isModalDialog=true&openFrom=)”称号（全校同类别仅1人）
 - 2025年4月： 河海大学2025年“[海韵风华十杰百佳](http://newoa.hhu.edu.cn/seeyon/bulData.do?method=bulView&bulId=9094216207397175821&from=list&spaceType=&spaceId=&_isModalDialog=true&openFrom=)”优秀学生称号（全校同类别仅10人）
 - 2025年2月：墨尔本大学环境水文与水资源学科交流活动优秀贡献人
