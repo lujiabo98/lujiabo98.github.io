@@ -6,7 +6,7 @@ layout: page
 
 ## 自我介绍
 
-很高兴认识你😄，我叫**卢家波**。
+很高兴认识你😄，我叫**卢家波**，男，汉族，安徽六安人，中共党员，水文学及水资源专业，河海大学与墨尔本大学联合培养博士。研究方向为复杂场景洪水高效精细化演进模拟，以第一作者发表SCI一区论文1篇，EI论文2篇，会议论文2篇，授权发明专利1项。曾获国家奖学金、首届水科学数值模拟创新大赛一等奖、美国大学生数学建模竞赛二等奖、河海大学“海韵风华大学生年度人物”、“优秀毕业研究生”等荣誉奖励。
 
 欢迎访问我的[**简历**](https://lujiabo98.github.io/file/CV_JiaboLu_zh.pdf)和[**博客**](https://blog.csdn.net/weixin_43012724?type=blog)了解更多，欢迎添加微信💬 **Jiabo_Lu** 交流🤝。
 
@@ -17,7 +17,7 @@ layout: page
 ## 教育背景
 
 - 2022年9月-2026年6月：**河海大学**，工学博士，水文学及水资源，导师为[向小华副教授](https://jszy.hhu.edu.cn/xxh/)和[王船海教授](https://jszy.hhu.edu.cn/wch/)
-- 2023年10月-2024年10月：**墨尔本大学**，公派联合培养博士生，环境水文及水资源，导师为[王全君教授](https://findanexpert.unimelb.edu.au/profile/241-q-j-wang)
+- 2023年10月-2024年10月：**墨尔本大学**，国家公派联合培养博士生，环境水文及水资源，导师为[王全君教授](https://findanexpert.unimelb.edu.au/profile/241-q-j-wang)
 - 2020年9月-2022年6月：**河海大学**，工学硕士，水文学及水资源，导师为[向小华副教授](https://jszy.hhu.edu.cn/xxh/)，[硕博连读](https://gs.hhu.edu.cn/2022/0621/c3517a238491/page.htm)
 - 2016年9月-2020年6月：**河海大学**，工学学士，水文与水资源工程
 
@@ -52,7 +52,7 @@ layout: page
 - **2024年1月：** 担任[Journal of Applied Water Engineering and Research](https://www.tandfonline.com/journals/tjaw20)期刊审稿人
 - **2023年10月：** 参加2023年墨尔本大学[基础设施工程系研究生峰会（IEGRC）](https://blogs.unimelb.edu.au/gies/) 
 - **2023年10月：** 在墨尔本大学[环境水文及水资源研究所](https://infrastructure.eng.unimelb.edu.au/hydrology)开展访问研究
-- **2023年8月：** 随导师赴水利部信息中心开展海河流域的防洪预演专案[技术支援](https://shxy.hhu.edu.cn/post/3973)，获得水利部信息中心感谢信。
+- **2023年8月：** 随导师赴水利部信息中心开展海河流域的防洪预演专案[技术支援](https://shxy.hhu.edu.cn/post/3973)，获得水利部信息中心感谢信
 
 ---
 
